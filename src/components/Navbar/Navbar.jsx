@@ -140,13 +140,13 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <div className="right-section">
+        <div className="flex justify-center items-center gap-2 ">
           <select>
             <option>India</option>
             <option>USA</option>
             <option>UK</option>
           </select>
-          <button className="contact-us">Contact Us</button>
+          <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">Contact Us</button>
         </div>
       </nav>
       {!isMobile && activeDropdown !== null && (

@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <Hero/>
-      <main className="p-4">
+      <main className="">
         <Description/>
         <Partners/>
         <ExcellenceSection />

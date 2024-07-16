@@ -4,9 +4,10 @@
     right: 0;
     top:0;
     display: flex;
-    justify-content: space-between;
+    width: 100vw;
+    justify-content: space-around;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     background-color: white;
     border-bottom: 1px solid #e0e0e0;
     z-index: 100;
@@ -30,14 +31,17 @@
     cursor: pointer;
   }
   
-  .right-section {
+  /* .right{
     display: flex;
+    justify-content: center;
     align-items: center;
-  }
+    flex-direction: row;
+    gap: 10px;
+  } */
   
-  .right-section select {
+  /* .right select {
     margin-right: 1rem;
-  }
+  } */
   
   .contact-us {
     background-color: #ff6600;
@@ -55,6 +59,7 @@
   @media (max-width: 768px) {
     .navbar {
       flex-wrap: wrap;
+      width: 100vw;
     }
   
     .menu-toggle {
@@ -78,7 +83,7 @@
       border-top: 1px solid #e0e0e0;
     }
   
-    .right-section {
+    .right-sectionn {
       display: none;
     }
   }
