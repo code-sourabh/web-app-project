@@ -14,12 +14,15 @@ import FAQ from './components/FAQ/FAQ'
 import Testimonial from './components/Testimonial/testimonial';
 import Banner from './components/Contact/Banner';
 import Contact from './components/Contact/Contact';
+import Hero from './components/Hero section/Hero';
+import Description from './components/Description Tab/Description';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Hero/>
       <main className="p-4">
+        <Description/>
         <Partners/>
         <ExcellenceSection />
         <MissionVision />

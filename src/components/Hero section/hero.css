@@ -1,0 +1,186 @@
+.carousel-section {
+    width: 100vw;
+    max-width:100%;
+    height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #000000; /* Set background color to black */
+  }
+  
+  .carousel-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-slide {
+    min-width: 100vw; /* Ensure each slide takes full viewport width */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    overflow: hidden;
+  }
+  
+  .carousel-content-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjUyOXwwfDF8c2VhcmNofDR8fHRlY2h8ZW58MHx8fHwxNjI5NDA1NTkw&ixlib=rb-1.2.1&q=80&w=1080');
+  }
+  
+  .carousel-content-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent overlay */
+    z-index: 1;
+  }
+  
+  .carousel-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Increase opacity for better readability */
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1200px;
+    z-index: 2; /* Ensure content is above the overlay */
+  }
+  
+  .carousel-text {
+    width: 50%;
+    padding: 20px;
+    color: #ff8c00; /* Set text color to orange */
+  }
+  
+  .carousel-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ff8c00; /* Set title color to orange */
+  }
+  
+  .carousel-description {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .carousel-image-wrapper {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .btn {
+    display: inline-flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #ff8c00; /* Set primary button color to orange */
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e67e22; /* Darker shade of orange */
+  }
+  
+  .btn-secondary {
+    background-color: #e5e7eb;
+    color: #111827;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #d1d5db;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 140, 0, 0.7); /* Set button background color to transparent orange */
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 3; /* Ensure buttons are above the overlay */
+  }
+  
+  .carousel-button:hover {
+    background-color: rgba(255, 140, 0, 0.9); /* Darker transparent orange */
+  }
+  
+  .prev-button {
+    left: 16px;
+  }
+  
+  .next-button {
+    right: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-slide {
+      min-width: 100%; /* Adjust for smaller screens */
+    }
+  
+    .carousel-content {
+      flex-direction: column;
+    }
+  
+    .carousel-text,
+    .carousel-image-wrapper {
+      width: 100%;
+      max-width: 100%;
+      padding: 10px;
+    }
+  }
+  
