@@ -12,6 +12,8 @@ import ExcellenceSection from './components/excellence';
 import MissionVision from './components/missionvision/missionvision';
 import FAQ from './components/FAQ/FAQ'
 import Testimonial from './components/Testimonial/testimonial';
+import Banner from './components/Contact/Banner';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
       </main>
        <FAQ/>
        <Testimonial/>
+       <Banner/>
+       <Contact/>
       <Footer />
     </div>
   );
