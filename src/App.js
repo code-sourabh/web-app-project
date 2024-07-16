@@ -16,6 +16,7 @@ import Banner from './components/Contact/Banner';
 import Contact from './components/Contact/Contact';
 import Hero from './components/Hero section/Hero';
 import Description from './components/Description Tab/Description';
+import MeetOurTeam from './components/teams/MeetOurTeam';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Blogs/>
       </main>
        <FAQ/>
+       <MeetOurTeam/>
        <Testimonial/>
        <Banner/>
        <Contact/>
