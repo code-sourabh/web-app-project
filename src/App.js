@@ -17,6 +17,8 @@ import Contact from './components/Contact/Contact';
 import Hero from './components/Hero section/Hero';
 import Description from './components/Description Tab/Description';
 import MeetOurTeam from './components/teams/MeetOurTeam';
+import Industries from './Industries';
+import Slider from './components/Blogs/Slider';
 
 function App() {
   return (
@@ -25,10 +27,12 @@ function App() {
       <main className="">
         <Description/>
         <Partners/>
+        <Industries/>
         <ExcellenceSection />
         <MissionVision />
         {/* <p>Here goes the main content of your application.</p> */}
         <Blogs/>
+        <Slider/>
       </main>
        <FAQ/>
        <MeetOurTeam/>

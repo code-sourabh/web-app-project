@@ -1,7 +1,6 @@
 import React from 'react';
 import CountUp from 'react-countup';
 
-
 const ExcellenceSection = () => {
   return (
     <section className="excellence-section">
@@ -19,9 +18,9 @@ const ExcellenceSection = () => {
 const StatItem = ({ end, suffix, text }) => (
   <div className="stat-item">
     <CountUp end={end} suffix={suffix} duration={2.5}>
-      {({ countUpRef }) => (
+      {({ countUpRef, start }) => (
         <div>
-          <span ref={countUpRef} className="stat-number" />
+          <span ref={countUpRef} className="stat-number"></span>
           <p className="stat-text">{text}</p>
         </div>
       )}
