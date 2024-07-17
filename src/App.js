@@ -17,6 +17,7 @@ import Contact from './components/Contact/Contact';
 import Hero from './components/Hero section/Hero';
 import Description from './components/Description Tab/Description';
 import MeetOurTeam from './components/teams/MeetOurTeam';
+import IndustryPage from './components/industry page/IndustryPage';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         {/* <p>Here goes the main content of your application.</p> */}
         <Blogs/>
       </main>
+      <IndustryPage/>
        <FAQ/>
        <MeetOurTeam/>
        <Testimonial/>
