@@ -11,14 +11,14 @@ import i18n from './i18n'; // Import the i18n instance
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <BrowserRouter>
-  //   <I18nextProvider i18n={i18n}>
-  //     <App />
-  //   </I18nextProvider>
-  // </BrowserRouter>
   <BrowserRouter>
-    <Suspense fallback="Loading...">
-      <App/>
-    </Suspense>
+    <I18nextProvider i18n={i18n}>
+      <App />
+    </I18nextProvider>
   </BrowserRouter>
+  // <BrowserRouter>
+  //   <Suspense fallback="Loading...">
+  //     <App/>
+  //   </Suspense>
+  // </BrowserRouter>
 );
