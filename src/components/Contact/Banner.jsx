@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Banner = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-white p-8 flex justify-center items-center">
       <div className="bg-orange-500 p-12 flex justify-between items-center rounded-md w-full max-w-4xl space-x-8 transform -skew-x-6">
