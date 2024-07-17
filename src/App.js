@@ -17,12 +17,10 @@ import Contact from './components/Contact/Contact';
 import Hero from './components/Hero section/Hero';
 import Description from './components/Description Tab/Description';
 import MeetOurTeam from './components/teams/MeetOurTeam';
-<<<<<<< HEAD
-import Industries from './Industries';
+// import Industries from './components/Bl';
+import IndustryPage from './components/industry page/IndustryPage'
 import Slider from './components/Blogs/Slider';
-=======
-import IndustryPage from './components/industry page/IndustryPage';
->>>>>>> 9fe7e05d0a2401de6b20bcfd4973a28eee0258e6
+import Industries from './components/Industry-banner';
 
 function App() {
   return (
@@ -31,7 +29,7 @@ function App() {
       <main className="">
         <Description/>
         <Partners/>
-        <Industries/>
+        {/* <Industries/> */}
         <ExcellenceSection />
         <MissionVision />
         {/* <p>Here goes the main content of your application.</p> */}
@@ -41,6 +39,7 @@ function App() {
       <IndustryPage/>
        <FAQ/>
        <MeetOurTeam/>
+       <Industries/>
        <Testimonial/>
        <Banner/>
        <Contact/>
