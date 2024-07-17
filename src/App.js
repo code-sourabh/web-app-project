@@ -19,7 +19,7 @@ import Description from './components/Description Tab/Description';
 import MeetOurTeam from './components/teams/MeetOurTeam';
 // import Industries from './components/Bl';
 import IndustryPage from './components/industry page/IndustryPage'
-import Slider from './components/Blogs/Slider';
+import Slider from './components/Blogs/BlogSlider';
 import Industries from './components/Industry-banner';
 
 function App() {

@@ -25,7 +25,7 @@ const slides = [
       }
 ];
 
-const Slider = () => {
+const BlogSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const navigate = useNavigate();
 
@@ -50,7 +50,7 @@ const Slider = () => {
     <div className="flex flex-col min-h-screen">
       {/* Banner */}
       <div className="bg-gradient-to-r from-blue-600 to-blue-400 text-white p-16 text-center">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">RenoSys Blog</h1>
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Webrass Blogs</h1>
       </div>
 
       {/* Slider */}
@@ -120,4 +120,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default BlogSlider;
