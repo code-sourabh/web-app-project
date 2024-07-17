@@ -1,12 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import DropdownMenu from './DropdownMenu';
-import './Navbar.css';
+import React, { useState, useEffect } from "react";
+import DropdownMenu from "./DropdownMenu";
+import { useTranslation } from "react-i18next";
+import "./Navbar.css";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
-  const [mobileMenuLevel, setMobileMenuLevel] = useState('main');
+  const [mobileMenuLevel, setMobileMenuLevel] = useState("main");
 
   useEffect(() => {
     const handleResize = () => {
@@ -19,158 +21,187 @@ const Navbar = () => {
         }
       }
     };
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, [isMobile]);
 
   const menuItems = [
     {
-      title: 'Solutions',
+      title: "Solutions",
       sidebar: [
         {
-          title: 'Accelerate',
+          title: "Accelerate",
           cards: [
-            { title: 'Cloud Consulting, Strategy, and Migration', icon: 'cloud-icon.png' },
-            { title: 'DevSecOps', icon: 'devsecops-icon.png' },
-            { title: 'Cloud Security Engineering', icon: 'security-icon.png' },
-            { title: 'Application Assessment', icon: 'assessment-icon.png' },
-            { title: 'Cloud Native Application Development & Testing', icon: 'cloud-native-icon.png' },
-            { title: 'SaaS Product & Platform Development', icon: 'saas-icon.png' },
-            { title: 'Data Strategy', icon: 'data-strategy-icon.png' }
-          ]
+            {
+              title: "Cloud Consulting, Strategy, and Migration",
+              icon: "cloud-icon.png",
+            },
+            { title: "DevSecOps", icon: "devsecops-icon.png" },
+            { title: "Cloud Security Engineering", icon: "security-icon.png" },
+            { title: "Application Assessment", icon: "assessment-icon.png" },
+            {
+              title: "Cloud Native Application Development & Testing",
+              icon: "cloud-native-icon.png",
+            },
+            {
+              title: "SaaS Product & Platform Development",
+              icon: "saas-icon.png",
+            },
+            { title: "Data Strategy", icon: "data-strategy-icon.png" },
+          ],
         },
         {
-          title: 'Innovate',
+          title: "Innovate",
           cards: [
-            { title: 'Innovation 1', icon: 'innovation1-icon.png' },
-            { title: 'Innovation 2', icon: 'innovation2-icon.png' }
-          ]
+            { title: "Innovation 1", icon: "innovation1-icon.png" },
+            { title: "Innovation 2", icon: "innovation2-icon.png" },
+          ],
         },
         {
-          title: 'Multiply',
+          title: "Multiply",
           cards: [
-            { title: 'Multiply 1', icon: 'multiply1-icon.png' },
-            { title: 'Multiply 2', icon: 'multiply2-icon.png' }
-          ]
-        }
-      ]
+            { title: "Multiply 1", icon: "multiply1-icon.png" },
+            { title: "Multiply 2", icon: "multiply2-icon.png" },
+          ],
+        },
+      ],
     },
     {
-      title: 'Insights',
+      title: "Insights",
       sidebar: [
         {
-          title: 'Accelerate',
+          title: "Accelerate",
           cards: [
-            { title: 'Insight 1', icon: 'icon1.png' },
-            { title: 'Insight 2', icon: 'icon2.png' }
-          ]
+            { title: "Insight 1", icon: "icon1.png" },
+            { title: "Insight 2", icon: "icon2.png" },
+          ],
         },
         {
-          title: 'Innovate',
+          title: "Innovate",
           cards: [
-            { title: 'Insight 3', icon: 'icon3.png' },
-            { title: 'Insight 4', icon: 'icon4.png' }
-          ]
-        }
-      ]
+            { title: "Insight 3", icon: "icon3.png" },
+            { title: "Insight 4", icon: "icon4.png" },
+          ],
+        },
+      ],
     },
     {
-      title: 'Industries',
+      title: "Industries",
       sidebar: [
         {
-          title: 'Accelerate',
+          title: "Accelerate",
           cards: [
-            { title: 'Industry 1', icon: 'icon1.png' },
-            { title: 'Industry 2', icon: 'icon2.png' },
-            { title: 'Industry 3', icon: 'icon3.png' },
-            { title: 'Industry 4', icon: 'icon4.png' },
-            { title: 'Industry 5', icon: 'icon5.png' },
-          ]
+            { title: "Industry 1", icon: "icon1.png" },
+            { title: "Industry 2", icon: "icon2.png" },
+            { title: "Industry 3", icon: "icon3.png" },
+            { title: "Industry 4", icon: "icon4.png" },
+            { title: "Industry 5", icon: "icon5.png" },
+          ],
         },
         {
-          title: 'Innovate',
+          title: "Innovate",
           cards: [
-            { title: 'Industry 6', icon: 'icon6.png' },
-            { title: 'Industry 7', icon: 'icon7.png' }
-          ]
-        }
-      ]
+            { title: "Industry 6", icon: "icon6.png" },
+            { title: "Industry 7", icon: "icon7.png" },
+          ],
+        },
+      ],
     },
   ];
 
+  // Function to handle language change
+  const handleLanguageChange = (event) => {
+    const lang = event.target.value;
+    i18n.changeLanguage(lang); // Change the language
+  };
+
+  console.log(i18n.language);
+  // Function to handle click on menu item
   const handleClick = (index) => {
     if (isMobile) {
       setActiveDropdown(index);
-      setMobileMenuLevel('submenu');
+      setMobileMenuLevel("submenu");
       setMenuOpen(true);
     } else {
       setActiveDropdown(activeDropdown === index ? null : index);
     }
   };
 
+  // Function to close dropdown menu
   const closeDropdown = () => {
     setActiveDropdown(null);
-    setMobileMenuLevel('main');
+    setMobileMenuLevel("main");
   };
 
+  // Function to toggle mobile menu
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
     setActiveDropdown(null);
-    setMobileMenuLevel('main');
+    setMobileMenuLevel("main");
   };
 
+  // Function to handle back to main menu level
   const handleBackToMain = () => {
-    setMobileMenuLevel('main');
+    setMobileMenuLevel("main");
     setActiveDropdown(null);
   };
 
   return (
     <>
       <nav className="navbar">
-        <div className="logo">blazeclan</div>
+        <div className="logo">Webrass</div>
         {isMobile && (
           <div className="menu-toggle" onClick={toggleMenu}>
-            {menuOpen ? 'Close' : 'Menu'}
+            {menuOpen ? "Close" : "Menu"}
           </div>
         )}
-        <ul className={`nav-items ${menuOpen ? 'active' : ''}`}>
+        <ul className={`nav-items ${menuOpen ? "active" : ""}`}>
           {menuItems.map((item, index) => (
             <li key={index} onClick={() => handleClick(index)}>
               {item.title}
             </li>
           ))}
         </ul>
-        <div className="flex justify-center items-center gap-2 ">
-          <select>
-            <option>India</option>
-            <option>USA</option>
-            <option>UK</option>
+
+        <div id="google_translate_element"></div>
+        <div className="flex justify-center items-center gap-2">
+          {/* Dropdown for language selection */}
+          <select onChange={handleLanguageChange}>
+            <option value="en">{t("english")}</option>
+            <option value="hu">{t("hungerian")}</option>
+            <option value="de">{t("german")}</option>
           </select>
-          <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">Contact Us</button>
+
+          <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
+            Contact Us
+          </button>
         </div>
       </nav>
+      {/* Render dropdown menu for desktop view */}
       {!isMobile && activeDropdown !== null && (
-  <DropdownMenu 
-    items={menuItems[activeDropdown]} 
-    closeDropdown={closeDropdown}
-    isMobile={isMobile}
-    isTopLevel={true}
-    onBackToMain={handleBackToMain}
-    mobileMenuLevel={mobileMenuLevel}
-    setMobileMenuLevel={setMobileMenuLevel}
-  />
-)}
-{isMobile && menuOpen && (
-  <DropdownMenu 
-    items={activeDropdown !== null ? menuItems[activeDropdown] : null}
-    closeDropdown={closeDropdown}
-    isMobile={isMobile}
-    isTopLevel={true}
-    onBackToMain={handleBackToMain}
-    mobileMenuLevel={mobileMenuLevel}
-    setMobileMenuLevel={setMobileMenuLevel}
-  />
-)}
+        <DropdownMenu
+          items={menuItems[activeDropdown]}
+          closeDropdown={closeDropdown}
+          isMobile={isMobile}
+          isTopLevel={true}
+          onBackToMain={handleBackToMain}
+          mobileMenuLevel={mobileMenuLevel}
+          setMobileMenuLevel={setMobileMenuLevel}
+        />
+      )}
+      {/* Render dropdown menu for mobile view */}
+      {isMobile && menuOpen && (
+        <DropdownMenu
+          items={activeDropdown !== null ? menuItems[activeDropdown] : null}
+          closeDropdown={closeDropdown}
+          isMobile={isMobile}
+          isTopLevel={true}
+          onBackToMain={handleBackToMain}
+          mobileMenuLevel={mobileMenuLevel}
+          setMobileMenuLevel={setMobileMenuLevel}
+        />
+      )}
     </>
   );
 };

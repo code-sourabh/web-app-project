@@ -29,7 +29,6 @@ function App() {
       <main className="">
         <Description/>
         <Partners/>
-        {/* <Industries/> */}
         <ExcellenceSection />
         <MissionVision />
         {/* <p>Here goes the main content of your application.</p> */}
@@ -49,3 +48,5 @@ function App() {
 }
 
 export default App;
+
+
