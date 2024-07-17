@@ -17,8 +17,12 @@ import Contact from './components/Contact/Contact';
 import Hero from './components/Hero section/Hero';
 import Description from './components/Description Tab/Description';
 import MeetOurTeam from './components/teams/MeetOurTeam';
+<<<<<<< HEAD
 import Industries from './Industries';
 import Slider from './components/Blogs/Slider';
+=======
+import IndustryPage from './components/industry page/IndustryPage';
+>>>>>>> 9fe7e05d0a2401de6b20bcfd4973a28eee0258e6
 
 function App() {
   return (
@@ -34,6 +38,7 @@ function App() {
         <Blogs/>
         <Slider/>
       </main>
+      <IndustryPage/>
        <FAQ/>
        <MeetOurTeam/>
        <Testimonial/>
