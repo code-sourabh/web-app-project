@@ -1,0 +1,245 @@
+import React from 'react';
+import { useParams } from 'react-router-dom';
+import CardHeader from '../solution/solutionheader/CardHeader';
+import CardBody from '../solution/solutionbody/CardBody';
+import image from '../../image/infrastructure.jpg';
+import image1 from '../../image/incident.jpg';
+import image2 from '../../image/product.jpg';
+import image3 from '../../image/service.jpg';
+import image4 from '../../image/change.jpg';
+import image5 from '../../image/techme.jpg';
+import image6 from '../../image/techme.jpg';
+import cloud from '../../image/cloud.jpg';
+import app from '../../image/app.jpg';
+import cyber from '../../image/cyber.jpg';
+import data from '../../image/data.jpg';
+import automation from '../../image/automation.jpg';
+import saas from '../../image/saas.jpg';
+import devop from '../../image/devops.jpg';
+import finops from '../../image/finops.jpg';
+ 
+
+function CardsPage() {
+  const { serviceType } = useParams();
+
+  const getContent = (type) => {
+    switch (type) {
+      case 'infrastructure':
+        return {
+          headerTitle: 'Infrastructure',
+          headerImage: image,
+          cards: [
+            {
+              image: image1,
+              title: 'Incident Management',
+              description: 'Proactively monitoring Resource (Servers/applications) and ensuring comprehensive L1, L2, and L3 support involves a structured approach to IT service management.',
+              popupImage: image1,
+            },
+            {
+              image: image3,
+              title: 'Service Request Management',
+              description: 'Operating an ITSM-enabled (IT Service Management) Service Desk involves leveraging ITSM best practices and tools to efficiently manage and fulfill customer requests while increasing comprehensive team productivity.',
+              popupImage: image3,
+            },
+            {
+              image: image2,
+              title: 'Problem Management',
+              description: 'Maintaining performance against Experience Level Agreements (XLAs) involves not only meeting traditional SLAs but also focusing on the quality of the user experience. This requires integrating customer-centric metrics, generating actionable alerts, and deriving insights to continuously enhance customer satisfaction.',
+              popupImage: image2,
+            },
+            {
+              image: image4,
+              title: 'Change Management',
+              description: 'DevSecOps implementation success factors include output data with improvements in releases, over 30% lower build failure in advanced environments, over 20% improvement in remediation and false positives, and complete elimination of security breaches.',
+              popupImage: image4,
+            },
+          ]
+        };
+      case 'cloud-services':
+        return {
+          headerTitle: 'Cloud Services',
+          headerImage: cloud,
+          cards: [
+            {
+                image: image,
+                title: 'Managed Services',
+                description: `Our Methodology\n
+                              - Incident Management: Proactively monitoring Resource (Servers/applications) and ensuring comprehensive L1, L2, and L3 support involves a structured approach to IT service management.\n
+                              - Service Request Management: Operating an ITSM-enabled (IT Service Management) Service Desk involves leveraging ITSM best practices and tools to efficiently manage and fulfill customer requests while increasing comprehensive team productivity.`,
+                popupImage: image,
+              },
+              {
+                image: image,
+                title: 'Cloud Consulting, Strategy and Migration',
+                description: `Our Methodology\n
+                              - Cloud Consulting: Craft a precise and easily understandable strategy and pathway for migrating to the cloud. Utilize reputable scanning tools and engage in discussions with stakeholders to grasp the current infrastructure and application landscape.\n
+                              - Cloud Migration Strategy: Develop a customized migration strategy, sorting applications into categories like rehosting, re-platforming, re-architecting, and refactoring.`,
+                popupImage: image,
+              },
+              {
+                image: image,
+                title: 'Cloud Native Application Development & Testing',
+                description: `Our Methodology\n
+                              - Microservices: Organize applications into a collection of microservices to enhance continuous delivery and deployment capabilities.\n
+                              - Agile Development: Streamline and expedite the application development process by adopting an agile approach that fosters innovation.`,
+                popupImage: image,
+              },
+              {
+                image: image,
+                title: 'Cloud Governance & Reporting',
+                description: `Our Solutions\n
+                              - Cloud Governance: Utilize Webress's intelligent cloud management platform to enable automatic alerts and triggers for security incidents and budget thresholds.\n
+                              - Automation Reporting: Automate the generation of monthly and quarterly reports for cloud management and optimization purposes.`,
+                popupImage: image,
+              },
+              {
+                image: image,
+                title: 'Cloud Discovery and Optimization',
+                description: `Our Methodology\n
+                              - Single-Pane View: Replace manual tracking with Webress's agile monitoring driven by automated discovery, enhancing visibility and control over the infrastructure.\n
+                              - Automated Cloud Optimization: Automate monitoring and optimization processes to ensure efficient resource utilization.`,
+                popupImage: image,
+              },
+              {
+                image: image,
+                title: 'Cloud and Platform Modernization',
+                description: `Our Methodology\n
+                              - Approach: Identify applications with the potential to yield a minimum of 30% cost-benefit in the short-to-medium term while aiming for close to a 99.5% uptime improvement. Maintain platforms and applications strategically to serve as catalysts for future business augmentation.`,
+                popupImage: image,
+              },
+          ]
+        };
+      case 'application-services':
+        return {
+          headerTitle: 'Application Services',
+          headerImage: app,
+          cards: [
+            {
+              image: image,
+              title: 'Application Assessment',
+              description: 'Our Methodology\nDesign: Starting with stakeholder meetings is a solid foundation for a standardized application assessment approach. By engaging with stakeholders early on, the assessment process can align closely with the needs and goals of the organization. Capturing key requirements such as the future roadmap and scalability ensures that the assessment accounts for both short-term and long-term needs.',
+              popupImage: image,
+            },
+            {
+              image: image,
+              title: 'SaaS Product and Platform Development',
+              description: 'Our Solution\nConsulting: Evaluate the current software to gauge its level of SaaS maturity and devise a plan for SaaS adoption. Obtain guidance on best practices for processes and technologies, utilizing specialized expertise in databases, networks, and systems.\nImplementation: Deploy the SaaS framework employing cutting-edge technologies and tools within a microservices infrastructure. Our approach to implementation ensures scalability, security, and compliance with industry standards.',
+              popupImage: image,
+            },
+            {
+              image: image,
+              title: 'Application Maintenance and Enhancement',
+              description: 'Our Methodology\nCorrective: Obtain ITIL support for application management, establish standard operating procedures (SOPs) for applications, and ensure compliance with application security standards.\nAdaptive: Enhance the application, ensure compatibility updates for mobile applications across devices and operating systems, and maintain application knowledge through a known error database.\nPreventive: Attain SaaS-based multi-tenancy, configure settings, manage patches, and perform regular upgrades to ensure optimal performance and security.',
+              popupImage: image,
+            },
+            {
+              image: image,
+              title: 'Application Modernization',
+              description: 'Our Methodology\nAssess: Perform a tool-based evaluation of the current architecture and infrastructure, then proceed with system integration. Utilize insights from the discovery process alongside recommendations derived from the 6Rs of migration.\nModernize: Deploy and orchestrate containerization of application components in alignment with cloud-native principles. Implement the best practices outlined in the Well-Architected Framework while identifying any assessment deductions.',
+              popupImage: image,
+            },
+          ]
+        };
+      case 'cyber-security':
+        return {
+          headerTitle: 'Cyber-security',
+          headerImage: cyber,
+          cards: [
+            {
+              image: image,
+              title: 'Data Strategy',
+              description: 'Our Solutions\nConsulting & Strategy: Establish best practices for setting up a Data Center of Excellence (COE) aligned with industry standards. Develop a data strategy and guidance tailored to the organizational infrastructure and business objectives.\nAssessment: Evaluate the current data pipeline and devise an architecture that meets requirements and aligns with the data maturity stage.',
+              popupImage: image,
+            },
+            {
+              image: image,
+              title: 'Data Governance and Engineering',
+              description: 'Our Solutions\nData Security: Secure data both in transit and at rest through encryption managed keys, and folder-level access control lists (ACLs). Establish access control with object-level security, multi-factor authentication, and network security measures.\nCompliance and Audit: Implement a set of control and audit procedures to ensure consistent compliance, thereby reducing operational complexity and meeting privacy regulations.',
+              popupImage: image,
+            },
+            {
+              image: image,
+              title: 'Cloud Security Engineering',
+              description: 'Our Methodology\nRequirement Gathering: Our cloud security engineering methodology commences with a comprehensive grasp of existing security guidelines, policies, tools, and licenses. Data forms the foundation for security assessment and implementation.\nSecurity Assessment and Gap Analysis: Evaluate the current security implementation against established guidelines and policies. Utilize comprehensive workshops and tool findings to generate actionable insights and bridge security gaps.',
+              popupImage: image,
+            },
+            {
+              image: image,
+              title: 'Cloud Security Operations',
+              description: 'Our Solutions\nSecurity Monitoring and Analytics: Perform event log and firewall log analyses with continuous cloud monitoring implemented. Safeguard systems from DDoS attacks, enable endpoint protection, establish perimeter security, and implement proactive incident response measures.\nIncident Management and Response: Develop an agile, enterprise-focused response mechanism to effectively address security incidents. Utilize secure and scalable service frameworks to ensure resilience and compliance.',
+              popupImage: image,
+            },
+          ]
+        };
+      case 'data-analytics':
+        return {
+          headerTitle: 'Data Analytics',
+          headerImage: data,
+          cards: [
+            {
+              image: image,
+              title: 'Managed Analytics (DataOps)',
+              description: 'Our Solutions\nInitiation and Planning: Our analytics experts commence with a preliminary study to identify key contacts, accompanied by a knowledge transfer template to facilitate achieving a steady state. Finalize critical data resources to strategize a robust weekly managed analytics activity.\nKnowledge Sharing and Support: We evaluate the current analytics setup to gain a comprehensive understanding of data sources, ensuring alignment with business goals and KPIs.',
+              popupImage: image,
+            },
+            {
+              image: image,
+              title: 'BI Modernization',
+              description: 'Our Solutions\nData Visualization: Utilize data reporting powered by natural language generation (NLG) to extract valuable insights and enhance decision-making. Implement visuals for enterprise data warehouse (EDW) implementation to leverage both self-service and pre-processed data effectively.\nDashboarding: Enhance business decision-making with advanced BI dashboards featuring best-in-breed applications. Access multiple dashboarding options on modernized data, providing actionable insights in real-time.',
+              popupImage: image,
+            },
+          ]
+        };
+      case 'automation':
+        return {
+          headerTitle: 'Automation',
+          headerImage: automation,
+          cards: [
+            {
+              image: image,
+              title: 'DevSecOps',
+              description: 'Our Methodology\nApproach: By integrating security with DevOps, Our DevSecOps workflow ensures the utilization of top-notch tools for static application security testing (SAST) and dynamic application security testing (DAST) at every stage, including coding, development, integration, deployment, and monitoring.\nCourse of Action: DoT is seamlessly integrated with globally acclaimed, proven, and tested SAST and DAST tools, ensuring compliance and security throughout the software development lifecycle.',
+              popupImage: image,
+            },
+            {
+              image: image,
+              title: 'DevOps Transformation (DoT)',
+              description: 'Our Offerings\nDefine Metrics: Utilize a comprehensive range of metrics and select those most pertinent to business goals. Define quantitative targets for each metric in alignment with the time frame and scale of the DevSecOps Transformation (DoT).\nReady-to-Deploy Pipeline: Efficiently deploy and integrate a pre-configured DevOps pipeline with cutting-edge open-source tools and technologies. Customize the pipeline to meet specific business requirements and ensure seamless integration across development and operations teams.',
+              popupImage: image,
+            },
+          ]
+        };
+      case 'finops':
+        return {
+          headerTitle: 'FinOps',
+          headerImage: finops,
+          cards: [
+            {
+              image: image,
+              title: 'Coming Soon',
+              description: 'More content for FinOps will be added soon.',
+              popupImage: image,
+            }
+          ]
+        };
+      default:
+        return {
+          headerTitle: 'Unknown Service',
+          headerImage: image,
+          cards: []
+        };
+    }
+  };
+
+  const content = getContent(serviceType);
+
+  return (
+    <div className="cards-page">
+      <CardHeader title={content.headerTitle} image={content.headerImage} />
+      {console.log(content.headerTitle)}
+      <CardBody cards={content.cards} />
+    </div>
+  );
+}
+
+export default CardsPage;

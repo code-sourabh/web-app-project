@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./DropdownMenu.css";
 
 const DropdownMenu = ({
@@ -56,12 +57,13 @@ const DropdownMenu = ({
               </button>
             ))}
           </div>
-          <div className="card-grid">
+         <div className="card-grid">
             {activeCards.map((item, index) => (
-              <div key={index} className="card">
+              <Link to={`/services/${item.title}`} className="card"><div key={index} >
                 <img src={item.icon} alt={item.title} />
                 <h3>{item.title}</h3>
               </div>
+               </Link>
             ))}
           </div>
         </div>

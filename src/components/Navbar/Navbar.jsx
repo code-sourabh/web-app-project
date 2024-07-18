@@ -32,41 +32,33 @@ const Navbar = () => {
 
   const menuItems = [
     {
-      title: "Solutions",
+      title: "Services",
       sidebar: [
         {
           title: "Accelerate",
           cards: [
             {
-              title: "Cloud Consulting, Strategy, and Migration",
+              title: "cloud-services",
               icon: "cloud-icon.png",
             },
-            { title: "DevSecOps", icon: "devsecops-icon.png" },
-            { title: "Cloud Security Engineering", icon: "security-icon.png" },
-            { title: "Application Assessment", icon: "assessment-icon.png" },
-            {
-              title: "Cloud Native Application Development & Testing",
-              icon: "cloud-native-icon.png",
-            },
-            {
-              title: "SaaS Product & Platform Development",
-              icon: "saas-icon.png",
-            },
-            { title: "Data Strategy", icon: "data-strategy-icon.png" },
+            { title: "application-services", icon: "devsecops-icon.png" },
+            { title: "cyber-security", icon: "security-icon.png" },
+            { title: "data-analytics", icon: "assessment-icon.png" },
           ],
         },
         {
           title: "Innovate",
           cards: [
-            { title: "Innovation 1", icon: "innovation1-icon.png" },
-            { title: "Innovation 2", icon: "innovation2-icon.png" },
+            { title: "automation", icon: "innovation1-icon.png" },
+            { title: "infrastructure", icon: "innovation1-icon.png" },
+            { title: "finops", icon: "innovation2-icon.png" },
           ],
         },
         {
           title: "Multiply",
           cards: [
-            { title: "Multiply 1", icon: "multiply1-icon.png" },
-            { title: "Multiply 2", icon: "multiply2-icon.png" },
+            { title: "devops", icon: "multiply1-icon.png" },
+            { title: "saas", icon: "multiply2-icon.png" },
           ],
         },
       ],

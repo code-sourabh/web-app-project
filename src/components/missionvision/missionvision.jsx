@@ -1,46 +1,72 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import './MissionVision.css';
 
 const MissionVision = () => {
   const [activeTab, setActiveTab] = useState('mission');
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 767);
+
+  // Handle resizing to switch between mobile and desktop views
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 767);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  const toggleTab = (tab) => {
+    setActiveTab(activeTab === tab ? '' : tab);
+  };
 
   return (
-    <div className="mission-vision-container bg-gray-100 p-4 md:p-8">
-      <div className="flex flex-col md:flex-row md:space-x-8">
-        <div className="flex flex-col">
-          <div className="flex flex-col space-y-4 md:space-y-8">
-            <div
-              className={`text-2xl md:text-4xl font-medium cursor-pointer ${
-                activeTab === 'mission' ? 'text-orange-500' : 'text-gray-700'
-              }`}
-              onClick={() => setActiveTab('mission')}
-            >
-              Our Mission
-            </div>
-            <div
-              className={`text-2xl md:text-4xl font-medium cursor-pointer ${
-                activeTab === 'vision' ? 'text-orange-500' : 'text-gray-700'
-              }`}
-              onClick={() => setActiveTab('vision')}
-            >
-              Our Vision
-            </div>
+    <div className="mission-vision-container">
+      <div className="left-section">
+        <div className="tab-container">
+          <div 
+            className={`tab ${activeTab === 'mission' ? 'active' : ''}`}
+            onClick={() => toggleTab('mission')}
+          >
+            Our Mission
+            <div className="connecting-line mission"></div>
           </div>
-          <div className="flex space-x-2 md:hidden">
-            <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-            <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-            <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+          {isMobile && activeTab === 'mission' && (
+            <div className="content-box active">
+              <p>To lead excellence on the cloud and help customers turn impractical goals into reality with strategic resources and expertise.</p>
+            </div>
+          )}
+          <div 
+            className={`tab ${activeTab === 'vision' ? 'active' : ''}`}
+            onClick={() => toggleTab('vision')}
+          >
+            Our Vision
+            <div className="connecting-line vision"></div>
           </div>
+          {isMobile && activeTab === 'vision' && (
+            <div className="content-box active">
+              <p>[Your vision statement here]</p>
+            </div>
+          )}
         </div>
-        <div className="w-full md:w-1/2 mt-4 md:mt-0">
-          <div className="bg-gray-800 text-white p-8 rounded-lg">
-            <p className="text-lg md:text-xl">
-              {activeTab === 'mission'
-                ? 'At our core, we are architects of change, dedicated to redefining possibilities through a fusion of cutting-edge technology and human ingenuity. With a relentless pursuit of excellence, we collaborate with our clients and partners to co-create value and transformative solutions that propel them towards success in the digital age'
-                : 'Empowering businesses through the art of digital innovation, we envision a future where technology seamlessly integrates with human potential to unlock unprecedented opportunities and drive collective progress.'}
+        {!isMobile && (
+          <div className="decorative-squares">
+            <div className="square"></div>
+            <div className="square"></div>
+            <div className="square"></div>
+          </div>
+        )}
+      </div>
+      {!isMobile && (
+        <div className="right-section">
+          <div className="content-box active">
+            <p>{activeTab === 'mission' ? 
+              "To lead excellence on the cloud and help customers turn impractical goals into reality with strategic resources and expertise." :
+              activeTab === 'vision' ?
+              "[Your vision statement here]" : ''}
             </p>
           </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };

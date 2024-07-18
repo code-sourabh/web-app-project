@@ -1,8 +1,6 @@
 import { useState } from "react";
 import "./hero.css";
 
-import Navbar from "../Navbar/Navbar";
-import Description from "../Description Tab/Description";
 
 function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -31,7 +29,7 @@ function Hero() {
 
   return (
     <>
-    <Navbar/>
+  
     <section className="carousel-section">
     <div className="carousel-container">
       <div aria-roledescription="carousel" className="carousel" role="region">
