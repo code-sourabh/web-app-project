@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import DropdownMenu from "./DropdownMenu";
 import { useTranslation } from "react-i18next";
+import { IoMenu } from "react-icons/io5";
+import { MdOutlineClose } from "react-icons/md";
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -153,7 +156,7 @@ const Navbar = () => {
         <div className="logo">Webrass</div>
         {isMobile && (
           <div className="menu-toggle" onClick={toggleMenu}>
-            {menuOpen ? "Close" : "Menu"}
+            {menuOpen ? <MdOutlineClose size={30}/> : <IoMenu size={30}/>}
           </div>
         )}
         <ul className={`nav-items ${menuOpen ? "active" : ""}`}>

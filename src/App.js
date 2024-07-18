@@ -32,7 +32,7 @@ function App() {
         <ExcellenceSection />
         <MissionVision />
         {/* <p>Here goes the main content of your application.</p> */}
-        <Blogs/>
+        {/* <Blogs/> */}
         <Slider/>
       </main>
       <IndustryPage/>
