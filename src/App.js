@@ -1,5 +1,6 @@
 // src/App.js
 import React from 'react';
+import { Route, Routes } from "react-router-dom";
 import Footer from './components/Footer/Footer';
 import './index.css';
 import './App.css';
@@ -26,9 +27,15 @@ function App() {
   return (
     <div className="App">
       <Hero/>
+      <Routes>
+      <Route path="/description" element={<Description/>} />
+      <Route path="/partners" element={<Partners/>} />
+      <Route path="/blogs" element={<Blogs/>} />
+      <Route path="/contact" element={<Contact/>} />
+      </Routes>
       <main className="">
-        <Description/>
-        <Partners/>
+        
+        
         <ExcellenceSection />
         <MissionVision />
         {/* <p>Here goes the main content of your application.</p> */}
