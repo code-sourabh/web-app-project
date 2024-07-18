@@ -7,7 +7,7 @@ import Banner from '../components/Contact/Banner'
 
 const Home = () => {
   return (
-    <div>
+    <div className='mt-16'>
      <Hero/>
       <Partners/>
       <Testimonial/>

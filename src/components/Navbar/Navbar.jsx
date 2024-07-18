@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import DropdownMenu from "./DropdownMenu";
 import { useTranslation } from "react-i18next";
 import { IoMenu } from "react-icons/io5";
 import { MdOutlineClose } from "react-icons/md";
 
 import "./Navbar.css";
-import logo from '../../assets/webrass-logo.png'
+import logo from '../../assets/webrass-logo.png';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -13,6 +13,9 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
   const [mobileMenuLevel, setMobileMenuLevel] = useState("main");
+  const [activeNavItem, setActiveNavItem] = useState(null);
+  const navbarRef = useRef(null); // Add ref for the navbar
+  const dropdownRef = useRef(null); // Add ref for the dropdown
 
   useEffect(() => {
     const handleResize = () => {
@@ -26,8 +29,24 @@ const Navbar = () => {
       }
     };
 
+    const handleClickOutside = (event) => {
+      if (
+        navbarRef.current &&
+        !navbarRef.current.contains(event.target) &&
+        dropdownRef.current &&
+        !dropdownRef.current.contains(event.target)
+      ) {
+        setActiveDropdown(null);
+      }
+    };
+
     window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, [isMobile]);
 
   const menuItems = [
@@ -112,9 +131,9 @@ const Navbar = () => {
     i18n.changeLanguage(lang); // Change the language
   };
 
-  console.log(i18n.language);
   // Function to handle click on menu item
   const handleClick = (index) => {
+    setActiveNavItem(index); // Update the active nav item
     if (isMobile) {
       setActiveDropdown(index);
       setMobileMenuLevel("submenu");
@@ -145,33 +164,33 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar">
+      <nav className="navbar" ref={navbarRef}>
         <div className="logo">
-        <img src={logo} className="logo h-8"/>
+          <img src={logo} className="logo h-8" alt="Logo" />
         </div>
-        
         {isMobile && (
           <div className="menu-toggle" onClick={toggleMenu}>
-            {menuOpen ? <MdOutlineClose size={30}/> : <IoMenu size={30}/>}
+            {menuOpen ? <MdOutlineClose size={30} /> : <IoMenu size={30} />}
           </div>
         )}
         <ul className={`nav-items ${menuOpen ? "active" : ""}`}>
           {menuItems.map((item, index) => (
-            <li key={index} onClick={() => handleClick(index)}>
+            <li
+              key={index}
+              className={activeNavItem === index ? "active-nav-item" : ""}
+              onClick={() => handleClick(index)}
+            >
               {item.title}
             </li>
           ))}
         </ul>
-
-       
         <div className="flex justify-center items-center gap-2">
           {/* Dropdown for language selection */}
           <select onChange={handleLanguageChange}>
             <option value="en">{t("english")}</option>
-            <option value="hu">{t("hungerian")}</option>
+            <option value="hu">{t("hungarian")}</option>
             <option value="de">{t("german")}</option>
           </select>
-
           <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
             Contact Us
           </button>
@@ -179,15 +198,19 @@ const Navbar = () => {
       </nav>
       {/* Render dropdown menu for desktop view */}
       {!isMobile && activeDropdown !== null && (
-        <DropdownMenu
-          items={menuItems[activeDropdown]}
-          closeDropdown={closeDropdown}
-          isMobile={isMobile}
-          isTopLevel={true}
-          onBackToMain={handleBackToMain}
-          mobileMenuLevel={mobileMenuLevel}
-          setMobileMenuLevel={setMobileMenuLevel}
-        />
+        <div ref={dropdownRef}>
+          <DropdownMenu
+            items={menuItems[activeDropdown]}
+            closeDropdown={closeDropdown}
+            menuOpen={menuOpen}
+            setMenuOpen={setMenuOpen}
+            isMobile={isMobile}
+            isTopLevel={true}
+            onBackToMain={handleBackToMain}
+            mobileMenuLevel={mobileMenuLevel}
+            setMobileMenuLevel={setMobileMenuLevel}
+          />
+        </div>
       )}
       {/* Render dropdown menu for mobile view */}
       {isMobile && menuOpen && (
@@ -196,6 +219,8 @@ const Navbar = () => {
           closeDropdown={closeDropdown}
           isMobile={isMobile}
           isTopLevel={true}
+          menuOpen={menuOpen}
+          setMenuOpen={setMenuOpen}
           onBackToMain={handleBackToMain}
           mobileMenuLevel={mobileMenuLevel}
           setMobileMenuLevel={setMobileMenuLevel}

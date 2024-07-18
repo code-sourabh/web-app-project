@@ -1,89 +1,82 @@
 .navbar {
-    position:fixed;
-    left: 0;
-    right: 0;
-    top:0;
-    display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: white;
+  border-bottom: 1px solid #e0e0e0;
+  z-index: 100;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ff6600;
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+/* Style for active nav item */
+.nav-items .active-nav-item {
+  color: #ff6600; /* Change color to orange */
+}
+
+.contact-us {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
     width: 100vw;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem 1rem;
-    background-color: white;
-    border-bottom: 1px solid #e0e0e0;
-    z-index: 100;
   }
-  
-  .logo {
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #ff6600;
-  }
-  
-  .nav-items {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .nav-items li {
-    margin: 0 1rem;
-    cursor: pointer;
-  }
-  
-  /* .right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 10px;
-  } */
-  
-  /* .right select {
-    margin-right: 1rem;
-  } */
-  
-  .contact-us {
-    background-color: #ff6600;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
+
   .menu-toggle {
+    display: block;
+    order: 1;
+  }
+
+  .nav-items {
+    display: none;
+    width: 100%;
+    order: 3;
+  }
+
+  .nav-items.active {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-items li {
+    padding: 1rem 0;
+    border-top: 1px solid #e0e0e0;
+  }
+
+  .right-sectionn {
     display: none;
   }
-  
-  @media (max-width: 768px) {
-    .navbar {
-      flex-wrap: wrap;
-      width: 100vw;
-    }
-  
-    .menu-toggle {
-      display: block;
-      order: 1;
-    }
-  
-    .nav-items {
-      display: none;
-      width: 100%;
-      order: 3;
-    }
-  
-    .nav-items.active {
-      display: flex;
-      flex-direction: column;
-    }
-  
-    .nav-items li {
-      padding: 1rem 0;
-      border-top: 1px solid #e0e0e0;
-    }
-  
-    .right-sectionn {
-      display: none;
-    }
-  }
+}

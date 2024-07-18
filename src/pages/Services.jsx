@@ -3,7 +3,7 @@ import Industries from '../components/Industry-banner'
 
 const Services = () => {
   return (
-    <div>
+    <div className='mt-16'>
       <Industries/>
     </div>
   )
