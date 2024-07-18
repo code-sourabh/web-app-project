@@ -63,7 +63,7 @@ const DropdownMenu = ({
           </div>
           <div className="card-grid">
             {activeCards.map((item, index) => (
-              <Link to={`${item.link}/${item.title}`} className="card">
+              <Link to={`${item.link}/${item.name}`} className="card">
                 <div
                   key={index}
                   onClick={() => {
@@ -107,7 +107,7 @@ const DropdownMenu = ({
           <div className="card-grid">
             {activeCards.map((item, index) => (
               <Link
-                to={`/services/${item.title}`}
+                to={`${item.link}/${item.name}`}
                 className="card"
                 onClick={() => {
                   

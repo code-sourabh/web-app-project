@@ -1,31 +1,56 @@
 import React, { useState } from 'react';
 import "./industryType.css";
+import { Link } from 'react-router-dom';
 
 const industries = [
   {
     icon: '☁️',
-    title: 'Cloud Transformation',
+    title: 'Finance Service',
+    link: '/industries/finance',
     content: {
-      title: 'Cloud Transformation Helped ABFL Enhance Delivery Time by Nearly 30-40%',
-      description: 'Aditya Birla Finance Ltd. (ABFL) is a leading provider of end-to-end lending, financing and wealth management solutions to consumers across India.',
+      title: 'Cloud-Based Platform Enabled hub.brussels Seamless Data Integration',
+
+      description: 'Financial services companies encounter significant challenges in securing digital payments, releasing affordable products, and navigating the complex regulatory landscape. To address these issues, they seek trusted experts in cloud computing for financial services to develop resilient digital infrastructures that facilitate technology-led innovation and keep pace with evolving value chains',
     },
   },
   {
     icon: '🤖',
-    title: 'AI Integration',
+    title: 'Telecom',
+    link: '/industries/telecom',
     content: {
-      title: 'AI Integration Boosted Customer Satisfaction by 50%',
-      description: 'Implementation of AI-driven chatbots and predictive analytics significantly improved customer experience and operational efficiency.',
+      title: 'Dashboard Enabled Real-Time Insights for Telekom Malaysia',
+      description:
+                "Telekom Malaysia Berhad (TM), the nation's leading telecommunications provider, sought Webrass's expertise to develop a reporting solution. This solution performs near real-time sentiment analysis on Twitter and community forum data, supporting TM's mission to enhance telecommunications technology and services for all Malaysians.",
+    },
+  },
+  {
+    icon: '🤖',
+    title: 'Media & Entertainment',
+    link: '/industries/media',
+    content: {
+      title: 'Engaging multimedia experiences across platforms.',
+      description: 'Webrass has helped media and entertainment firms enhance quality engineering, develop SaaS products, utilize advanced analytics, optimize storage costs, and secure payment gateways, driving cloud adoption. With Webrass’s proprietary frameworks, these companies have achieved over 50% cost savings and accelerated quality assurance processes, resulting in exceptional user experiences.',
+    },
+  },
+  {
+    icon: '🤖',
+    title: 'Banking & Insurance',
+    link: '/industries/banking',
+    content: {
+      title: 'Cloud Transformation Boosted ABFL Delivery Time',
+      description: 'Banking and insurance companies face stringent regulations and demand for real-time process automation and digital decision-making. To overcome these challenges, they need dependable digitization partners and cloud banking solutions that ensure efficiency and compliance.',
     },
   },
   {
     icon: '🔒',
-    title: 'Enhanced Security',
+    title: 'Technology',
+    link: '/industries/technology',
     content: {
       title: 'Enhanced Security Measures Reduced Fraud by 70%',
-      description: 'Advanced encryption and multi-factor authentication systems strengthened the overall security infrastructure, protecting sensitive financial data.',
+      description: 'Webrass offers tailored digital solutions for technology companies to enhance performance and agility. Our services include cloud consulting, DevSecOps, AI, and automation, focusing on modernizing infrastructure and applications..',
     },
   },
+  
 ];
 
 const IndustryType = () => {
@@ -62,8 +87,8 @@ const IndustryType = () => {
           <div className="w-full md:w-1/2 bg-orange-500 p-6 flex flex-col justify-center">
             <div>
               <h2 className="text-2xl font-semibold text-white mb-4">{industries[currentSlide].content.title}</h2>
-              <p className="text-white mb-4">{industries[currentSlide].content.description}</p>
-              <a href="#" className="text-white hover:underline">Read More ➔</a>
+              <p className="text-white mb-4 line-clamp-3">{industries[currentSlide].content.description}</p>
+              <Link to={`${industries[currentSlide].link}/#industry`} className="text-white hover:underline">Read More ➔</Link>
             </div>
           </div>
         </div>

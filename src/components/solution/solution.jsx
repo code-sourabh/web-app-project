@@ -1,22 +1,18 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import CardHeader from '../solution/solutionheader/CardHeader';
-import CardBody from '../solution/solutionbody/CardBody';
-import image from '../../image/infrastructure.jpg';
-import image1 from '../../image/incident.jpg';
-import image2 from '../../image/product.jpg';
-import image3 from '../../image/service.jpg';
-import image4 from '../../image/change.jpg';
-import image5 from '../../image/techme.jpg';
-import image6 from '../../image/techme.jpg';
-import cloud from '../../image/cloud.jpg';
 import app from '../../image/app.jpg';
+import automation from '../../image/automation.jpg';
+import image4 from '../../image/change.jpg';
+import cloud from '../../image/cloud.jpg';
 import cyber from '../../image/cyber.jpg';
 import data from '../../image/data.jpg';
-import automation from '../../image/automation.jpg';
-import saas from '../../image/saas.jpg';
-import devop from '../../image/devops.jpg';
 import finops from '../../image/finops.jpg';
+import image1 from '../../image/incident.jpg';
+import image from '../../image/infrastructure.jpg';
+import image2 from '../../image/product.jpg';
+import image3 from '../../image/service.jpg';
+import CardBody from '../solution/solutionbody/CardBody';
+import CardHeader from '../solution/solutionheader/CardHeader';
  
 
 function CardsPage() {

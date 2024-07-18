@@ -75,29 +75,52 @@ const Navbar = () => {
           title: "Accelerate",
           cards: [
             {
-              title: "cloud-services",
+              title: "Cloud-Services",
+              name: "cloud-services",
               icon: cloud,
               link: '/services'
             },
           
-            { title: "application-services", icon: app ,link: '/services' },
-            { title: "cyber-security", icon: cyber,link: '/services' },
-            { title: "data-analytics", icon: data ,link: '/services'},
+            { title: "Application-Services", icon: app ,link: '/services' ,name:"application-services" },
+            { title: "Cyber-Security", icon: cyber,link: '/services' ,name:"cyber-security" },
+            { title: "Data-Analytics", icon: data ,link: '/services' ,name: "data-analytics"},
           ],
         },
         {
           title: "Innovate",
           cards: [
-            { title: "automation", icon: auto ,link: '/services'},
-            { title: "infrastructure", icon: infra ,link: '/services'},
-            { title: "finops", icon: finops ,link: '/services'},
+            { title: "Automation", icon: auto ,link: '/services',name: "automation"},
+            { title: "Infrastructure", icon: infra ,link: '/services', name: "infrastructure"},
+            { title: "Finops", icon: finops ,link: '/services',name: "finops"},
           ],
         },
         {
           title: "Multiply",
           cards: [
-            { title: "devops", icon: devops ,link: '/services'},
-            { title: "saas", icon: sas ,link: '/services'},
+            { title: "Devops", icon: devops ,link: '/services',name: "devops"},
+            { title: "Saas", icon: sas ,link: '/services',name: "saas"},
+          ],
+        },
+      ],
+    },
+   
+    {
+      title: "Industries",
+      sidebar: [
+        {
+          title: "Accelerate",
+          cards: [
+            { title: "Finance", icon: financial ,link:'/industries' ,name: "finance" },
+            { title: "Banking", icon: banking ,link:'/industries',name: "banking"},
+            { title: "Media", icon: media ,link:'/industries',name: "media"},
+            
+          ],
+        },
+        {
+          title: "Innovate",
+          cards: [
+            { title: "Telecom", icon: tele ,link:'/industries',name: "telecom" },
+            { title: "Technology", icon: tech ,link:'/industries' ,name: "technology"},
           ],
         },
       ],
@@ -108,37 +131,9 @@ const Navbar = () => {
         {
           title: "Know Us",
           cards: [
-            { title: "About us", icon: about },
-            { title: "Customer Support", icon: customer },
-            { title: "Partners", icon: partner },
-          ],
-        },
-        // {
-        //   title: "Innovate",
-        //   cards: [
-        //     { title: "Insight 3", icon: "icon3.png" },
-        //     { title: "Insight 4", icon: "icon4.png" },
-        //   ],
-        // },
-      ],
-    },
-    {
-      title: "Industries",
-      sidebar: [
-        {
-          title: "Accelerate",
-          cards: [
-            { title: "finance", icon: financial ,link:'/industries' },
-            { title: "banking", icon: banking ,link:'/industries'},
-            { title: "media", icon: media ,link:'/industries'},
-            
-          ],
-        },
-        {
-          title: "Innovate",
-          cards: [
-            { title: "telecom", icon: tele ,link:'/industries' },
-            { title: "technology", icon: tech ,link:'/industries' },
+            { title: "About us", icon: about , link:'' , name: 'about' },
+            { title: "Customer Support", icon: customer ,link:'' ,name:'contact' },
+            { title: "Partners", icon: partner,link:'',name:'partner' },
           ],
         },
       ],

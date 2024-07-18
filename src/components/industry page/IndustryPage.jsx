@@ -260,7 +260,7 @@ const IndustryPage = () => {
   const content = getContent(industriesType);
 
   return (
-    <div className="bg-gradient-to-br from-orange-50 to-white flex flex-col mt-16">
+    <div id="industry" className="bg-gradient-to-br from-orange-50 to-white flex flex-col mt-16">
       <div className="container mx-auto px-4 py-8 flex-grow flex flex-col justify-between">
         <div className="space-y-8 mb-6">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 text-center">

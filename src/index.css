@@ -6,3 +6,6 @@
 /* Add any additional custom styles below */
 
 @import 'swiper/swiper-bundle.css';
+body{
+    scroll-behavior: smooth;
+}
