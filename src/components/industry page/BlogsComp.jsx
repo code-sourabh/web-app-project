@@ -62,33 +62,8 @@ import BlogCard from "./BlogCard";
 // import Img2 from "../../assets/places/water.jpg";
 // import Img3 from "../../assets/places/boat.jpg";
 
-const BlogsComp = () => {
-  const BlogsData = [
-    {
-      id: 1,
-      title: "Top places to visit in India",
-      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eligendi blanditiis veniam suscipit, consequatur assumenda recusandae nostrum reiciendis eaque inventore sed repellat tenetur id quia deleniti veritatis pariatur dignissimos voluptatum maiores, praesentium neque.",
-      author: "Someone",
-      date: "April 22, 2022",
-      image: 'Img1', // Add image import
-    },
-    {
-      id: 2,
-      title: "Top places to visit in US",
-      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eligendi blanditiis veniam suscipit, consequatur assumenda recusandae nostrum reiciendis eaque inventore sed repellat tenetur id quia deleniti veritatis pariatur dignissimos voluptatum maiores, praesentium neque. Expedita eos animi voluptas sit enim officia commodi quaerat cupiditate necessitatibus placeat.",
-      author: "Someone",
-      date: "April 22, 2022",
-      image: 'Img2', // Add image import
-    },
-    {
-      id: 3,
-      title: "Top places to visit in Japan",
-      description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. At eligendi blanditiis veniam suscipit, consequatur assumenda recusandae nostrum reiciendis eaque inventore sed repellat tenetur id quia deleniti veritatis pariatur dignissimos voluptatum maiores, praesentium neque. Expedita eos animi voluptas sit enim officia commodi quaerat cupiditate necessitatibus placeat.",
-      author: "Someone",
-      date: "April 22, 2022",
-      image: 'Img3', // Add image import
-    },
-  ];
+const BlogsComp = ({useCases}) => {
+  
 
   return (
     <div className="bg-gray-50 py-10">
@@ -97,8 +72,8 @@ const BlogsComp = () => {
           Our Use Cases
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {BlogsData.map((item) => (
-            <BlogCard key={item.id} {...item} />
+          {useCases.map((item) => (
+            <BlogCard  {...item} />
           ))}
         </div>
       </section>
