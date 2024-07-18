@@ -5,6 +5,7 @@ import { IoMenu } from "react-icons/io5";
 import { MdOutlineClose } from "react-icons/md";
 
 import "./Navbar.css";
+import logo from '../../assets/webrass-logo.png'
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -153,7 +154,10 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="logo">Webrass</div>
+        <div className="logo">
+        <img src={logo} className="logo h-8"/>
+        </div>
+        
         {isMobile && (
           <div className="menu-toggle" onClick={toggleMenu}>
             {menuOpen ? <MdOutlineClose size={30}/> : <IoMenu size={30}/>}

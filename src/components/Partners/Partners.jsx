@@ -3,15 +3,13 @@ import { motion } from 'framer-motion';
 
 const Partners = () => {
   const partners = [
-    '/partner1.svg',
-    '/partner2.svg',
-    '/partner3.svg',
-    '/partner4.svg',
-    '/partner5.svg',
-    '/partner6.svg',
-    '/partner7.svg',
-    '/partner8.svg',
-    '/partner9.svg',
+    'https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png',
+    'https://www.cloudbuilders.es/wp-content/uploads/2024/01/google_cloud_2.png',
+    'https://logos-world.net/wp-content/uploads/2021/03/Microsoft-Azure-Logo.png',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvwZVVF4UI44Ykrix4eZ6C2Z_SiB94hm1K-w&s',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmeJO__bvY8aCqPc9TcySm7UDEnZa6xrEpHnJZc-vIzuP8L8FxqNjzflvtBwK9h2sZ4dI&usqp=CAU',
+    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8l8F-9j455T9Dmc96J0qMnm8vU85npV076Q&s',
+    
   ];
 
   const containerVariants = {
@@ -25,7 +23,7 @@ const Partners = () => {
   };
 
   const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
+    hidden: { y: 10, opacity: 0 },
     visible: {
       y: 0,
       opacity: 1,
@@ -46,7 +44,7 @@ const Partners = () => {
         <div
           className="rounded-lg border text-card-foreground shadow-lg w-full max-w-6xl lg:skew-x-[10deg] bg-muted p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"
           data-v0-t="card"
-          style={{ minHeight: '200px' }}
+          style={{ minHeight: '300px' }}
         >
           {partners.map((partner, index) => (
             <motion.div
@@ -56,10 +54,10 @@ const Partners = () => {
             >
               <img
                 src={partner}
-                width="100"
-                height="50"
+                width="120"
+                height="120"
                 alt={`Partner Logo ${index + 1}`}
-                className="aspect-[2/1] object-contain"
+                className="aspect-[1/3] object-contain"
               />
             </motion.div>
           ))}
