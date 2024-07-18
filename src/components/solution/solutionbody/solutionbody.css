@@ -1,11 +1,11 @@
 .cards-section {
-  padding: 150px;
+  padding: 20px;
   text-align: center;
 }
 
 .cards-section h1 {
-  font-size: 2.3em;
-  margin-bottom: 40px;
+  font-size: 2em;
+  margin-bottom: 20px;
 }
 
 .cards-container {
@@ -14,6 +14,8 @@
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .card {
@@ -31,10 +33,6 @@
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.card.active {
-  border: 2px solid blue;
 }
 
 .card-image {
@@ -76,18 +74,16 @@
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  width: 90%; /* Increased width */
-  max-width: 800px; /* Increased max width */
+  width: 90%;
+  max-width: 800px;
   position: relative;
   text-align: center;
 }
 
 .popup-image {
-  width: 50%;
-  max-width: max-content;
-  margin-left:auto;
-  margin-right:auto;
-  margin-bottom: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 10px auto;
 }
 
 .contact-us {
@@ -122,5 +118,13 @@
 @media (max-width: 480px) {
   .card {
     width: calc(100% - 20px);
+  }
+
+  .cards-section {
+    padding: 10px;
+  }
+
+  .cards-section h1 {
+    font-size: 1.5em;
   }
 }
