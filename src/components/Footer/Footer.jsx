@@ -257,7 +257,7 @@ const Footer = () => {
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-100 dark:text-black">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-100 dark:text-black text-start">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
@@ -277,7 +277,7 @@ const Footer = () => {
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black text-left">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
@@ -297,7 +297,7 @@ const Footer = () => {
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black text-left">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}

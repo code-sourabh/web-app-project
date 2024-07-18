@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "./hero.css";
+import img1 from '../../image/pngegg (4).png'
+import img2 from '../../image/frontpage2.png'
 
 
 function Hero() {
@@ -8,13 +10,13 @@ function Hero() {
     {
       title: 'Unleash Your Creativity',
       description: 'Discover powerful tools to bring your ideas to life. Explore our intuitive platform and unlock your creative potential.',
-      imgSrc: 'https://www.cloudflare.com/resources/images/slt3lc6tev37/2SOsNYYwPqKnvBzn4fdJf6/9a83153da4f073ca44383c9c5a9f0749/icon-machine-learning-1-orange.png', // Placeholder image URL
+      imgSrc: img1, // Placeholder image URL
       imgAlt: 'Hero Image 1'
     },
     {
       title: 'Elevate Your Workflow',
       description: 'Streamline your processes and boost productivity with our cutting-edge tools. Unlock new levels of efficiency and success.',
-      imgSrc: 'https://via.placeholder.com/1920x1080', // Placeholder image URL
+      imgSrc: img2, // Placeholder image URL
       imgAlt: 'Hero Image 2'
     }
   ];

@@ -1,11 +1,29 @@
 import React, { useState, useEffect, useRef } from "react";
 import DropdownMenu from "./DropdownMenu";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { IoMenu } from "react-icons/io5";
 import { MdOutlineClose } from "react-icons/md";
+import infra from '../../image/property.png'
+import cloud from '../../image/cloud-data.png'
+import app from '../../image/app-development.png'
+import data from '../../image/analytics.png'
+import finops from '../../image/cost-optimization.png'
+import auto from '../../image/software.png'
+import cyber from '../../image/security.png'
+import devops from '../../image/devops.png'
+import sas from '../../image/saas.png'
+import financial from '../../image/financial.png'
+import tele from '../../image/broadcast.png'
+import banking from '../../image/mobile-banking.png'
+import media from '../../image/social-media.png'
+import tech from '../../image/virtual.png'
+import about from '../../image/team.png'
+import partner from '../../image/deal.png'
+import customer from '../../image/help-desk.png'
 
 import "./Navbar.css";
-import logo from '../../assets/webrass-logo.png';
+import logo from '../../assets/main logo.png';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -58,47 +76,48 @@ const Navbar = () => {
           cards: [
             {
               title: "cloud-services",
-              icon: "cloud-icon.png",
+              icon: cloud,
             },
-            { title: "application-services", icon: "devsecops-icon.png" },
-            { title: "cyber-security", icon: "security-icon.png" },
-            { title: "data-analytics", icon: "assessment-icon.png" },
+            { title: "application-services", icon: app },
+            { title: "cyber-security", icon: cyber },
+            { title: "data-analytics", icon: data },
           ],
         },
         {
           title: "Innovate",
           cards: [
-            { title: "automation", icon: "innovation1-icon.png" },
-            { title: "infrastructure", icon: "innovation1-icon.png" },
-            { title: "finops", icon: "innovation2-icon.png" },
+            { title: "automation", icon: auto },
+            { title: "infrastructure", icon: infra },
+            { title: "finops", icon: finops },
           ],
         },
         {
           title: "Multiply",
           cards: [
-            { title: "devops", icon: "multiply1-icon.png" },
-            { title: "saas", icon: "multiply2-icon.png" },
+            { title: "devops", icon: devops },
+            { title: "saas", icon: sas },
           ],
         },
       ],
     },
     {
-      title: "Insights",
+      title: "Know Us",
       sidebar: [
         {
-          title: "Accelerate",
+          title: "Know Us",
           cards: [
-            { title: "Insight 1", icon: "icon1.png" },
-            { title: "Insight 2", icon: "icon2.png" },
+            { title: "About us", icon: about },
+            { title: "Customer Support", icon: customer },
+            { title: "Partners", icon: partner },
           ],
         },
-        {
-          title: "Innovate",
-          cards: [
-            { title: "Insight 3", icon: "icon3.png" },
-            { title: "Insight 4", icon: "icon4.png" },
-          ],
-        },
+        // {
+        //   title: "Innovate",
+        //   cards: [
+        //     { title: "Insight 3", icon: "icon3.png" },
+        //     { title: "Insight 4", icon: "icon4.png" },
+        //   ],
+        // },
       ],
     },
     {
@@ -107,18 +126,17 @@ const Navbar = () => {
         {
           title: "Accelerate",
           cards: [
-            { title: "Industry 1", icon: "icon1.png" },
-            { title: "Industry 2", icon: "icon2.png" },
-            { title: "Industry 3", icon: "icon3.png" },
-            { title: "Industry 4", icon: "icon4.png" },
-            { title: "Industry 5", icon: "icon5.png" },
+            { title: "Financial Services", icon: financial },
+            { title: "Banking & Insurance", icon: banking },
+            { title: "Media & Entertainment", icon: media },
+            
           ],
         },
         {
           title: "Innovate",
           cards: [
-            { title: "Industry 6", icon: "icon6.png" },
-            { title: "Industry 7", icon: "icon7.png" },
+            { title: "Telecommunication", icon: tele },
+            { title: "Technology", icon: tech },
           ],
         },
       ],
@@ -166,7 +184,7 @@ const Navbar = () => {
     <>
       <nav className="navbar" ref={navbarRef}>
         <div className="logo">
-          <img src={logo} className="logo h-8" alt="Logo" />
+         <Link to="/"> <img src={logo} className="logo h-12 font-bold" alt="Logo" /></Link>
         </div>
         {isMobile && (
           <div className="menu-toggle" onClick={toggleMenu}>

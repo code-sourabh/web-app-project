@@ -1,11 +1,33 @@
 .cards-section {
+
   padding: 20px;
   text-align: center;
+  position: relative; /* Needed for absolute positioning of particles */
+  overflow: hidden; /* Hide overflowing particles */
+  background:rgb(232, 228, 228); /* Dark background */
 }
 
 .cards-section h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  font-size: 2.5em;
+  margin-bottom: 70px;
+  font-weight: 700;
+/* Text color for better contrast */
+  position: relative; /* Ensure position for the line */
+  font-family: 'Montserrat', sans-serif; /* Example font family */
+  color: #110202;
+}
+
+.cards-section h1::after {
+  content: '';
+  display: block;
+  width: 50px; /* Adjust the width of the line */
+  height: 2px; /* Height of the line */
+  background-color: #007bff; /* Color of the line */
+  position: absolute;
+  bottom: -10px; /* Position below the text */
+  left: 50%; /* Center it relative to the text */
+  transform: translateX(-50%); /* Center adjustment */
 }
 
 .cards-container {
@@ -19,6 +41,9 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   border: 1px solid #ccc;
   border-radius: 8px;
   padding: 20px;
@@ -28,6 +53,7 @@
   transition: transform 0.2s, box-shadow 0.2s;
   text-align: center;
   box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
 }
 
 .card:hover {
@@ -38,20 +64,27 @@
 .card-image {
   width: 100%;
   max-width: 150px;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto;
   border-radius: 20px;
 }
 
+.card h2 {
+  font-size: 1.3em; /* Adjust title size */
+  margin: 10px 0;
+  word-wrap: break-word; /* Ensure long titles break into multiple lines */
+  
+}
+
 .learn-more {
-  margin-top: 10px;
+  margin-top: auto; /* Push the button to the bottom */
   padding: 8px 16px;
   background-color: #007BFF;
   color: white;
   border: none;
   cursor: pointer;
   border-radius: 4px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .learn-more:hover {
@@ -59,15 +92,19 @@
 }
 
 .popup {
-  position: fixed;
-  top: 0;
+  position:fixed;
+
+
+  top: 30px;
   left: 0;
   width: 100%;
-  height: 100%;
+  height:100%;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .popup-content {
@@ -78,6 +115,7 @@
   max-width: 800px;
   position: relative;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .popup-image {
@@ -113,11 +151,20 @@
   .card {
     width: calc(50% - 20px);
   }
+
+  .popup-content {
+    padding: 15px;
+  }
+
+  .popup-image {
+    max-width: 300px;
+  }
 }
 
 @media (max-width: 480px) {
   .card {
     width: calc(100% - 20px);
+    padding: 15px; /* Smaller padding for mobile view */
   }
 
   .cards-section {
@@ -126,5 +173,69 @@
 
   .cards-section h1 {
     font-size: 1.5em;
+  }
+
+  .card-image {
+    max-width: 100px; /* Smaller image size for mobile view */
+  }
+
+  .card h2 {
+    font-size: 0.5em; /* Smaller title size for mobile view */
+  }
+
+  .card p {
+    font-size: 0.9em; /* Smaller description size for mobile view */
+  }
+
+  .learn-more {
+    padding: 6px 12px; /* Smaller button padding for mobile view */
+    font-size: 0.8em; /* Smaller button text size for mobile view */
+  }
+
+  .popup-content {
+    padding: 20px;
+    width: 100%;
+    max-width: 90%;
+    max-height: 60%; /* Set a max height for the popup */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .popup-image {
+    max-width: 200px;
+  }
+
+  .contact-us {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+}
+
+
+/* Particles effect */
+
+.particles-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.particle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: rgba(4, 1, 1, 0.6);
+  border-radius: 50%;
+  animation: galaxy-float 3s infinite linear;
+}
+
+@keyframes galaxy-float {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(100vw, -100vh, 0) scale(0);
   }
 }
