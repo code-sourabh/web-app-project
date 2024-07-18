@@ -60,7 +60,7 @@ const Navbar = () => {
               title: "cloud-services",
               icon: "cloud-icon.png",
             },
-            { title: "application-services", icon: "devsecops-icon.png" },
+            { title: "application-services", icon: "https://www.cloudflare.com/resources/images/slt3lc6tev37/2SOsNYYwPqKnvBzn4fdJf6/9a83153da4f073ca44383c9c5a9f0749/icon-machine-learning-1-orange.png" },
             { title: "cyber-security", icon: "security-icon.png" },
             { title: "data-analytics", icon: "assessment-icon.png" },
           ],
