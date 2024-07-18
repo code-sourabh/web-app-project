@@ -13,6 +13,7 @@ import IndustryPage from './components/industry page/IndustryPage';
 import About from './pages/About';
 import Home from './pages/Home';
 import Services from './components/solution/solution';
+import Slider from './pages/Slider';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
       <Route path="/services/:serviceType" element={<Services/>} />
       <Route path="/industries" element={<IndustryPage/>} />
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/slide" element={<Slider/>} />
       </Routes>
       <Footer /> 
        

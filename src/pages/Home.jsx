@@ -4,12 +4,14 @@ import Partners from '../components/Partners/Partners'
 import Testimonial from '../components/Testimonial/testimonial'
 import Excellence from '../components/excellence/excellence'
 import Banner from '../components/Contact/Banner'
+import IndustryType from '../components/industry page/IndustryType'
 
 const Home = () => {
   return (
     <div className='mt-16'>
      <Hero/>
       <Partners/>
+      <IndustryType/>
       <Testimonial/>
       <Excellence/>
       <Banner/>
