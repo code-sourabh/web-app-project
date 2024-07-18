@@ -77,28 +77,27 @@ const Navbar = () => {
             {
               title: "cloud-services",
               icon: cloud,
+              link: '/services'
             },
-            { title: "application-services", icon: "https://www.cloudflare.com/resources/images/slt3lc6tev37/2SOsNYYwPqKnvBzn4fdJf6/9a83153da4f073ca44383c9c5a9f0749/icon-machine-learning-1-orange.png" },
-            { title: "cyber-security", icon: "security-icon.png" },
-            { title: "data-analytics", icon: "assessment-icon.png" },
-            { title: "application-services", icon: app },
-            { title: "cyber-security", icon: cyber },
-            { title: "data-analytics", icon: data },
+          
+            { title: "application-services", icon: app ,link: '/services' },
+            { title: "cyber-security", icon: cyber,link: '/services' },
+            { title: "data-analytics", icon: data ,link: '/services'},
           ],
         },
         {
           title: "Innovate",
           cards: [
-            { title: "automation", icon: auto },
-            { title: "infrastructure", icon: infra },
-            { title: "finops", icon: finops },
+            { title: "automation", icon: auto ,link: '/services'},
+            { title: "infrastructure", icon: infra ,link: '/services'},
+            { title: "finops", icon: finops ,link: '/services'},
           ],
         },
         {
           title: "Multiply",
           cards: [
-            { title: "devops", icon: devops },
-            { title: "saas", icon: sas },
+            { title: "devops", icon: devops ,link: '/services'},
+            { title: "saas", icon: sas ,link: '/services'},
           ],
         },
       ],
@@ -129,17 +128,17 @@ const Navbar = () => {
         {
           title: "Accelerate",
           cards: [
-            { title: "Financial Services", icon: financial },
-            { title: "Banking & Insurance", icon: banking },
-            { title: "Media & Entertainment", icon: media },
+            { title: "finance", icon: financial ,link:'/industries' },
+            { title: "banking", icon: banking ,link:'/industries'},
+            { title: "media", icon: media ,link:'/industries'},
             
           ],
         },
         {
           title: "Innovate",
           cards: [
-            { title: "Telecommunication", icon: tele },
-            { title: "Technology", icon: tech },
+            { title: "telecom", icon: tele ,link:'/industries' },
+            { title: "technology", icon: tech ,link:'/industries' },
           ],
         },
       ],

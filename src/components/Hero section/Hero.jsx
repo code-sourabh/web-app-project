@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./hero.css";
 import img1 from '../../image/pngegg (4).png'
-import img2 from '../../image/frontpage2.png'
+import img2 from '../../image/a2.jpg'
+import img3 from '../../image/Untitled design (4).png'
 
 
 function Hero() {
@@ -16,7 +17,7 @@ function Hero() {
     {
       title: 'Elevate Your Workflow',
       description: 'Streamline your processes and boost productivity with our cutting-edge tools. Unlock new levels of efficiency and success.',
-      imgSrc: img2, // Placeholder image URL
+      imgSrc: img3, // Placeholder image URL
       imgAlt: 'Hero Image 2'
     }
   ];

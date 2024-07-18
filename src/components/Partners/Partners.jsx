@@ -42,7 +42,7 @@ const Partners = () => {
         animate="visible"
       >
         <div
-          className="rounded-lg border text-card-foreground shadow-lg w-full max-w-6xl lg:skew-x-[10deg] bg-muted p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4"
+          className="rounded-lg border text-card-foreground shadow-lg w-full max-w-6xl lg:skew-x-[10deg] bg-muted p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10"
           data-v0-t="card"
           style={{ minHeight: '300px' }}
         >

@@ -63,7 +63,7 @@ const DropdownMenu = ({
           </div>
           <div className="card-grid">
             {activeCards.map((item, index) => (
-              <Link to={`/services/${item.title}`} className="card">
+              <Link to={`${item.link}/${item.title}`} className="card">
                 <div
                   key={index}
                   onClick={() => {
