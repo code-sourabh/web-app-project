@@ -21,9 +21,9 @@
 .cards-section h1::after {
   content: '';
   display: block;
-  width: 50px; /* Adjust the width of the line */
-  height: 2px; /* Height of the line */
-  background-color: #007bff; /* Color of the line */
+  width: 80px; /* Adjust the width of the line */
+  height: 4px; /* Height of the line */
+  background-color: orangered; /* Color of the line */
   position: absolute;
   bottom: -10px; /* Position below the text */
   left: 50%; /* Center it relative to the text */
@@ -78,7 +78,7 @@
 .learn-more {
   margin-top: auto; /* Push the button to the bottom */
   padding: 8px 16px;
-  background-color: #007BFF;
+  background-color:#ff4810  ;
   color: white;
   border: none;
   cursor: pointer;
@@ -88,12 +88,12 @@
 }
 
 .learn-more:hover {
-  background-color: #0056b3;
+  background-color: #cd4823;
 }
 
 .popup {
   position:fixed;
-
+z-index: 100;
 
   top: 30px;
   left: 0;
@@ -127,7 +127,7 @@
 .contact-us {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #28a745;
+  background-color:  #ff4810;
   color: white;
   border: none;
   cursor: pointer;
@@ -135,7 +135,7 @@
 }
 
 .contact-us:hover {
-  background-color: #218838;
+  background-color: #cd4823;
 }
 
 .close {

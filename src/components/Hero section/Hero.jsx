@@ -3,6 +3,7 @@ import "./hero.css";
 import img1 from '../../image/Untitled design (5).png'
 import img2 from '../../image/a2.jpg'
 import img3 from '../../image/Untitled design (6).png'
+import { Link } from "react-router-dom";
 
 
 function Hero() {
@@ -58,12 +59,12 @@ function Hero() {
                       {slide.description}
                     </p>
                     <div className="carousel-buttons">
-                      <a className="btn btn-primary" href="#">
+                      <Link to="/" className="btn btn-primary" >
                         Get Started
-                      </a>
-                      <a className="btn btn-secondary" href="#">
+                      </Link>
+                      <Link to={"/about"} className="btn btn-secondary" >
                         Learn More
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="carousel-image-wrapper">

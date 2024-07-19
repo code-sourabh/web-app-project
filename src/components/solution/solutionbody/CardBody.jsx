@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './solutionbody.css';
+import { Link } from 'react-router-dom';
 
 function CardBody({ cards }) {
   const [showPopup, setShowPopup] = useState(false);
@@ -66,7 +67,7 @@ function CardBody({ cards }) {
             <span className="close" onClick={closePopup}>&times;</span>
             <img src={cards[selectedCard]?.popupImage} alt={cards[selectedCard]?.title} className="popup-image" />
             <p>{popupContent}</p>
-            <button className="contact-us">Contact Us</button>
+            <Link to="/contact" onClick={()=>window.scrollTo(0,0)}><button className="contact-us">Contact Us</button></Link>
           </div>
         </div>
       )}
