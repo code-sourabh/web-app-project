@@ -17,6 +17,7 @@ import Slider from './pages/Slider';
 import Team from './pages/Team';
 import Undefined from './pages/Undefined';
 import Industries from './components/industry page/Industry-banner';
+import Services from './pages/Services';
 function App() {
   return (
     <div className="App">
