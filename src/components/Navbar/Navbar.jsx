@@ -199,6 +199,10 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
+
+        {/* google translator */}
+        <div id="google_translate_element"></div>
+
         <div className="flex justify-center items-center gap-2">
           {/* Dropdown for language selection */}
           <select onChange={handleLanguageChange}>

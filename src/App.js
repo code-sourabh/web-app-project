@@ -16,7 +16,7 @@ import Home from './pages/Home';
 import Slider from './pages/Slider';
 import Team from './pages/Team';
 import Undefined from './pages/Undefined';
-import Services from './pages/Services';
+import Industries from './components/industry page/Industry-banner';
 function App() {
   return (
     <div className="App">
@@ -31,6 +31,7 @@ function App() {
       <Route path="/partner" element={<Team/>} />
       <Route path="*" element={<Undefined/>} />
       </Routes>
+      <Industries/>
       <Footer /> 
        
       

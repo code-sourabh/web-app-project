@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -27,7 +29,6 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
       
-      // Display success toast and reset form data
       toast.success('You have successfully filled the form. Thanks!', {
         position: "top-right",
         autoClose: 5000,
@@ -45,7 +46,6 @@ const Contact = () => {
         message: '',
       });
     } catch (error) {
-      // Handle error if submission fails
       toast.error('An error occurred. Please try again.');
     }
   };
@@ -55,43 +55,53 @@ const Contact = () => {
   )}`;
 
   return (
-    <div className="bg-white p-8 flex justify-center items-center min-h-screen mt-[5rem]">
+    <div className="bg-gray-50 p-8 flex flex-col items-center min-h-screen mt-20">
       <div className="w-full max-w-6xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-black text-3xl md:text-5xl font-bold mb-4">
             WE ARE ALWAYS HERE TO HELP YOU.
           </h1>
           <p className="text-gray-600 max-w-xl mx-auto">
-            There are many variants of passages the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+          Learn how we can help you take the next step in your transformation journey.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0 md:space-x-8">
           <div className="flex-1 space-y-6">
             <div className="flex items-start space-x-4">
               <div className="bg-red-500 text-white p-3 rounded-full">
-                <i className="fas fa-map-marker-alt text-xl"></i>
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xl" />
               </div>
               <div>
                 <h3 className="text-xl font-bold text-start">VISIT US</h3>
-                <p className="text-gray-700">66 Broklyn Street, New York, USA</p>
+                <ul className="list-disc text-gray-700 pl-6 text-start">
+                  <li>179 Leisie Road, Renfrew Pennsylvania (PA), 16053 [United States of America]</li>
+                  <li>36 SUNDER NAGAR, Industrial Estate, Indore Madhya Pradesh - 452015, [India]</li>
+                  <li>11 Bestwood Park Dr W, Nottingham NG5 5EJ, [United Kingdom]</li>
+                </ul>
               </div>
             </div>
             <div className="flex items-start space-x-4">
               <div className="bg-red-500 text-white p-3 rounded-full">
-                <i className="fas fa-envelope text-xl"></i>
+                <FontAwesomeIcon icon={faEnvelope} className="text-xl" />
               </div>
               <div>
-                <h3 className="text-xl font-bold text-start">EMAIL ADDRESS</h3>
-                <p className="text-gray-700">softoweb1@gmail.com</p>
+                <h3 className="text-xl font-bold">EMAIL ADDRESS</h3>
+                <p className="text-gray-700">enquiry@webrass.com</p>
               </div>
             </div>
-            <div className="flex items-start space-x-4">
-              <div className="bg-red-500 text-white p-3 rounded-full">
-                <i className="fas fa-phone text-xl"></i>
-              </div>
-              <div>
-                <h3 className="text-xl font-bold text-start">CALL NOW</h3>
-                <p className="text-gray-700">01934565397</p>
+            <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+              <div className="flex items-start space-x-4">
+                <div className="bg-red-500 text-white p-3 rounded-full">
+                  <FontAwesomeIcon icon={faPhone} className="text-xl" />
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold">CALL NOW</h3>
+                  <ul className="text-gray-700 text-start">
+                    <li>+1, 7247771339</li>
+                    <li>+91, 9560903337</li>
+                    <li>+44, 7379959424</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -152,8 +162,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="bg-green-500 text-white py-2 px-4 rounded-md transition-transform transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50"
                 >
-                 Send via WhatsApp
-  
+                  Send via WhatsApp
                 </a>
                 <button
                   type="submit"

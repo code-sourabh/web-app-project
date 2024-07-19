@@ -32,7 +32,7 @@ const MissionVision = () => {
           </div>
           {isMobile && activeTab === 'mission' && (
             <div className="content-box active">
-              <p>To lead excellence on the cloud and help customers turn impractical goals into reality with strategic resources and expertise.</p>
+              <p>At our core, we are architects of change, dedicated to redefining possibilities through a fusion of cutting-edge technology and human ingenuity. With a relentless pursuit of excellence, we collaborate with our clients and partners to co-create value and transformative solutions that propel them towards success in the digital age.</p>
             </div>
           )}
           <div 
@@ -44,7 +44,7 @@ const MissionVision = () => {
           </div>
           {isMobile && activeTab === 'vision' && (
             <div className="content-box active">
-              <p>[Your vision statement here]</p>
+              <p>Empowering businesses through the art of digital innovation, we envision a future where technology seamlessly integrates with human potential to unlock unprecedented opportunities and drive collective progress.</p>
             </div>
           )}
         </div>
