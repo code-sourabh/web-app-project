@@ -4,6 +4,13 @@ import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import BlogsComp from "./BlogsComp";
 
+import cloud1 from '../../image/startup-7374154_1280.jpg'
+import cloud2 from '../../image/cloud-3406627_1280.jpg'
+import cloud3 from '../../image/ai-generated-8533603_1280.jpg'
+import cloud4 from '../../image/finance-8037841_1280.jpg'
+import cloud5 from '../../image/cloud-computing-2001090_1280.jpg'
+
+
 const IndustryPage = () => {
   const { t } = useTranslation();
   const { industriesType } = useParams();
@@ -41,19 +48,19 @@ const IndustryPage = () => {
               title: "Cloud-Based Platform Enabled hub.brussels Seamless Data Integration",
               description:
                 "hub.brussels, a leading Brussels-Capital agency, supports local economic growth and town planning. Seeking better data management and analytics, hub.brussels aimed to enhance data collection and visualization for Brussels’ businesses and entrepreneurs. They partnered with Webrass to develop and deploy a cloud-based big data tool, ‘analytics.brussels’.",
-                image: "hello",
+                image: cloud1,
             },
             {
               title: "Accelerated Analytics Workload Migration Resulted 75% Effort Reduction",
               description:
                 "The customer, one of India's largest department store chains, has evolved from a single-brand shop into a comprehensive Fashion and Lifestyle store for families. They were seeking to transition from a traditional data center to a cost-effective, scalable, and modern data architecture. Webrass implemented a solution incorporating cloud computing and data modernization. Webrass assisted the customer in migrating their analytics workload to the cloud in just 8 weeks.",
-                image: "hello",
+                image: cloud2,
             },
             {
               title: "Webrass Achieved 55% Cost Savings for hub.brussels",
               description:
                 'hub.brussels, a prominent agency in the Brussels-Capital Region, supports economic growth and town planning. It partnered with Webrass to develop an advanced analytics tool designed to enhance the next-generation shopping sector and facilitate the establishment of new stores. This collaboration aims to optimize both business and district planning.',
-                image: "hello",
+                image: cloud3,
             },
           ],
         };
@@ -90,19 +97,19 @@ const IndustryPage = () => {
               title: "Dashboard Enabled Real-Time Insights for Telekom Malaysia",
               description:
                 "Telekom Malaysia Berhad (TM), the nation's leading telecommunications provider, sought Webrass's expertise to develop a reporting solution. This solution performs near real-time sentiment analysis on Twitter and community forum data, supporting TM's mission to enhance telecommunications technology and services for all Malaysians.",
-                image: "hello",
+                image: cloud5,
             },
             {
               title: "Customer Automated Invoicing with ML/AI, Achieving ~99% Categorization Accuracy",
               description:
                 "The customer, an alliance of premier telecom operators, creates innovative solutions and secures continuous revenue streams for its members. With a vast customer base, it operates across more than 30 countries in APAC and MEA, providing extensive support and opportunities for telecom growth and development.",
-                image: "hello",
+                image: cloud4,
             },
             {
               title: "Sentiment Analysis Model Enhanced Insight Delivery for Telekom Malaysia",
               description:
                 'elekom Malaysia Berhad (TM), the leading telecommunications provider in the nation, continuously enhances its tech and services for nationwide connectivity. They turned to Webrass to develop a reporting solution that performs near real-time sentiment analysis on Twitter and community forum data, improving their insights and decision-making capabilities.',
-                image: "hello",
+                image: cloud1,
             },
           ],
         };
@@ -139,19 +146,19 @@ const IndustryPage = () => {
               title: "AWS Migration Closed Data Center in 5 Months, Saving 30%.",
               description:
                 "The customer partnered with Webrass to decommission their data center and migrate to AWS cloud, adhering to a strict timeline. Webrass assessed the infrastructure, planned a lift-and-shift migration, and redeployed restricted applications like Oracle E-Business Suite. The migration, including 4 TB of data, was completed in 4.5 months.",
-                image: "hello",
+                image: cloud3,
             },
             {
               title: "AWS IoT Deployment Cut Customer Effort by 50%",
               description:
                 " The customer aimed to become data-driven by adopting AWS IoT for video analytics. They sought to reduce in-vehicle violation detection using IoT devices and optimize algorithms on AWS IoT Greengrass. Webrass assisted in setting up the solution for actionable insights and improved detection capabilities",
-                image: "hello",
+                image: cloud1,
             },
             {
               title: "Azure Migration Achieved ~30% Cost Savings",
               description:
                 "The customer, a leading paints manufacturer, faced challenges with unmanaged disks in their Azure infrastructure, including limited IOPS, scaling issues, and costs associated with obsolete resources. They needed a solution to address these inefficiencies and optimize their Azure environment.",
-                image: "hello",
+                image: cloud4,
             },
           ],
         };
@@ -188,19 +195,19 @@ const IndustryPage = () => {
               title: "Azure Analytics Boosted Sports Media Giant’s Social Media Performance",
               description:
                 "Webrass implemented an Azure-based data lake solution in two phases for the customer. The first phase consolidated data from all social media platforms—Facebook, Instagram, Twitter, and YouTube—into a single platform and created reports. The second phase included additional metrics and integrated Google Analytics data for YouTube.",
-                image: "hello",
+                image: cloud1,
             },
             {
               title: "Asia School of Business Boosts AWS Performance by 70%",
               description:
                 "Asia School of Business (ASB), established in 2015 with MIT Sloan and Bank Negara Malaysia, needed to optimize its AWS infrastructure due to expanding programs. To address this, ASB partnered with Webrass for managed services to enhance automation, cost efficiency, and overall performance of their cloud environment, meeting their growing infrastructure demands.",
-                image: "hello",
+                image: cloud3,
             },
             {
               title: "AWS Secured Astro's Payment Gateway Efficiently",
               description:
                 'Established in 1996, Astro is a leading Malaysian content and consumer company serving over 23 million people across various platforms. Faced with scalability and security issues in their on-premise payment gateway, Astro sought a more secure, scalable solution to reduce PCI-DSS compliance costs and improve user experience.',
-                image: "hello",
+                image: cloud2,
             },
           ],
         };
@@ -238,19 +245,19 @@ const IndustryPage = () => {
               title: "Cloud Transformation Boosted ABFL Delivery Time",
               description:
                 "Aditya Birla Finance Ltd. (ABFL), a major provider of lending and wealth management solutions in India, sought a partner to oversee their digital lending platform on AWS. They required comprehensive management of their Loan Origination System (LOS) and other platform modules to enhance their service delivery",
-                image: "hello",
+                image: cloud3,
             },
             {
               title: "Cloud-Based Sentiment Analysis Reduced Effort by 50%",
               description:
                 "he customer, a major banking firm, aimed to enhance decision-making with actionable insights through a sentiment analysis model. Seeking to address client queries from various channels—social media, email, surveys, and reviews—the firm needed a cloud-based ML pipeline for data engineering and sentiment analysis to improve customer experience and decision-making.",
-                image: "hello",
+                image: cloud4,
             },
             {
               title: "AXA Affin Enhances Data Control with Cloud-Based MDM",
               description:
                 'AAGI faced data integrity issues and high costs with their existing master data management platform. They needed a scalable, cost-effective solution, leading them to choose AWS cloud. We conducted a thorough assessment and proposed replacing their MDM platform with AWS services and integrating their data lake with SFDC applications.',
-                image: "hello",
+                image: cloud5,
             },
           ],
         };
