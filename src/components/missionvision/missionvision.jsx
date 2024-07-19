@@ -60,9 +60,9 @@ const MissionVision = () => {
         <div className="right-section">
           <div className="content-box active">
             <p>{activeTab === 'mission' ? 
-              "To lead excellence on the cloud and help customers turn impractical goals into reality with strategic resources and expertise." :
+              "At our core, we are architects of change, dedicated to redefining possibilities through a fusion of cutting-edge technology and human ingenuity. With a relentless pursuit of excellence, we collaborate with our clients and partners to co-create value and transformative solutions that propel them towards success in the digital age." :
               activeTab === 'vision' ?
-              "[Your vision statement here]" : ''}
+              "Empowering businesses through the art of digital innovation, we envision a future where technology seamlessly integrates with human potential to unlock unprecedented opportunities and drive collective progress." : ''}
             </p>
           </div>
         </div>

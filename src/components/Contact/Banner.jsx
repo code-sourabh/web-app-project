@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { useTranslation } from 'react-i18next';
+
 
 const Banner = () => {
-  const { t } = useTranslation();
+
 
   return (
     <div className="bg-white p-8 flex justify-center items-center">

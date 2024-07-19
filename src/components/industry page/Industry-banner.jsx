@@ -14,12 +14,17 @@ const Industries = () => {
 
   return (
     <div className="bg-pink-50 py-12">
-      <h2 className="text-3xl font-bold text-center mb-8">Industries We Serve</h2>
+      <h2 className="text-4xl font-bold text-center mb-8 relative">
+    Industries We Serve
+    <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>
+</h2>
+
+
       <div className="flex flex-wrap justify-center gap-4">
         {industries.map((industry, index) => (
           <div
             key={index}
-            onClick={() => navigate(industry.path)}
+            onClick={() => { window.scrollTo(0,0);navigate(industry.path)}}
             className="w-64 md:w-48 h-48 flex flex-col items-center justify-center bg-white rounded-lg shadow-md p-4 cursor-pointer transition transform hover:scale-105 hover:shadow-xl"
           >
             <div className="text-4xl mb-4">{industry.icon}</div>

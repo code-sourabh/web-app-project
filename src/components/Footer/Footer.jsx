@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 // import NatureVid from "../../assets/video/footer.mp4";
 import { Link } from "react-router-dom";
+import logo from '../../assets/main logo.png'
 
 const FooterLinks = [
   {
@@ -90,10 +91,10 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
             <div className="py-8 px-4">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
-                <img src="" alt="" className="max-h-[60px]" />
-                {/* TravelloGo */}
+                <img src={logo} alt="" className="max-h-[60px]" />
+                
               </h1>
-              <p className="text-sm">
+              <p className="text-sm text-start">
               Encapsulates our unwavering commitment to realizing your dreams
               </p>
               <br />

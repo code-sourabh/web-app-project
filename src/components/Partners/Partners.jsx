@@ -31,9 +31,9 @@ const Partners = () => {
   };
 
   return (
-    <div className="container mx-auto py-12">
+    <div className="container mx-auto py-20">
       <h2 className="text-3xl font-bold mb-8 text-primary-foreground text-center">
-        Our Partners
+        Discovering Opportunities Together
       </h2>
       <motion.div
         className="flex justify-center"
@@ -41,11 +41,13 @@ const Partners = () => {
         initial="hidden"
         animate="visible"
       >
+        
         <div
-          className="rounded-lg border text-card-foreground shadow-lg w-full max-w-6xl lg:skew-x-[10deg] bg-muted p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10"
+          className="rounded-lg border text-card-foreground shadow-lg w-full max-w-6xl lg:skew-x-[10deg] bg-muted p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14"
           data-v0-t="card"
           style={{ minHeight: '300px' }}
         >
+          
           {partners.map((partner, index) => (
             <motion.div
               key={index}

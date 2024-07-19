@@ -1,8 +1,8 @@
 import { useState } from "react";
 import "./hero.css";
-import img1 from '../../image/pngegg (4).png'
+import img1 from '../../image/Untitled design (5).png'
 import img2 from '../../image/a2.jpg'
-import img3 from '../../image/Untitled design (4).png'
+import img3 from '../../image/Untitled design (6).png'
 
 
 function Hero() {
