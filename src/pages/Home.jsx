@@ -15,9 +15,10 @@ const Home = () => {
      <Hero/>
      <Description/>
        <Partners/>
+       <Excellence/>
     <IndustryType/>
        <Testimonial/>
-     <Excellence/>
+    
       <BlogSlider/>
         <Industries/>
       <Banner/> 
