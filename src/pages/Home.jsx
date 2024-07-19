@@ -21,7 +21,7 @@ const Home = () => {
     
       <BlogSlider/>
         <Industries/>
-      <Banner/> 
+      
     </div>
   )
 }

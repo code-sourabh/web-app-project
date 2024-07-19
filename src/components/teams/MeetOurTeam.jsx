@@ -33,17 +33,18 @@ const teamMembers = [
 
 const MeetOurTeam = () => {
   return (
-    <section className="bg-black text-white py-12">
+    <section className="bg-black bg-opacity-80 text-white py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold text-orange-500 mb-2">Meet Our Team</h2>
+          <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] mb-3 bg-orange-500"></span>
           <p className="text-lg md:text-xl text-gray-300">Passionate individuals dedicated to your success.</p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {teamMembers.map((member, index) => (
             <div 
               key={index} 
-              className="bg-gray-800 p-6 rounded-lg shadow-lg transition-all duration-500 transform hover:scale-105 hover:shadow-2xl"
+              className="bg-gradient-to-b from-black to-gray-700 bg-opacity-80 p-6 rounded-lg shadow-lg transition-all duration-500 transform hover:scale-105 hover:shadow-2xl"
             >
               <div className="w-24 h-24 bg-orange-100 rounded-full mx-auto mb-4 overflow-hidden">
                 <img src={member.image} alt={member.name} className="w-full h-full object-cover" />

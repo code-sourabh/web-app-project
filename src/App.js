@@ -13,11 +13,10 @@ import IndustryPage from './components/industry page/IndustryPage';
 import About from './pages/About';
 import Home from './pages/Home';
 // import Services from './components/solution/solution';
-import Slider from './pages/Slider';
+import Banner from './components/Contact/Banner';
+import Services from './pages/Services';
 import Team from './pages/Team';
 import Undefined from './pages/Undefined';
-import Industries from './components/industry page/Industry-banner';
-import Services from './pages/Services';
 function App() {
   return (
     <div className="App">
@@ -28,11 +27,10 @@ function App() {
       <Route path="/services/:serviceType" element={<Services/>} />
       <Route path="/industries/:industriesType" element={<IndustryPage/>} />
       <Route path="/contact" element={<Contact/>} />
-      <Route path="/slide" element={<Slider/>} />
       <Route path="/partner" element={<Team/>} />
       <Route path="*" element={<Undefined/>} />
       </Routes>
-      
+      <Banner/>
       <Footer /> 
        
       
