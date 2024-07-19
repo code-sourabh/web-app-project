@@ -18,7 +18,7 @@ const ExcellenceSection = () => {
   ];
 
   return (
-    <section className="bg-[#0A2647] text-white p-8 md:p-16">
+    <section className="bg-[#0A2647] text-white p-8 mt-20 md:p-16">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
         Tuned For Excellence
         <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-white"></span>

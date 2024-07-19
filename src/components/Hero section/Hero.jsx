@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./hero.css";
 import img1 from '../../image/Untitled design (5).png'
 import img2 from '../../image/a2.jpg'
@@ -21,6 +21,15 @@ function Hero() {
       imgAlt: 'Hero Image 2'
     }
   ];
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prevSlide) =>
+        prevSlide === slides.length - 1 ? 0 : prevSlide + 1
+      );
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [slides.length]);
 
   const handlePrevClick = () => {
     setCurrentSlide((prevSlide) => (prevSlide === 0 ? slides.length - 1 : prevSlide - 1));

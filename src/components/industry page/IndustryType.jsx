@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import "./industryType.css";
 import { Link } from "react-router-dom";
+import finance from '../../image/businessmen-hands-white-table-with-documents-drafts.jpg'
+import banking from '../../image/smiling-woman-with-credit-card.jpg'
+import telecom from '../../image/blue-optic-fiber-with-ethernet-cable.jpg'
+import media from '../../image/man-recording-studio-music-production.jpg'
+import tech from '../../image/medium-shot-man-wearing-vr-glasses.jpg'
 
 const industries = [
   {
-    icon: "☁️",
+    icon: finance,
     title: "Finance Service",
     link: "/industries/finance",
     content: {
@@ -16,17 +21,17 @@ const industries = [
     },
   },
   {
-    icon: "🤖",
+    icon: telecom,
     title: "Telecom",
     link: "/industries/telecom",
     content: {
-      title: "Dashboard Enabled Real-Time Insights for Telekom Malaysia",
+      title: "Dashboard Enabled Real-Time Insights for Telekom Malaysia",
       description:
         "Telekom Malaysia Berhad (TM), the nation's leading telecommunications provider, sought Webrass's expertise to develop a reporting solution. This solution performs near real-time sentiment analysis on Twitter and community forum data, supporting TM's mission to enhance telecommunications technology and services for all Malaysians.",
     },
   },
   {
-    icon: "🤖",
+    icon: media,
     title: "Media & Entertainment",
     link: "/industries/media",
     content: {
@@ -36,7 +41,7 @@ const industries = [
     },
   },
   {
-    icon: "🤖",
+    icon: banking,
     title: "Banking & Insurance",
     link: "/industries/banking",
     content: {
@@ -46,7 +51,7 @@ const industries = [
     },
   },
   {
-    icon: "🔒",
+    icon: tech,
     title: "Technology",
     link: "/industries/technology",
     content: {
@@ -83,16 +88,14 @@ const IndustryType = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
         Industries
-      <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>
+        <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>
       </h1>
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div className="flex flex-col md:flex-row h-auto md:h-64">
-          <div className="w-full md:w-1/2 p-6 flex justify-center items-center border-b md:border-b-0 md:border-r">
-            <div className={`text-center ${slideDirection}`}>
-              <div className="text-6xl mb-4">
-                {industries[currentSlide].icon}
-              </div>
-              <h2 className="text-2xl font-semibold text-gray-800">
+        <div className="flex flex-col md:flex-row h-auto md:h-96"> {/* Adjusted height for slider */}
+          <div className="relative w-full md:w-1/2 p-6 flex justify-center items-center border-b md:border-b-0 md:border-r">
+            <div className={`slider-content text-center ${slideDirection}`}> {/* Added slider-content class */}
+              <img className="mx-auto mb-4 max-h-80 bg-opacity-10" src={industries[currentSlide].icon} alt="Industry Icon" /> {/* Adjusted image size */}
+              <h2 className="absolute bottom-0 left-0 right-0 bg-transparent bg-opacity-30 text-black text-1xl font-bold px-4 py-2">
                 {industries[currentSlide].title}
               </h2>
             </div>
@@ -106,7 +109,7 @@ const IndustryType = () => {
                 {industries[currentSlide].content.description}
               </p>
               <Link
-                to={`${industries[currentSlide].link}`}
+                to={industries[currentSlide].link}
                 onClick={() => window.scrollTo(0, 0)}
                 className="text-white hover:underline"
               >

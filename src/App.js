@@ -32,7 +32,7 @@ function App() {
       <Route path="/partner" element={<Team/>} />
       <Route path="*" element={<Undefined/>} />
       </Routes>
-      <Industries/>
+      
       <Footer /> 
        
       

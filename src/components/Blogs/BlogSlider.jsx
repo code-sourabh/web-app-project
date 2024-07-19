@@ -49,12 +49,13 @@ const BlogSlider = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Banner */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-400 text-white p-16 text-center">
+      <div className="bg-black  text-white p-16 text-center text-bold">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Webrass Blogs</h1>
+        <span className="block w-28 mx-auto mt-4 h-2 skew-x-[10deg] bg-red-300"></span>
       </div>
 
       {/* Slider */}
-      <div className="relative flex-grow bg-blue-600 text-white p-4 md:p-8 lg:p-12">
+      <div className="relative flex-grow bg-gradient-to-b from-black to-gray-800 text-white p-4 md:p-8 lg:p-12">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -62,7 +63,7 @@ const BlogSlider = () => {
               index === currentSlide ? 'opacity-100' : 'opacity-0 pointer-events-none'
             }`}
           >
-            <div className="bg-blue-700 rounded-lg shadow-xl overflow-hidden max-w-4xl w-full">
+            <div className="bg-gradient-to-b from-black to-gray-500 rounded-lg shadow-xl overflow-hidden max-w-4xl w-full">
               <div className="flex flex-col md:flex-row">
                 <div className="md:w-1/2">
                   <img

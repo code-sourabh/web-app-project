@@ -210,9 +210,10 @@ const Navbar = () => {
             <option value="hu">{t("hungarian")}</option>
             <option value="de">{t("german")}</option>
           </select>
-          <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
+          <Link to='/contact'><button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
             Contact Us
           </button>
+          </Link>
         </div>
       </nav>
       {/* Render dropdown menu for desktop view */}

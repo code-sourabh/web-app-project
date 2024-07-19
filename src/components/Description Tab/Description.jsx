@@ -1,8 +1,12 @@
 import React, { useState } from 'react';
 import './Description.css';
-import img1 from '../../image/frontpage2.png'
-import img2 from '../../image/Untitled design (4).png'
-import img3 from '../../image/a2.jpg'
+// import img1 from '../../image/frontpage2.png'
+// import img2 from '../../image/Untitled design (4).png'
+// import img3 from '../../image/a2.jpg'
+import img1 from '../../image/innovate3.png'
+import img2 from '../../image/accelerate-removebg-preview.png'
+import img3 from '../../image/multiply-removebg-preview.png'
+
 
 const Description = () => {
   const [activeSection, setActiveSection] = useState('innovate');
@@ -15,7 +19,8 @@ const Description = () => {
     <div className="homepage">
       <header className="header">
         <h1 className="header-title">
-          A.I.M.<span className="header-subtitle">ing to Build Your Next</span>
+          Striving to<span className="header-subtitle"> Build Your Next</span>
+          <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-white"></span>
         </h1>
       </header>
       <section className={`section ${activeSection}-section`}>
@@ -38,10 +43,10 @@ const Description = () => {
             <img
               src={
                 activeSection === 'innovate'
-                  ? img2
+                  ? img1
                   : activeSection === 'accelerate'
-                  ? img3 
-                  : img1
+                  ? img2 
+                  : img3
               }
               alt={activeSection === 'innovate' ? 'Innovate' : activeSection === 'accelerate' ? 'Accelerate' : 'Multiply'}
               className="section-image"
