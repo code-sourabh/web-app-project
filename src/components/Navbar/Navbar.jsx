@@ -98,7 +98,7 @@ const Navbar = () => {
           title: "Multiply",
           cards: [
             { title: "Devops", icon: devops ,link: '/services',name: "devops"},
-            { title: "Saas", icon: sas ,link: '/services',name: "saas"},
+            { title: "AIops", icon: sas ,link: '/services',name: "aiops"},
           ],
         },
       ],

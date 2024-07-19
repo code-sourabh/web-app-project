@@ -11,7 +11,7 @@ const Banner = () => {
           </h2>
         </div>
         <div className="flex flex-col items-center md:items-start transform md:skew-x-[6deg]">
-          <Link 
+          <Link onClick={() => window.scrollTo(0,0)}
             to="/contact" 
             className="relative bg-black text-white px-4 py-2 sm:px-6 sm:py-3 rounded-md overflow-hidden group"
           >

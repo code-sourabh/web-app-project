@@ -180,11 +180,11 @@ z-index: 100;
   }
 
   .card h2 {
-    font-size: 0.5em; /* Smaller title size for mobile view */
+    font-size: 0.9em; /* Smaller title size for mobile view */
   }
 
   .card p {
-    font-size: 0.9em; /* Smaller description size for mobile view */
+    font-size: 0.7em; /* Smaller description size for mobile view */
   }
 
   .learn-more {
