@@ -3,7 +3,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const industries = [
-  { name: 'Banking & Insurance', icon: '🏦', path: '/home' },
+  { name: ' & Insurance', icon: '🏦', path: '/home' },
   { name: 'Financial Services', icon: '💰', path: '/home' },
   { name: 'Media & Entertainment', icon: '🎥', path: '/home' },
   { name: 'Telecom', icon: '📡', path: '/home' },

@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import './Description.css';
+import img1 from '../../image/frontpage2.png'
+import img2 from '../../image/Untitled design (4).png'
+import img3 from '../../image/a2.jpg'
 
 const Description = () => {
   const [activeSection, setActiveSection] = useState('innovate');
@@ -35,10 +38,10 @@ const Description = () => {
             <img
               src={
                 activeSection === 'innovate'
-                  ? 'https://via.placeholder.com/550x400' // Placeholder image URL for Innovate
+                  ? img2
                   : activeSection === 'accelerate'
-                  ? 'https://via.placeholder.com/550x400/FF5733' // Placeholder image URL for Accelerate
-                  : 'https://via.placeholder.com/550x400/FFC300' // Placeholder image URL for Multiply
+                  ? img3 
+                  : img1
               }
               alt={activeSection === 'innovate' ? 'Innovate' : activeSection === 'accelerate' ? 'Accelerate' : 'Multiply'}
               className="section-image"
