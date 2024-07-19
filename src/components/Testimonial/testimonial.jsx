@@ -1,26 +1,28 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './testimonial.css';
-import guy from '../../image/guy.jpg'
+import staff from "../../image/staff.jpg"
+import healthcare from "../../image/healthcare.jpg"
+import biotech from "../../image/biotech.jpg"
 
 const testimonials = [
   {
     id: 1,
-    name: 'Silviu Hinta',
-    text: 'BranchUp, praised Webrass for timely remediating cloud issues using AWS Well-Architected Framework.',
-    image: guy
+    name: 'Staffing Company',
+    text: 'By moving to AWS with assistance from Webrass,the clients recieved AWS Enterprise level support for a lower cost',
+    image: staff
   },
   {
     id: 2,
-    name: 'Harmit Singh',
-    text: 'Bolttech, lauded Webrass for scaling engineering talent and deliveries to support their mission.',
-    image: guy
+    name: 'A Healthcare Provider',
+    text: 'Webrass and AWS assistance implements a healthcare sciences-focused data capture and data analytics solution fully managed by Webrass',
+    image: healthcare
   },
   {
     id: 3,
-    name: 'Roeland Verhamme',
-    text: ' Verhamme, Expect Me, praised Webrass for crucial support in talent acquisition and strategic scaling.',
-    image: guy
+    name: 'A Biotech Company',
+    text: 'Leveraged Webrass advanced services to assess,design, and implemnt an overall Devops process while using Webrass Foundational and Webrass operations',
+    image:biotech
   }
 ];
 
@@ -54,7 +56,7 @@ const Testimonial = () => {
 
   return (
     <div className="testimonial-container">
-      <h2 className="testimonial-title">Testimonials</h2>
+      <h2 className="testimonial-title">Case Studies</h2>
       <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>
       <Slider {...settings}>
         {testimonials.map((testimonial) => (
