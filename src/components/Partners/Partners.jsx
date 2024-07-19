@@ -34,6 +34,7 @@ const Partners = () => {
     <div className="container mx-auto py-20">
       <h2 className="text-3xl font-bold mb-8 text-primary-foreground text-center">
         Discovering Opportunities Together
+        <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>
       </h2>
       <motion.div
         className="flex justify-center"

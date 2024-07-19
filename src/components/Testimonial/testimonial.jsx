@@ -55,6 +55,7 @@ const Testimonial = () => {
   return (
     <div className="testimonial-container">
       <h2 className="testimonial-title">Testimonials</h2>
+      <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>
       <Slider {...settings}>
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="testimonial-slide">

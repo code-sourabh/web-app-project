@@ -1,29 +1,33 @@
 import React from 'react';
+import CEO from "../../image/CEO.png"
+import CTO from "../../image/CTO.png"
+import COO from "../../image/COO.png"
+import CMO from "../../image/CMO.png"
 
 const teamMembers = [
   {
-    name: 'John Doe',
+    name: 'Eric Bedell',
     title: 'CEO',
-    description: 'John is the visionary behind our company, leading the team with his strategic insights and unwavering dedication.',
-    image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjUyOXwwfDF8c2VhcmNofDR8fHRlY2h8ZW58MHx8fHwxNjI5NDA1NTkw&ixlib=rb-1.2.1&q=80&w=1080', // Replace with actual image path
+    description: 'Eric is the visionary behind our company, leading the team with his strategic insights and unwavering dedication.',
+    image: CEO, // Replace with actual image path
   },
   {
-    name: 'Jane Smith',
+    name: 'Ragvinder Singh Tomar',
     title: 'CTO',
-    description: 'Jane is our technical mastermind, driving innovation and ensuring the seamless execution of our projects.',
-    image: '/placeholder.jpg',
+    description: 'Raghvinder is our technical mastermind, driving innovation and ensuring the seamless execution of our projects.',
+    image: CTO,
   },
   {
-    name: 'Michael Johnson',
-    title: 'Lead Designer',
-    description: 'Michael is our creative genius, crafting stunning designs that captivate our clients and users.',
-    image: '/placeholder.jpg',
+    name: 'Saurav Kumar',
+    title: 'COO',
+    description: 'Saurav is our chief operating officer, overseeing our operations and ensuring the smooth running of our business.',
+    image: COO,
   },
   {
-    name: 'Emily Davis',
-    title: 'Project Manager',
-    description: 'Emily is our project management powerhouse, ensuring our projects are delivered on time and to the highest standards.',
-    image: '/placeholder.jpg',
+    name: 'Vamsi Maringanti',
+    title: 'CMO',
+    description: 'Vamsi is our chief marketing officer, driving our marketing management powerhouse, ensuring our projects ',
+    image: CMO,
   },
 ];
 
