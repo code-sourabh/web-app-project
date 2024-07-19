@@ -185,20 +185,64 @@ import { Link } from "react-router-dom";
 
 const FooterLinks = [
   {
-    title: "Home",
-    link: "/",
+    title: "Cloud-Services",
+    link: "/services/cloud-services",
   },
   {
-    title: "About",
+    title: "Application-Services",
+    link: "/services/application-services",
+  },
+  {
+    title: "Cyber-Security",
+    link: "/services/cyber-security",
+  },
+  {
+    title: "Data-Analytics",
+    link: "/services/data-analytics",
+  },
+  {
+    title: "Automation",
+    link: "/services/automation",
+  },
+  {
+    title: "Infrastructure",
+    link: "/services/infrastructure",
+  },
+];
+const IndustryLinks = [
+  {
+    title: "Finance",
+    link: "/industries/finance",
+  },
+  {
+    title: "Technology",
+    link: "/industries/technology",
+  },
+  {
+    title: "Banking & Insurance",
+    link: "/industries/banking",
+  },
+  {
+    title: "Telecom",
+    link: "/industries/telecom",
+  },
+  {
+    title: "Media Industry",
+    link: "/industries/media",
+  },
+];
+const KnowUsLinks = [
+  {
+    title: "About Us",
     link: "/about",
   },
   {
-    title: "Best Places",
-    link: "/best-places",
+    title: "Customer Service",
+    link: "/contact",
   },
   {
-    title: "Blogs",
-    link: "/blogs",
+    title: "Partners",
+    link: "/partner",
   },
 ];
 
@@ -273,10 +317,10 @@ const Footer = () => {
               <div>
                 <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
-                    Know Us
+                    Industries
                   </h1>
                   <ul className="flex flex-col gap-3">
-                    {FooterLinks.map((link) => (
+                    {IndustryLinks.map((link) => (
                       <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black text-left">
                         <Link
                           to={link.link}
@@ -293,10 +337,10 @@ const Footer = () => {
               <div>
                 <div className="py-8 px-4">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
-                    Important Links
+                    Know Us
                   </h1>
                   <ul className="flex flex-col gap-3">
-                    {FooterLinks.map((link) => (
+                    {KnowUsLinks.map((link) => (
                       <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black text-left">
                         <Link
                           to={link.link}

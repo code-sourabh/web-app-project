@@ -6,20 +6,20 @@ import guy from '../../image/guy.jpg'
 const testimonials = [
   {
     id: 1,
-    name: 'John Doe',
-    text: 'This is an amazing service! Highly recommend to everyone.',
+    name: 'Silviu Hinta',
+    text: 'BranchUp, praised Webrass for timely remediating cloud issues using AWS Well-Architected Framework.',
     image: guy
   },
   {
     id: 2,
-    name: 'Jane Smith',
-    text: 'A wonderful experience from start to finish.',
+    name: 'Harmit Singh',
+    text: 'Bolttech, lauded Webrass for scaling engineering talent and deliveries to support their mission.',
     image: guy
   },
   {
     id: 3,
-    name: 'Michael Johnson',
-    text: 'Exceptional quality and fantastic customer service.',
+    name: 'Roeland Verhamme',
+    text: ' Verhamme, Expect Me, praised Webrass for crucial support in talent acquisition and strategic scaling.',
     image: guy
   }
 ];

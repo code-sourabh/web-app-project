@@ -6,7 +6,7 @@ import MeetOurTeam from '../components/teams/MeetOurTeam'
 
 const About = () => {
   return (
-    <div className='mt-16'>
+    <div className='mt-[5rem]'>
       <Description/>
       <MissionVision/>
       <MeetOurTeam/>

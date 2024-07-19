@@ -185,7 +185,7 @@ const Navbar = () => {
         </div>
         {isMobile && (
           <div className="menu-toggle" onClick={toggleMenu}>
-            {menuOpen ? <MdOutlineClose size={30} /> : <IoMenu size={30} />}
+            {menuOpen ? <MdOutlineClose size={30} color="white"/> : <IoMenu size={30} color="white"/>}
           </div>
         )}
         <ul className={`nav-items ${menuOpen ? "active" : ""}`}>

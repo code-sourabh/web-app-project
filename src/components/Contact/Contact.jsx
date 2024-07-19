@@ -55,7 +55,7 @@ const Contact = () => {
   )}`;
 
   return (
-    <div className="bg-white p-8 flex justify-center items-center min-h-screen mt-16">
+    <div className="bg-white p-8 flex justify-center items-center min-h-screen mt-[5rem]">
       <div className="w-full max-w-6xl mx-auto">
         <div className="text-center mb-8">
           <h1 className="text-black text-3xl md:text-5xl font-bold mb-4">

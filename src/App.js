@@ -12,10 +12,11 @@ import Contact from './components/Contact/Contact';
 import IndustryPage from './components/industry page/IndustryPage';
 import About from './pages/About';
 import Home from './pages/Home';
-import Services from './components/solution/solution';
+// import Services from './components/solution/solution';
 import Slider from './pages/Slider';
 import Team from './pages/Team';
 import Undefined from './pages/Undefined';
+import Services from './pages/Services';
 function App() {
   return (
     <div className="App">

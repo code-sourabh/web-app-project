@@ -8,7 +8,7 @@ import IndustryType from '../components/industry page/IndustryType'
 
 const Home = () => {
   return (
-    <div className='mt-16'>
+    <div className='mt-[5rem]'>
      <Hero/>
       <Partners/>
       <IndustryType/>
