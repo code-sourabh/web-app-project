@@ -85,7 +85,7 @@ const IndustryType = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="container mx-auto px-2 py-8">
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-8">
         Industries
         <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>
