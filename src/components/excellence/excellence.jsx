@@ -11,14 +11,14 @@ const ExcellenceSection = () => {
   }, []);
 
   const stats = [
-    { end: 10, suffix: "+", text: t("years_expertise") },
-    { end: 500, suffix: "+", text: t("certified_experts") },
-    { end: 400, suffix: "+", text: t("businesses_enabled") },
-    { end: 90, suffix: "%", text: t("csat_score") },
+    { end: 10, suffix: "+", text: t("Years of Cloud & Digital Expertise") },
+    { end: 500, suffix: "+", text: t("Certified Cloud Experts") },
+    { end: 400, suffix: "+", text: t("Businesses Enabled with Digital Transformation") },
+    { end: 90, suffix: "%", text: t("CSAT score") },
   ];
 
   return (
-    <section className="bg-[#0A2647] text-white p-10 mt-20 md:p-16">
+    <section className="bg-[#ff6600] text-white p-10 mt-8 md:p-16">
       <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
         Tuned For Excellence
         <span className="block w-28 mx-auto mt-4 h-2 skew-x-[10deg] bg-white"></span>
@@ -40,7 +40,7 @@ const StatItem = ({ end, suffix, text }) => (
       end={end}
       duration={3}
       suffix={suffix}
-      className="text-4xl md:text-5xl lg:text-6xl font-bold text-teal-400"
+      className="text-4xl md:text-5xl lg:text-6xl font-bold text-white"
     />
     <p className="mt-2 text-sm md:text-base">{text}</p>
   </div>
