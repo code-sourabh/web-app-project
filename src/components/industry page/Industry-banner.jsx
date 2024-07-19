@@ -25,7 +25,7 @@ const Industries = () => {
           <div
             key={index}
             onClick={() => { window.scrollTo(0,0);navigate(industry.path)}}
-            className="w-64 md:w-48 h-48 flex flex-col items-center justify-center bg-white rounded-lg shadow-md p-4 cursor-pointer transition transform hover:scale-105 hover:shadow-xl"
+            className="w-64 md:w-56 h-56 flex flex-col items-center justify-center bg-white rounded-lg shadow-md p-4 cursor-pointer transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-orange-500 group"
           >
             <div className="text-4xl mb-4">{industry.icon}</div>
             <div className="text-xl font-medium text-center">{industry.name}</div>

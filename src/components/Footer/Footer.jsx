@@ -91,7 +91,7 @@ const Footer = () => {
           <div className="grid md:grid-cols-3 py-5 bg-gradient-to-b from-black to-gray-700 -sm rounded-t-xl">
             <div className="py-8 px-4">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
-              <Link to='/'><img src={logo} alt="" className="max-h-[80px]" /></Link>  
+              <Link to='/' onClick={() => window.scrollTo(0, 0)}><img src={logo} alt="" className="max-h-[80px]" /></Link>  
                 
               </h1>
               <p className="text-sm text-start text-white">

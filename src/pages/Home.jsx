@@ -14,13 +14,13 @@ const Home = () => {
     <div className='mt-[5rem]'>
      <Hero/>
      <Description/>
-      <Partners/>
-      <IndustryType/>
-      <Testimonial/>
-      <Excellence/>
+       <Partners/>
+    <IndustryType/>
+       <Testimonial/>
+     <Excellence/>
       <BlogSlider/>
-      <Industries/>
-      <Banner/>
+        <Industries/>
+      <Banner/> 
     </div>
   )
 }
