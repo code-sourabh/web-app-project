@@ -148,7 +148,7 @@ const Navbar = () => {
 
   // Function to handle click on menu item
   const handleClick = (index) => {
-    setActiveNavItem(index); // Update the active nav item
+    setActiveNavItem(index); 
     if (isMobile) {
       setActiveDropdown(index);
       setMobileMenuLevel("submenu");
@@ -201,9 +201,10 @@ const Navbar = () => {
         </ul>
 
         {/* google translator */}
-        <div id="google_translate_element"></div>
+        
 
         <div className="flex justify-center items-center gap-2">
+        
           {/* Dropdown for language selection */}
           <select onChange={handleLanguageChange}>
             <option value="en">{t("english")}</option>

@@ -86,31 +86,31 @@ const Footer = () => {
         >
           <source src="https://images.pexels.com/videos/3129671/free-video-3129671.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
         </video> */}
-        <div className=" dark:bg-gray-950 py-10 px-10 relative overflow-hidden">
+        <div className=" dark:bg-gray-100 py-10 px-10 relative overflow-hidden">
         {/* <img src="https://img.freepik.com/free-vector/3d-style-black-background-with-paper-layer_206725-669.jpg" alt="" className="absolute right-0 top-0 h-full overflow-hidden w-full object-cover z-[-0.5]" /> */}
-          <div className="grid md:grid-cols-3 py-5 bg-white/80 backdrop-blur-sm rounded-t-xl">
+          <div className="grid md:grid-cols-3 py-5 bg-gradient-to-b from-black to-gray-700 -sm rounded-t-xl">
             <div className="py-8 px-4">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
-                <img src={logo} alt="" className="max-h-[60px]" />
+              <Link to='/'><img src={logo} alt="" className="max-h-[80px]" /></Link>  
                 
               </h1>
-              <p className="text-sm text-start">
+              <p className="text-sm text-start text-white">
               Encapsulates our unwavering commitment to realizing your dreams
               </p>
               <br />
-              <div className="flex items-center gap-3 ">
+              {/* <div className="flex items-center gap-3 text-white">
                 <FaLocationArrow />
                 <p>Noida, Uttar Pradesh</p>
               </div>
-              <div className="flex items-center gap-3 mt-3">
+              <div className="flex items-center gap-3 mt-3 text-white">
                 <FaMobileAlt />
                 <p>+91 123456789</p>
-              </div>
+              </div> */}
               {/* social handles */}
               <div>
-                <div className="flex items-center gap-3 mt-6">
+                <div className="flex items-center gap-3 mt-6 text-white">
                   <a href="#">
-                    <FaInstagram className="text-3xl" />
+                    <FaInstagram className="text-3xl text-white" />
                   </a>
                   <a href="#">
                     <FaFacebook className="text-3xl" />
@@ -121,21 +121,21 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10">
+            <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 text-white">
               <div>
-                <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
+                <div className="py-8 px-4 text-white">
+                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3 text-[#f97316]">
                     Services We Offer
                   </h1>
-                  <ul className="flex flex-col gap-3">
+                  <ul className="flex flex-col gap-3 text-white">
                     {FooterLinks.map((link) => (
                       <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-100 dark:text-black text-start">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span>&#11162;</span>
-                          <span>{link.title}</span>
+                          <span className="text-white">&#11162;</span>
+                          <span className="text-white">{link.title}</span>
                         </Link>
                       </li>
                     ))}
@@ -144,7 +144,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
+                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3 text-[#f97316]">
                     Industries
                   </h1>
                   <ul className="flex flex-col gap-3">
@@ -154,8 +154,8 @@ const Footer = () => {
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span>&#11162;</span>
-                          <span>{link.title}</span>
+                          <span className="text-white">&#11162;</span>
+                          <span className="text-white">{link.title}</span>
                         </Link>
                       </li>
                     ))}
@@ -164,7 +164,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3">
+                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3 text-[#f97316]">
                     Know Us
                   </h1>
                   <ul className="flex flex-col gap-3">
@@ -174,8 +174,8 @@ const Footer = () => {
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span>&#11162;</span>
-                          <span>{link.title}</span>
+                          <span className="text-white">&#11162;</span>
+                          <span className="text-white">{link.title}</span>
                         </Link>
                       </li>
                     ))}
@@ -185,7 +185,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="text-center py-5 border-t-2 border-gray-300/50 bg-white text-black">
+            <div className="text-center py-5 border-t-2 border-gray-300/50  bg-[#f97316] text-black font-bold">
               @copyright 2024 All rights reserved 
             </div>
             
