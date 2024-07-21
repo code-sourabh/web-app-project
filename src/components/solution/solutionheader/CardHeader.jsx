@@ -22,7 +22,6 @@ function Cardheader({ title, image }) {
       <div style={backgroundImageStyle}></div>
       <div class name ="header">
         <h1>{title}</h1>
-        <h2>solution / {title}</h2>
       </div>
     </div>
   );
