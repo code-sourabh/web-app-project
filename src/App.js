@@ -17,6 +17,7 @@ import Banner from './components/Contact/Banner';
 import Services from './pages/Services';
 import Team from './pages/Team';
 import Undefined from './pages/Undefined';
+import Careers from './pages/Careers';
 function App() {
   return (
     <div className="App">
@@ -28,6 +29,7 @@ function App() {
       <Route path="/industries/:industriesType" element={<IndustryPage/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/partner" element={<Team/>} />
+      <Route path="/careers" element={<Careers/>} />
       <Route path="*" element={<Undefined/>} />
       </Routes>
       <Banner/>
