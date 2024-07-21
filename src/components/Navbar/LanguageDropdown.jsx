@@ -24,7 +24,7 @@ const LanguageDropdown = () => {
       <div>
         <button
           type="button"
-          className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-transparent border border-gray-300 rounded-md shadow-sm focus:ring-offset-gray-100 focus:ring-indigo-500"
+          className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-transparent "
           onClick={toggleDropdown}
         >
           <span className="mr-2">{selectedLanguage.flag}</span>

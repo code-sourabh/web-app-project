@@ -17,13 +17,14 @@
   }
   
   .homepage .header-title {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-top: 2rem;
     font-weight: bold;
     color: #fff;
   }
   
   .homepage .header-subtitle {
+    font-size: 2.5rem;
     color: #f97316; /* Orange subtitle */
   }
   
@@ -61,9 +62,11 @@
   }
   
   .homepage .section-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    text-align: start;
     font-weight: bold;
     color: #f97316;
+    
     margin-bottom: 1rem;
     animation: slideInLeft 1s ease forwards; /* Slide in from left animation */
   }
@@ -71,13 +74,13 @@
   .homepage .section-description {
     font-size: 1rem;
     color: #fff;
+    text-align: start;
     animation: slideInRight 1s ease forwards; /* Slide in from right animation */
   }
   
   .homepage .section-image {
-    width: 100%;
-    max-width: 550px; /* Default: Set max width */
-    height: auto; /* Default: Maintain aspect ratio */
+    width: 450px;
+    height: 450px; /* Default: Maintain aspect ratio */
     border-radius: 10px;
     animation: scaleIn 1s ease forwards, bounce 1s ease infinite; /* Scale in and bounce animation */
   }

@@ -18,10 +18,10 @@ const ExcellenceSection = () => {
   ];
 
   return (
-    <section className="bg-[#ff6600] text-white p-10 mt-8 md:p-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+    <section className="bg-[#ff6600] text-white p-10 mt-2 md:p-16">
+      <h2 className="text-[2rem] md:text-[2.5rem] font-bold text-center -mt-6 mb-10">
         Tuned For Excellence
-        <span className="block w-28 mx-auto mt-4 h-2 skew-x-[10deg] bg-white"></span>
+        <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-white"></span>
       </h2>
 
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">

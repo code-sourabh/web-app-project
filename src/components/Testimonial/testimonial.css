@@ -11,7 +11,7 @@
   }
   
   .testimonial-title {
-    font-size: 2em;
+    font-size: 2rem;
     margin-bottom: 20px;
     color: #333;
   }
@@ -31,13 +31,13 @@
   }
   
   .testimonial-text {
-    font-size: 1.2em;
+    font-size: 1rem;
     font-style: italic;
     color: #555;
   }
   
   .testimonial-name {
-    font-size: 1em;
+    font-size: 1.2rem;
     margin-top: 10px;
     color: #777;
   }

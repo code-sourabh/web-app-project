@@ -6,6 +6,7 @@ import './Description.css';
 import img1 from '../../image/innovate3.png'
 import img2 from '../../image/accelerate-removebg-preview.png'
 import img3 from '../../image/multiply-removebg-preview.png'
+import img4 from '../../image/back5.png'
 
 
 const Description = () => {
@@ -18,7 +19,7 @@ const Description = () => {
   return (
     <div className="homepage">
       <header className="header">
-        <h1 className="header-title">
+        <h1 className="header-title ">
           Striving to<span className="header-subtitle"> Build Your Next</span>
           <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-white"></span>
         </h1>
@@ -43,7 +44,7 @@ const Description = () => {
             <img
               src={
                 activeSection === 'innovate'
-                  ? img1
+                  ? img4
                   : activeSection === 'accelerate'
                   ? img2 
                   : img3

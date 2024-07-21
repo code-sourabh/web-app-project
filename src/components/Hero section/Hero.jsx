@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import img1 from '../../image/Untitled design (5).png';
 import img3 from '../../image/Untitled design (6).png';
+import back4 from '../../image/back4.png';
+import back2 from '../../image/back2.jpg';
+import back3 from '../../image/back3.png';
 import "./hero.css";
 
 
@@ -17,7 +20,7 @@ function Hero() {
     {
       title: 'Elevate Your Workflow',
       description: 'Streamline your processes and boost productivity with our cutting-edge tools. Unlock new levels of efficiency and success.',
-      imgSrc: img3, // Placeholder image URL
+      imgSrc: back3, // Placeholder image URL
       imgAlt: 'Hero Image 2'
     }
   ];
@@ -48,7 +51,7 @@ function Hero() {
         <div className="carousel-track" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
           {slides.map((slide, index) => (
             <div key={index} aria-roledescription="slide" className="carousel-slide" role="group">
-              <div className="carousel-content-wrapper" style={{ backgroundImage: `url(${"https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjUyOXwwfDF8c2VhcmNofDR8fHRlY2h8ZW58MHx8fHwxNjI5NDA1NTkw&ixlib=rb-1.2.1&q=80&w=1080"})` }}>
+              <div className="carousel-content-wrapper" style={{ backgroundImage: `url(${back2})`}}>
                 <div className="carousel-content">
                   <div className="carousel-text">
                     <h2 className="carousel-title">

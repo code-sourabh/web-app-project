@@ -32,7 +32,7 @@ const Partners = () => {
 
   return (
     <div className="container mx-auto py-20">
-      <h2 className="text-4xl font-bold mb-8 text-primary-foreground text-center">
+      <h2 className="text-[2.5rem] font-bold mb-8 text-primary-foreground text-center">
         Discovering Opportunities Together
         <span className="block w-28 mx-auto mt-2 h-2  bg-red-500"></span>
       </h2>

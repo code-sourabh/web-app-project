@@ -59,8 +59,12 @@ const IndustryLinks = [
 ];
 const KnowUsLinks = [
   {
-    title: "About Us",
+    title: "About ",
     link: "/about",
+  },
+  {
+    title: "Leaders ",
+    link: "/leaders",
   },
   {
     title: "Customer Service",
@@ -69,6 +73,10 @@ const KnowUsLinks = [
   {
     title: "Partners",
     link: "/partner",
+  },
+  {
+    title: "Blogs",
+    link: "/blogs",
   },
 ];
 
@@ -83,7 +91,7 @@ const Footer = () => {
               <Link to='/' onClick={() => window.scrollTo(0, 0)}><img src={logo} alt="" className="max-h-[80px]" /></Link>  
                 
               </h1>
-              <p className="text-sm text-start text-white">
+              <p className="text-[1rem] text-start text-white">
               Encapsulates our unwavering commitment to realizing your dreams
               </p>
               <br />
@@ -105,8 +113,8 @@ const Footer = () => {
             <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 text-white">
               <div>
                 <div className="py-8 px-4 text-white">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3 text-[#f97316]">
-                    What we do
+                  <h1 className="text-[1.5rem] font-bold text-justify sm:text-left mb-3 text-[#f97316]">
+                  Our Services
                   </h1>
                   <ul className="flex flex-col gap-3 text-white">
                     {FooterLinks.map((link) => (
@@ -115,7 +123,7 @@ const Footer = () => {
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          {/* <span className="text-white">&#11162;</span> */}
+                          
                           <span className="text-white">{link.title}</span>
                         </Link>
                       </li>
@@ -125,7 +133,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3 text-[#f97316]">
+                  <h1 className="text-[1.5rem] font-bold text-justify sm:text-left mb-3 text-[#f97316]">
                     Industries
                   </h1>
                   <ul className="flex flex-col gap-3">
@@ -135,7 +143,7 @@ const Footer = () => {
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          {/* <span className="text-white">&#11162;</span> */}
+                          
                           <span className="text-white">{link.title}</span>
                         </Link>
                       </li>
@@ -145,8 +153,8 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-xl font-bold text-justify sm:text-left mb-3 text-[#f97316]">
-                    Know Us
+                  <h1 className="text-[1.5rem] font-bold text-justify sm:text-left mb-3 text-[#f97316]">
+                    Who we are
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {KnowUsLinks.map((link) => (
@@ -155,7 +163,7 @@ const Footer = () => {
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          {/* <span className="text-white">&#11162;</span> */}
+                          
                           <span className="text-white">{link.title}</span>
                         </Link>
                       </li>

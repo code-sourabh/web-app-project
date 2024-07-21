@@ -48,7 +48,8 @@
     align-items: center;
     background-size: cover;
     background-position: center;
-    background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjUyOXwwfDF8c2VhcmNofDR8fHRlY2h8ZW58MHx8fHwxNjI5NDA1NTkw&ixlib=rb-1.2.1&q=80&w=1080');
+    /* background-image: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNjUyOXwwfDF8c2VhcmNofDR8fHRlY2h8ZW58MHx8fHwxNjI5NDA1NTkw&ixlib=rb-1.2.1&q=80&w=1080'); */
+    /* background-image:url('../../image/back.jpg'); */
   }
   
   .carousel-content-wrapper::before {
@@ -82,8 +83,9 @@
   }
   
   .carousel-title {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
+    text-align: start;
     margin-bottom: 10px;
     color: #ff8c00; /* Set title color to orange */
   }
@@ -91,12 +93,14 @@
   .carousel-description {
     font-size: 1rem;
     margin-bottom: 20px;
+    text-align: start;
   }
   
   .carousel-buttons {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+    text-align: start;
     gap: 10px;
   }
   

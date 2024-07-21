@@ -72,7 +72,7 @@ const Navbar = () => {
 
   const menuItems = [
     {
-      title: "What we do",
+      title: "Our Services",
       dropDown: true,
       link: "",
       sidebar: [
@@ -98,12 +98,7 @@ const Navbar = () => {
               link: "/services",
               name: "cyber-security",
             },
-            {
-              title: "Data-Analytics",
-              icon: data,
-              link: "/services",
-              name: "data-analytics",
-            },
+            
           ],
         },
         {
@@ -132,6 +127,12 @@ const Navbar = () => {
         {
           title: "Multiply",
           cards: [
+            {
+              title: "Data-Analytics",
+              icon: data,
+              link: "/services",
+              name: "data-analytics",
+            },
             {
               title: "Devops",
               icon: devops,
@@ -295,12 +296,12 @@ const Navbar = () => {
         <div className="logo">
           <Link to="/">
             {" "}
-            <img src={logo} className="logo h-12 font-bold" alt="Logo" />
+            <img src={logo} className="logo h-12 font ml-[10px] lg:ml-[50px]"  alt="Logo" />
           </Link>
         </div>
 
         {isMobile && (
-          <div className="menu-toggle" onClick={toggleMenu}>
+          <div className="menu-toggle mr-6 cursor-pointer" onClick={toggleMenu}>
             {menuOpen ? (
               <MdOutlineClose size={30} color="white" />
             ) : (
@@ -320,7 +321,7 @@ const Navbar = () => {
           ))}
           {isMobile && (
             <div className="flex justify-center items-center gap-2 bg-transparent text-white">
-              {/* Dropdown for language selection */}
+              
 
               <Link to="/contact">
                 <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
@@ -339,7 +340,7 @@ const Navbar = () => {
         </div>}
 
         {!isMobile && (
-          <div className="flex justify-center items-center gap-2 bg-transparent text-white">
+          <div className="flex justify-center items-center gap-2 bg-transparent text-white mr-8">
             {/* Dropdown for language selection */}
             <LanguageDropdown/>
             <Link to="/contact">

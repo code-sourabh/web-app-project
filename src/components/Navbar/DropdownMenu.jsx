@@ -44,7 +44,7 @@ const DropdownMenu = ({
   const activeSectionData = items.sidebar.find(
     (section) => section.title === activeSection
   );
-  const activeCards = activeSectionData ? activeSectionData.cards : [];
+  const activeCards = activeSectionData ? activeSectionData.cards : [...items.sidebar[0].cards];
 
   if (!isMobile) {
     return (
@@ -64,7 +64,7 @@ const DropdownMenu = ({
           <div className="card-grid ">
             {activeCards.map((item, index) => (
               <Link to={`${item.link}/${item.name}`} className="card">
-                <div
+                <div className = "gap-4 flex items-center justify-center"
                   key={index}
                   onClick={() => {
                     setMenuOpen(!menuOpen);
@@ -115,7 +115,7 @@ const DropdownMenu = ({
                   closeDropdown();
                 }}
               >
-                <div key={index}>
+                <div className = "gap-4 flex items-center justify-center" key={index}>
                   <img src={item.icon} alt={item.title} />
                   <h3>{item.title}</h3>
                 </div>
