@@ -21,9 +21,11 @@ import tech from "../../image/virtual.png";
 import about from "../../image/team.png";
 import partner from "../../image/deal.png";
 import customer from "../../image/help-desk.png";
+import blog from "../../image/blog.png";
 
 import "./Navbar.css";
 import logo from "../../assets/main logo.png";
+import LanguageDropdown from "./LanguageDropdown";
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
@@ -185,14 +187,14 @@ const Navbar = () => {
       ],
     },
     {
-      title: "Insights",
+      title: "Who we are",
       link: "",
       dropDown: true,
       sidebar: [
         {
-          title: "Know Us",
+          title: "Organization",
           cards: [
-            { title: "About us", icon: about, link: "", name: "about" },
+            { title: "Leaders", icon: about, link: "", name: "leaders" },
             {
               title: "Customer Support",
               icon: customer,
@@ -201,13 +203,22 @@ const Navbar = () => {
             },
             { title: "Partners", icon: partner, link: "", name: "partner" },
           ],
+          
         },
+        {
+          title: "Blogs",
+          cards: [
+            { title: "Blogs", icon: blog, link: "", name: "blogs" },
+          ],
+          
+        },
+        
       ],
     },
     {
-      title: "Carriers",
+      title: "Careers",
       dropDown: false,
-      link: "/carriers",
+      link: "/careers",
     },
     {
       title: "About",
@@ -324,39 +335,13 @@ const Navbar = () => {
         {isMobile&& <div className="flex justify-center items-center gap-2 bg-transparent text-white">
           {/* Dropdown for language selection */}
 
-          <select
-            className=" bg-transparent text-white"
-            onChange={handleLanguageChange}
-          >
-            <option className=" bg-transparent text-black" value="en">
-              {t("english")}
-            </option>
-            <option className=" bg-transparent text-black" value="hu">
-              {t("hungarian")}
-            </option>
-            <option className=" bg-transparent text-black" value="de">
-              {t("german")}
-            </option>
-          </select>
+          <LanguageDropdown/>
         </div>}
 
         {!isMobile && (
           <div className="flex justify-center items-center gap-2 bg-transparent text-white">
             {/* Dropdown for language selection */}
-            <select
-              className=" bg-transparent text-white"
-              onChange={handleLanguageChange}
-            >
-              <option className=" bg-transparent text-black" value="en">
-                {t("english")}
-              </option>
-              <option className=" bg-transparent text-black" value="hu">
-                {t("hungarian")}
-              </option>
-              <option className=" bg-transparent text-black" value="de">
-                {t("german")}
-              </option>
-            </select>
+            <LanguageDropdown/>
             <Link to="/contact">
               <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
                 Contact Us

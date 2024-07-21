@@ -15,9 +15,12 @@ import Home from './pages/Home';
 // import Services from './components/solution/solution';
 import Banner from './components/Contact/Banner';
 import Services from './pages/Services';
-import Team from './pages/Team';
+import Team from './pages/Leaders';
 import Undefined from './pages/Undefined';
 import Careers from './pages/Careers';
+import Partner from './pages/Partner';
+import Leaders from './pages/Leaders';
+import Blogs from './pages/Blogs';
 function App() {
   return (
     <div className="App">
@@ -28,8 +31,10 @@ function App() {
       <Route path="/services/:serviceType" element={<Services/>} />
       <Route path="/industries/:industriesType" element={<IndustryPage/>} />
       <Route path="/contact" element={<Contact/>} />
-      <Route path="/partner" element={<Team/>} />
+      <Route path="/partner" element={<Partner/>} />
       <Route path="/careers" element={<Careers/>} />
+      <Route path="/leaders" element={<Leaders/>} />
+      <Route path="/blogs" element={<Blogs/>} />
       <Route path="*" element={<Undefined/>} />
       </Routes>
       <Banner/>
