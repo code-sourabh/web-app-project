@@ -3,13 +3,11 @@ import React from "react";
 import {
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
-  FaLocationArrow,
-  FaMobileAlt,
+  FaLinkedin
 } from "react-icons/fa";
 // import NatureVid from "../../assets/video/footer.mp4";
 import { Link } from "react-router-dom";
-import logo from '../../assets/main logo.png'
+import logo from '../../assets/main logo.png';
 
 const FooterLinks = [
   {
@@ -76,19 +74,10 @@ const KnowUsLinks = [
 
 const Footer = () => {
   return (
-    <>
-      {/* <div className=" dark:bg-gray-950 py-10 relative overflow-hidden"> */}
-        {/* <video
-          autoPlay
-          loop
-          muted
-          className="absolute right-0 top-0 h-full overflow-hidden w-full object-cover z-[-1]"
-        >
-          <source src="https://images.pexels.com/videos/3129671/free-video-3129671.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
-        </video> */}
-        <div className=" dark:bg-gray-100 py-10 px-10 relative overflow-hidden">
-        {/* <img src="https://img.freepik.com/free-vector/3d-style-black-background-with-paper-layer_206725-669.jpg" alt="" className="absolute right-0 top-0 h-full overflow-hidden w-full object-cover z-[-0.5]" /> */}
-          <div className="grid md:grid-cols-3 py-5 bg-black bg-opacity-80 -sm rounded-t-xl">
+    
+        <div className=" dark:bg-gray-100 relative overflow-hidden w-full">
+       
+          <div className="grid md:grid-cols-3 py-5 bg-black bg-opacity-80 ">
             <div className="py-8 px-4">
               <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">
               <Link to='/' onClick={() => window.scrollTo(0, 0)}><img src={logo} alt="" className="max-h-[80px]" /></Link>  
@@ -98,15 +87,7 @@ const Footer = () => {
               Encapsulates our unwavering commitment to realizing your dreams
               </p>
               <br />
-              {/* <div className="flex items-center gap-3 text-white">
-                <FaLocationArrow />
-                <p>Noida, Uttar Pradesh</p>
-              </div>
-              <div className="flex items-center gap-3 mt-3 text-white">
-                <FaMobileAlt />
-                <p>+91 123456789</p>
-              </div> */}
-              {/* social handles */}
+              
               <div>
                 <div className="flex items-center gap-3 mt-6 text-white">
                   <a href="#">
@@ -191,8 +172,7 @@ const Footer = () => {
             
           </div>
         </div>
-      {/* </div> */}
-    </>
+     
   );
 };
 
