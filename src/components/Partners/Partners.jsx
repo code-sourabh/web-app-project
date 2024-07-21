@@ -34,17 +34,17 @@ const Partners = () => {
     <div className="container mx-auto py-20">
       <h2 className="text-4xl font-bold mb-8 text-primary-foreground text-center">
         Discovering Opportunities Together
-        <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>
+        <span className="block w-28 mx-auto mt-2 h-2  bg-red-500"></span>
       </h2>
       <motion.div
-        className="flex justify-center"
+        className="flex justify-center "
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
         
         <div
-          className="rounded-lg border text-card-foreground shadow-lg w-full max-w-6xl lg:skew-x-[10deg] bg-muted p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14"
+          className="rounded-lg border text-card-foreground shadow-lg w-full max-w-6xl  bg-muted p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14"
           data-v0-t="card"
           style={{ minHeight: '300px' }}
         >
@@ -52,7 +52,7 @@ const Partners = () => {
           {partners.map((partner, index) => (
             <motion.div
               key={index}
-              className="col-span-1 flex items-center justify-center -skew-x-[10deg] hover:scale-105 transition-transform h-12 md:h-24 lg:h-32 lg:skew-x-[10deg]"
+              className="col-span-1 flex items-center justify-center  hover:scale-105 transition-transform h-12 md:h-24 lg:h-32 "
               variants={itemVariants}
             >
               <img

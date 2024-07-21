@@ -125,7 +125,7 @@ const Footer = () => {
               <div>
                 <div className="py-8 px-4 text-white">
                   <h1 className="text-xl font-bold text-justify sm:text-left mb-3 text-[#f97316]">
-                    Services We Offer
+                    What we do
                   </h1>
                   <ul className="flex flex-col gap-3 text-white">
                     {FooterLinks.map((link) => (
@@ -134,7 +134,7 @@ const Footer = () => {
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="text-white">&#11162;</span>
+                          {/* <span className="text-white">&#11162;</span> */}
                           <span className="text-white">{link.title}</span>
                         </Link>
                       </li>
@@ -154,7 +154,7 @@ const Footer = () => {
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="text-white">&#11162;</span>
+                          {/* <span className="text-white">&#11162;</span> */}
                           <span className="text-white">{link.title}</span>
                         </Link>
                       </li>
@@ -174,7 +174,7 @@ const Footer = () => {
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
                         >
-                          <span className="text-white">&#11162;</span>
+                          {/* <span className="text-white">&#11162;</span> */}
                           <span className="text-white">{link.title}</span>
                         </Link>
                       </li>

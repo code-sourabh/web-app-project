@@ -69,7 +69,7 @@ const Navbar = () => {
 
   const menuItems = [
     {
-      title: "Services",
+      title: "What we do",
       sidebar: [
         {
           title: "Accelerate",
@@ -138,6 +138,7 @@ const Navbar = () => {
         },
       ],
     },
+    
   ];
 
   // Function to handle language change
@@ -203,13 +204,13 @@ const Navbar = () => {
         {/* google translator */}
         
 
-        <div className="flex justify-center items-center gap-2">
+        <div className="flex justify-center items-center gap-2 bg-transparent text-white">
         
           {/* Dropdown for language selection */}
-          <select onChange={handleLanguageChange}>
-            <option value="en">{t("english")}</option>
-            <option value="hu">{t("hungarian")}</option>
-            <option value="de">{t("german")}</option>
+          <select className=" bg-transparent text-white"onChange={handleLanguageChange}>
+            <option className=" bg-transparent text-black" value="en">{t("english")}</option>
+            <option className=" bg-transparent text-black" value="hu">{t("hungarian")}</option>
+            <option className=" bg-transparent text-black" value="de">{t("german")}</option>
           </select>
           <Link to='/contact'><button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
             Contact Us

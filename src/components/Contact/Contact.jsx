@@ -50,7 +50,7 @@ const Contact = () => {
     }
   };
 
-  const whatsappLink = `https://wa.me/1234567890?text=${encodeURIComponent(
+  const whatsappLink = `https://wa.me/+919560903337?text=${encodeURIComponent(
     `Name: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nSubject: ${formData.subject}\nMessage: ${formData.message}`
   )}`;
 
@@ -75,7 +75,7 @@ const Contact = () => {
                 <h3 className="text-xl font-bold text-start">VISIT US</h3>
                 <ul className="list-disc text-gray-700 pl-6 text-start">
                   <li>179 Leisie Road, Renfrew Pennsylvania (PA), 16053 [United States of America]</li>
-                  <li>36 SUNDER NAGAR, Industrial Estate, Indore Madhya Pradesh - 452015, [India]</li>
+                  <li>36 Sunder Nagar, Industrial Estate, Indore Madhya Pradesh - 452015, [India]</li>
                   <li>11 Bestwood Park Dr W, Nottingham NG5 5EJ, [United Kingdom]</li>
                 </ul>
               </div>
@@ -97,9 +97,9 @@ const Contact = () => {
                 <div>
                   <h3 className="text-xl font-bold">CALL NOW</h3>
                   <ul className="text-gray-700 text-start">
-                    <li>+1, 7247771339</li>
-                    <li>+91, 9560903337</li>
-                    <li>+44, 7379959424</li>
+                    <li>+1-7247771339</li>
+                    <li>+91-9560903337</li>
+                    <li>+44-7379959424</li>
                   </ul>
                 </div>
               </div>

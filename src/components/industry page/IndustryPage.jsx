@@ -320,3 +320,92 @@ const IndustryPage = () => {
 };
 
 export default IndustryPage;
+
+
+
+// import React from "react";
+// import { useParams } from "react-router-dom";
+// import { useTranslation } from "react-i18next";
+// import BlogsComp from "./BlogsComp";
+
+// import cloud1 from '../../image/startup-7374154_1280.jpg'
+// import cloud2 from '../../image/cloud-3406627_1280.jpg'
+// import cloud3 from '../../image/ai-generated-8533603_1280.jpg'
+// import cloud4 from '../../image/finance-8037841_1280.jpg'
+// import cloud5 from '../../image/cloud-computing-2001090_1280.jpg'
+
+// const IndustryPage = () => {
+//   const { t } = useTranslation();
+//   const { industriesType } = useParams();
+
+//   const getContent = (type) => {
+//     const content = t(`industryPage.${type}`, { returnObjects: true });
+//     const images = [cloud1, cloud2, cloud3, cloud4, cloud5];
+
+//     return {
+//       ...content,
+//       keyFeatures: Object.values(content.keyFeatures),
+//       useCases: Object.values(content.useCases).map((useCase, index) => ({
+//         ...useCase,
+//         image: images[index % images.length],
+//       })),
+//     };
+//   };
+
+//   const content = getContent(industriesType);
+
+//   return (
+//     <div id="industry" className="bg-gradient-to-br from-orange-50 to-white flex flex-col mt-16">
+//       <div className="container mx-auto px-4 py-8 flex-grow flex flex-col justify-between">
+//         <div className="space-y-8 mb-6">
+//           <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4 text-center">
+//             {content.title}
+//           </h1>
+//           <div className="w-24 h-1 bg-orange-500 mx-auto"></div>
+//         </div>
+
+//         <div className="flex flex-col lg:flex-row lg:space-x-2 mb-6">
+//           <div className="lg:w-full space-y-6">
+//             <p className="text-gray-700 text-center">{content.para1}</p>
+//             <p className="text-gray-700 text-center">{content.para2}</p>
+//           </div>
+//         </div>
+
+//         <div className="mt-6">
+//           <div>
+//             <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">
+//               {t('industryPage.keyFeatures')}
+//             </h2>
+//             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+//               {content.keyFeatures.map((feature, index) => (
+//                 <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+//                   <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
+//                     <svg
+//                       className="w-8 h-8 text-orange-500"
+//                       fill="currentColor"
+//                       viewBox="0 0 20 20"
+//                     >
+//                       <path d="M13 7h-2V3H9v4H7l3 3 3-3zM7 9h2v4H7v2h6v-2h-2V9h2l-3-3-3 3z" />
+//                     </svg>
+//                   </div>
+//                   <h3 className="text-xl font-semibold text-gray-800 text-center">
+//                     {feature.title}
+//                   </h3>
+//                   <p className="text-gray-600 text-center">
+//                     {feature.description}
+//                   </p>
+//                 </div>
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+
+//         <div className="mt-3">
+//           <BlogsComp useCases={content.useCases} />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default IndustryPage;
