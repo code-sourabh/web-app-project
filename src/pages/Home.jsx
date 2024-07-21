@@ -6,6 +6,7 @@ import Testimonial from '../components/Testimonial/testimonial'
 import Excellence from '../components/excellence/excellence'
 import Industries from '../components/industry page/Industry-banner'
 import IndustryType from '../components/industry page/IndustryType'
+import Banner from '../components/Contact/Banner'
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
     <IndustryType/>
        <Testimonial/>
         <Industries/>
-      
+      <Banner/>
     </div>
   )
 }

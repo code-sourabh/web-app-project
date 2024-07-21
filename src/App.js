@@ -37,7 +37,6 @@ function App() {
       <Route path="/blogs" element={<Blogs/>} />
       <Route path="*" element={<Undefined/>} />
       </Routes>
-      <Banner/>
       <Footer /> 
        
       

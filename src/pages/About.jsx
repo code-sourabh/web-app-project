@@ -3,6 +3,7 @@ import Description from '../components/Description Tab/Description'
 import MissionVision from '../components/missionvision/missionvision'
 import Contact from '../components/Contact/Contact'
 import MeetOurTeam from '../components/teams/MeetOurTeam'
+import Banner from '../components/Contact/Banner'
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
       <Description/>
       <MissionVision/>
       <MeetOurTeam/>
+      <Banner/>
     </div>
   )
 }
