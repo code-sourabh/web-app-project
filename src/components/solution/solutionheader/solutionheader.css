@@ -6,16 +6,21 @@
   padding: 200px;
   color: white;
   text-align: center;
-  
+  height: 50vh;
 
 }
-
-
+/* 
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 
 .card-header h1 {
-  margin-bottom: auto;
-  margin-top: auto;
+
+ 
+  
   margin-right:500px;
   margin-left:0px;
   font-size: 4.3rem;
@@ -43,7 +48,9 @@
   }
   
   .card-header h1 {
+    width: 200px;
     font-size: 2em;
+    display: block;
   }
 }
 
@@ -54,5 +61,6 @@
   
   .card-header h1 {
     font-size: 1.5em;
+   
   }
 }

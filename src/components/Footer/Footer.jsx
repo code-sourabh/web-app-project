@@ -113,12 +113,12 @@ const Footer = () => {
             <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 text-white">
               <div>
                 <div className="py-8 px-4 text-white">
-                  <h1 className="text-[1.5rem] font-bold text-justify sm:text-left mb-3 text-[#f97316]">
+                  <h1 className="text-[1.25rem] font-bold text-justify sm:text-left mb-3 text-[#ff6600] ">
                   Our Services
                   </h1>
                   <ul className="flex flex-col gap-3 text-white">
                     {FooterLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-100 dark:text-black text-start">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-100 dark:text-black text-start text-[0.8rem]">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
@@ -138,7 +138,7 @@ const Footer = () => {
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {IndustryLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black text-left">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black text-left text-[0.8rem]">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
@@ -158,7 +158,7 @@ const Footer = () => {
                   </h1>
                   <ul className="flex flex-col gap-3">
                     {KnowUsLinks.map((link) => (
-                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black text-left">
+                      <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-700 dark:text-black text-left text-[0.8rem]">
                         <Link
                           to={link.link}
                           onClick={() => window.scrollTo(0, 0)}
@@ -174,7 +174,7 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <div className="text-center py-5 border-t-2 border-gray-300/50  bg-[#f97316] text-black font-bold">
+            <div className="text-center py-5 border-t-2 border-gray-300/50  bg-[orange] text-black font-bold">
               @copyright 2024 All rights reserved 
             </div>
             

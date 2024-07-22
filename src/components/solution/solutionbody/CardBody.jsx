@@ -57,11 +57,11 @@ function CardBody({ cards }) {
             <img src={card.image} alt={card.title} className="card-image" />
             <h2>{card.title}</h2>
             {/* <p>{card.description}</p> */}
-            <button className="learn-more" onClick={(e) => { e.stopPropagation(); handleCardClick(index, card.description); }}>Learn More</button>
+            <Link to='/ourmethodologies'><button className="learn-more" onClick={(e) => { e.stopPropagation(); handleCardClick(index, card.description); }}>Learn More</button></Link>
           </div>
         ))}
       </div>
-      {showPopup && (
+      {/* {showPopup && (
         <div className="popup">
           <div className="popup-content">
             <span className="close" onClick={closePopup}>&times;</span>
@@ -70,7 +70,7 @@ function CardBody({ cards }) {
             <Link to="/contact" onClick={()=>window.scrollTo(0,0)}><button className="contact-us">Contact Us</button></Link>
           </div>
         </div>
-      )}
+      )} */}
     </div>
   );
 }

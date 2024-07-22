@@ -21,6 +21,8 @@ import Careers from './pages/Careers';
 import Partner from './pages/Partner';
 import Leaders from './pages/Leaders';
 import Blogs from './pages/Blogs';
+import Methedology from './components/solution/Methodology/Methedology';
+import Methodology from './components/solution/Methodology/Methedology';
 function App() {
   return (
     <div className="App">
@@ -29,12 +31,14 @@ function App() {
       <Route path="/" element={<Home/>} />
       <Route path="/about" element={<About/>} />
       <Route path="/services/:serviceType" element={<Services/>} />
+      <Route path="/methodologies/:methodType" element={<Methodology/>} />
       <Route path="/industries/:industriesType" element={<IndustryPage/>} />
       <Route path="/contact" element={<Contact/>} />
       <Route path="/partner" element={<Partner/>} />
       <Route path="/careers" element={<Careers/>} />
       <Route path="/leaders" element={<Leaders/>} />
       <Route path="/blogs" element={<Blogs/>} />
+     
       <Route path="*" element={<Undefined/>} />
       </Routes>
       <Footer /> 

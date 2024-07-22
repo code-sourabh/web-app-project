@@ -195,24 +195,19 @@ const Navbar = () => {
         {
           title: "Organization",
           cards: [
+            { title: "About", icon: about, link: "", name: "about" },
             { title: "Leaders", icon: about, link: "", name: "leaders" },
-            {
-              title: "Customer Support",
-              icon: customer,
-              link: "",
-              name: "contact",
-            },
-            { title: "Partners", icon: partner, link: "", name: "partner" },
+           
           ],
           
         },
-        {
-          title: "Blogs",
-          cards: [
-            { title: "Blogs", icon: blog, link: "", name: "blogs" },
-          ],
+        // {
+        //   title: "Blogs",
+        //   cards: [
+        //     { title: "Blogs", icon: blog, link: "", name: "blogs" },
+        //   ],
           
-        },
+        // },
         
       ],
     },
@@ -222,9 +217,9 @@ const Navbar = () => {
       link: "/careers",
     },
     {
-      title: "About",
+      title: "Blogs",
       dropDown: false,
-      link: "/about",
+      link: "/blogs",
     },
   ];
   const [navigationTarget, setNavigationTarget] = useState(null);

@@ -20,7 +20,7 @@ function Cardheader({ title, image }) {
   return (
     <div className="card-header">
       <div style={backgroundImageStyle}></div>
-      <div class name ="header">
+      <div class name ="header text-justify">
         <h1>{title}</h1>
       </div>
     </div>
