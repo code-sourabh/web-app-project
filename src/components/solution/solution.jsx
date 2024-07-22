@@ -119,7 +119,7 @@ function CardsPage() {
               description: `Our Methodology\n
                                       - Approach: Identify applications with the potential to yield a minimum of 30% cost-benefit in the short-to-medium term while aiming for close to a 99.5% uptime improvement. Maintain platforms and applications strategically to serve as catalysts for future business augmentation.`,
               popupImage: work3,
-              name: "cloud-and-platform-modernization",
+              name: "-and-platform-mcloudodernization",
             },
           ],
         };
