@@ -44,7 +44,9 @@ const DropdownMenu = ({
   const activeSectionData = items.sidebar.find(
     (section) => section.title === activeSection
   );
-  const activeCards = activeSectionData ? activeSectionData.cards : [...items.sidebar[0].cards];
+  const activeCards = activeSectionData
+    ? activeSectionData.cards
+    : [...items.sidebar[0].cards];
 
   if (!isMobile) {
     return (
@@ -61,19 +63,23 @@ const DropdownMenu = ({
               </button>
             ))}
           </div>
-          <div className="card-grid ">
+          <div className="flex flex-wrap w-full p-4 grow gap-4">
             {activeCards.map((item, index) => (
-              <Link to={`${item.link}/${item.name}`} className="card">
-                <div className = "gap-4 flex items-center justify-center"
-                  key={index}
-                  onClick={() => {
-                    setMenuOpen(!menuOpen);
-                    closeDropdown();
-                  }}
-                >
-                  <img src={item.icon} alt={item.title} />
-                  <h3>{item.title}</h3>
-                </div>
+              <Link to={`${item.link}/${item.name}`}><div
+                key={index}
+                className="w-64 h-16 p-4 border border-gray-300 rounded-lg text-center shadow-lg transition-transform transform hover:translate-y-[-5px] hover:shadow-xl flex flex-row items-center justify-center gap-2"
+                onClick={() => {
+                  setMenuOpen(!menuOpen);
+                  closeDropdown();
+                }}
+              >
+                <img
+                  src={item.icon}
+                  alt={item.title}
+                  className="w-12 h-12 mb-2"
+                />
+                <h3 className="m-0 text-base">{item.title}</h3>
+              </div>
               </Link>
             ))}
           </div>
@@ -110,12 +116,14 @@ const DropdownMenu = ({
                 to={`${item.link}/${item.name}`}
                 className="card"
                 onClick={() => {
-                  
-                  menuOpen&&setMenuOpen(!menuOpen)
+                  menuOpen && setMenuOpen(!menuOpen);
                   closeDropdown();
                 }}
               >
-                <div className = "gap-4 flex items-center justify-center" key={index}>
+                <div
+                  className="gap-4 flex items-center justify-center"
+                  key={index}
+                >
                   <img src={item.icon} alt={item.title} />
                   <h3>{item.title}</h3>
                 </div>

@@ -1,60 +1,64 @@
 import React from 'react';
-import { Search, Briefcase, Users, ChevronRight } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { ChevronRight } from 'lucide-react';
+
+const jobListings = [
+  { title: 'Product Designer', description: "We're looking for a mid-level product designer to join our team." },
+  { title: 'Engineering Manager', description: "We're looking for an experienced engineering manager to join our team." },
+  { title: 'Customer Success Manager', description: "We're looking for a customer success manager to join our team." },
+  { title: 'Account Executive', description: "We're looking for an account executive to join our team." },
+  { title: 'SEO Marketing Manager', description: "We're looking for an experienced SEO marketing manager to join our team." },
+];
 
 const CareerPage = () => {
   return (
-    <div className="bg-white min-h-screen">
-      <header className="bg-black text-white py-6">
-        <div className="container mx-auto px-4">
-          <h1 className="text-3xl font-bold">Join Our Team</h1>
-        </div>
-      </header>
-
-      <main className="container mx-auto px-4 py-8">
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Open Positions</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {['Software Engineer', 'Product Manager', 'UX Designer'].map((position) => (
-              <div key={position} className="bg-gray-100 p-6 rounded-lg hover:shadow-md transition-shadow">
-                <h3 className="text-xl font-semibold mb-2">{position}</h3>
-                <p className="text-gray-600 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <a href="#" className="text-orange-500 font-semibold flex items-center">
-                  Learn More <ChevronRight className="ml-1 w-4 h-4" />
-                </a>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">Why Work With Us?</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[
-              { icon: Briefcase, title: 'Growth Opportunities' },
-              { icon: Users, title: 'Collaborative Environment' },
-              { icon: Search, title: 'Innovative Projects' },
-            ].map(({ icon: Icon, title }) => (
-              <div key={title} className="flex flex-col items-center text-center">
-                <div className="bg-orange-500 p-3 rounded-full mb-4">
-                  <Icon className="w-6 h-6 text-white" />
+    <div className="min-h-screen bg-white text-black p-8">
+      <div className="max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold mb-4">Join our world-class team of creators & dreamers</h1>
+        <p className="text-lg mb-8">
+          Our philosophy is simple — hire a team of diverse, passionate people 
+          and foster a culture that empowers you to do your best work.
+        </p>
+        
+        <div className="space-y-4">
+          {jobListings.map((job, index) => (
+            <motion.div 
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="border border-gray-200 p-6 rounded-lg hover:shadow-md transition-all duration-300"
+            >
+              <div className="flex justify-between items-center">
+                <div>
+                  <h2 className="text-xl font-semibold mb-2">{job.title}</h2>
+                  <p className="text-gray-600 mb-4">{job.description}</p>
+                  <div className="flex space-x-2">
+                    <span className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full">100% remote</span>
+                    <span className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full">Full-time</span>
+                  </div>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">{title}</h3>
-                <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button className="text-blue-600 hover:text-blue-800 transition-colors duration-300 flex items-center">
+                  Apply <ChevronRight size={20} />
+                </button>
               </div>
-            ))}
+            </motion.div>
+          ))}
+        </div>
+        
+        <div className="mt-12 text-center">
+          <h2 className="text-2xl font-bold mb-4">Let's get started on something great</h2>
+          <p className="mb-4 text-gray-600">Join over 4,000+ startups already growing with Untitled</p>
+          <div className="flex justify-center space-x-4">
+            <button className="bg-gray-200 text-gray-800 px-4 py-2 rounded-md font-medium">
+              Watch demo
+            </button>
+            <button className="bg-black text-white px-4 py-2 rounded-md font-medium">
+              Get started
+            </button>
           </div>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Join Us Today</h2>
-          <p className="text-gray-600 mb-6">Ready to take the next step in your career? We'd love to hear from you!</p>
-          <a href="#" className="bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-600 transition-colors">
-            View All Openings
-          </a>
-        </section>
-      </main>
-
-      
+        </div>
+      </div>
     </div>
   );
 };

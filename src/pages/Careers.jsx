@@ -3,7 +3,7 @@ import CareerPage from '../components/Careers/Careers'
 
 const Careers = () => {
   return (
-    <div>
+    <div className='mt-[5rem]'>
       <CareerPage/>
     </div>
   )

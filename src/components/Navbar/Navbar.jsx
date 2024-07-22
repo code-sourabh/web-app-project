@@ -110,12 +110,12 @@ const Navbar = () => {
               link: "/services",
               name: "automation",
             },
-            {
-              title: "Infrastructure",
-              icon: infra,
-              link: "/services",
-              name: "infrastructure",
-            },
+            // {
+            //   title: "Infrastructure",
+            //   icon: infra,
+            //   link: "/services",
+            //   name: "infrastructure",
+            // },
             {
               title: "Finops",
               icon: finops,
@@ -139,7 +139,7 @@ const Navbar = () => {
               link: "/services",
               name: "devops",
             },
-            { title: "AIops", icon: sas, link: "/services", name: "aiops" },
+            // { title: "AIops", icon: sas, link: "/services", name: "aiops" },
           ],
         },
       ],
