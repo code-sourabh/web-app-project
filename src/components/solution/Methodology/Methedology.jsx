@@ -1,5 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import Framework from "./Framework";
+import image1 from '../../../image/workflow1.jpg'
 
 const Banner = ({ headerTitle }) => (
   <div className="relative h-64  bg-[#ff6600] overflow-hidden">
@@ -29,9 +31,10 @@ const Methodology = () => {
         return {
           headerTitle: "Managed Services ",
           // headerImage: image,
+          image: image1,
           cards: [
             {
-              // image: image1,
+              
               title: "Incident Management",
               description:
                 "Proactively monitoring Resource (Servers/applications) and ensuring comprehensive L1, L2, and L3 support involves a structured approach to IT service management.",
@@ -273,16 +276,7 @@ const Methodology = () => {
           <div className="w-24 h-1 bg-orange-500 mx-auto"></div>
         </div>
         <div className="flex flex-wrap justify-center gap-8">
-          {/* <MethodologyCard
-            icon="🚀"
-            title="Cloud Consulting"
-            description="Define a clear, concise cloud migration plan and roadmap. Use established scanning tools and conduct stakeholder interviews to understand the existing infrastructure and applications."
-          />
-          <MethodologyCard
-            icon="💡"
-            title="Cloud Strategy"
-            description="Our cloud consultants and architects understand the business objectives, current status quo, IT landscape, and overall IT spending. Get a cloud roadmap post-workshop with CXOs."
-          /> */}
+          
           {content.cards.map((item, index) => (
             <MethodologyCard
               icon="🔄"
@@ -291,6 +285,7 @@ const Methodology = () => {
             />
           ))}
         </div>
+        {content.image && <Framework img={content.image}/>}
       </div>
     </div>
   );

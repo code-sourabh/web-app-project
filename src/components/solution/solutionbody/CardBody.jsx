@@ -57,7 +57,7 @@ function CardBody({ cards }) {
             <img src={card.image} alt={card.title} className="card-image" />
             <h2>{card.title}</h2>
             {/* <p>{card.description}</p> */}
-            <Link to='/ourmethodologies/:${methodType}'><button className="learn-more" onClick={(e) => { e.stopPropagation(); handleCardClick(index, card.description); }}>Learn More</button></Link>
+            <Link to={`/methodologies/${card.name}`}><button className="learn-more" onClick={(e) => { e.stopPropagation(); handleCardClick(index, card.description); }}>Learn More</button></Link>
           </div>
         ))}
       </div>
