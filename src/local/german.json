@@ -1,0 +1,75 @@
+{
+  "banner": {
+    "title": "LASSEN SIE UNS IHR PROJEKT STARTEN.",
+    "button": "KONTAKTIEREN SIE UNS"
+  },
+
+  "missionVision": {
+    "missionTab": "Unsere Mission",
+    "visionTab": "Unsere Vision",
+    "missionContent": "Im Kern sind wir Architekten des Wandels, die sich der Neudefinition von Möglichkeiten durch eine Fusion von Spitzentechnologie und menschlichem Einfallsreichtum verschrieben haben. Mit einem unermüdlichen Streben nach Exzellenz arbeiten wir mit unseren Kunden und Partnern zusammen, um Werte und transformative Lösungen zu schaffen, die sie im digitalen Zeitalter zum Erfolg führen.",
+    "visionContent": "Durch die Kunst der digitalen Innovation Unternehmen zu stärken, stellen wir uns eine Zukunft vor, in der Technologie nahtlos mit dem menschlichen Potenzial verschmilzt, um beispiellose Möglichkeiten zu erschließen und kollektiven Fortschritt voranzutreiben."
+  },
+
+  "industries": {
+    "title": "Branchen, die wir bedienen",
+    "banking": "Banken & Versicherungen",
+    "finance": "Finanzdienstleistungen",
+    "media": "Medien & Unterhaltung",
+    "telecom": "Telekommunikation",
+    "technology": "Technologie"
+  },
+
+  "hero": {
+    "slides": [
+      {
+        "title": "Entfessle deine Kreativität",
+        "description": "Entdecken Sie leistungsstarke Werkzeuge, um Ihre Ideen zum Leben zu erwecken. Erkunden Sie unsere intuitive Plattform und entfesseln Sie Ihr kreatives Potenzial.",
+        "getStarted": "Loslegen",
+        "learnMore": "Mehr erfahren"
+      },
+      {
+        "title": "Optimieren Sie Ihren Arbeitsablauf",
+        "description": "Optimieren Sie Ihre Prozesse und steigern Sie die Produktivität mit unseren hochmodernen Tools. Erreichen Sie neue Ebenen der Effizienz und des Erfolgs.",
+        "getStarted": "Loslegen",
+        "learnMore": "Mehr erfahren"
+      }
+    ]
+  },
+  "partners": {
+    "heading": "Gemeinsam Chancen entdecken"
+  },
+  "description": {
+    "title": "Streben nach",
+    "subtitle": "Bauen Sie Ihr Nächstes",
+    "innovateTitle": "Innovieren",
+    "innovateDescription": "Erkunden Sie disruptive Bausteine, die einzigartig für Blazeclan sind, um die Infrastruktur aus der Vogelperspektive zu verwalten und Ausgaben zu optimieren. Liefern Sie Hochleistungsanwendungen, implementieren Sie proaktive Infrastruktursicherheit und maximieren Sie den Geschäftswert.",
+    "accelerateTitle": "Beschleunigen",
+    "accelerateDescription": "Beschleunigen Sie Ihre Geschäftsprozesse und Workflows mit hochmodernen Lösungen, die Effizienz und Geschwindigkeit steigern.",
+    "multiplyTitle": "Multiplizieren",
+    "multiplyDescription": "Multiplizieren Sie Ihren Geschäftswert durch skalierbare und nachhaltige Praktiken, die langfristiges Wachstum und Erfolg sicherstellen.",
+    "accelerateButton": "Beschleunigen",
+    "innovateButton": "Innovieren",
+    "multiplyButton": "Multiplizieren"
+  },
+  "title": "Webrass Blogs",
+  "buttonText": "Mehr Lesen",
+  "slides": [
+    {
+      "title": "Erreichen einer idealen Cloud-Migration",
+      "excerpt": "Die Cloud-Migration kann herausfordernd erscheinen und in einigen Fällen ein riskantes Unterfangen darstellen. Dies ist jedoch nur der Fall, wenn ein Unternehmen nicht den richtigen Cloud-Partner oder eine passende Lösung hat, die auf seine Geschäftsziele zugeschnitten ist. Die Pandemie hat die Bedeutung der Zukunftsfähigkeit, der Datenorientierung und der virtuellen Umgebungen für Unternehmen, die an der Spitze der digitalen Welt konkurrieren möchten, verstärkt...",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqSW-e72sMuIJ-PyRdLXE-l94SYNOJ4htlVukek78wAgjeC7K7Vm3K8u04BOX-Mq-HGw&usqp=CAU"
+    },
+    {
+      "title": "Wie die Cloud-Einführung die Einzelhandelsbranche revolutioniert",
+      "excerpt": "Der Einzelhandelssektor hat in der Vergangenheit immer wieder erhebliche Herausforderungen bewältigen müssen. Datensicherheit, Bestandsmanagement, globale Expansion und die Unfähigkeit, wachsende Kundenerwartungen zu erfüllen, waren die größten Hindernisse für die meisten Einzelhändler. Um all diese Probleme auf einmal zu lösen, tauchte die Cloud-Technologie als Allheilmittel für Einzelhändler auf. Sie bot zentralisierten Zugriff auf Daten, ermöglichte Einzelhändlern verbesserte Kundenerfahrungen und eine schnelle Anpassung an Marktveränderungen, Wettbewerb und Skalierungsanforderungen. In diesem Beitrag werfen wir einen Blick darauf, wie die Cloud den Einzelhandelssektor in der Gegenwart revolutioniert und was Einzelhandelsunternehmen tun können, um das Beste aus dieser leistungsstarken Technologie herauszuholen...",
+      "image": "https://joshsoftware.com/wp-content/uploads/2023/01/Powering-Retail-with-Cloud-Computing-conclusion-2.jpg"
+    },
+    {
+      "title": "Top-Vorteile der Datenvirtualisierung für Ihr Unternehmen",
+      "excerpt": "Die Datenvirtualisierung ermöglicht es Unternehmen, die Datenbankebene zwischen der Speicher- und Anwendungsebene zu entkoppeln. Sie funktioniert ähnlich wie ein Hypervisor, jedoch für die Datenbank. Diese Ebene liegt zwischen der Datenbank und dem Betriebssystem. Während viele Organisationen Datenvisualisierungen für ihre Systeme verwenden, sind andere skeptisch...",
+      "image": "https://miro.medium.com/v2/resize:fit:894/1*-ci3Jq-5fDyACkPl87JGWQ.jpeg"
+    }
+  ]
+
+}

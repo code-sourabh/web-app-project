@@ -1,0 +1,73 @@
+{
+  "banner": {
+    "title": "KEZDJE EL A PROJEKTJÉT.",
+    "button": "LÉPJEN KAPCSOLATBA VELÜNK"
+  },
+
+  "missionVision": {
+    "missionTab": "Küldetésünk",
+    "visionTab": "Jövőképünk",
+    "missionContent": "Alapvetően a változás építészei vagyunk, elkötelezettek a lehetőségek újrafogalmazása mellett a csúcstechnológia és az emberi találékonyság ötvözésével. A kiválóság iránti rendíthetetlen törekvéssel együttműködünk ügyfeleinkkel és partnereinkkel, hogy értéket teremtsünk és átalakító megoldásokat dolgozzunk ki, amelyek a digitális korban sikerhez juttatják őket.",
+    "visionContent": "A digitális innováció művészetén keresztül üzleti vállalkozásokat erősítve egy olyan jövőt képzelünk el, ahol a technológia zökkenőmentesen integrálódik az emberi potenciállal, hogy példátlan lehetőségeket nyisson meg és elősegítse a kollektív fejlődést."
+  },
+
+  "industries": {
+    "title": "Iparágak, amelyeket kiszolgálunk",
+    "banking": "Banki & Biztosítási",
+    "finance": "Pénzügyi Szolgáltatások",
+    "media": "Média & Szórakozás",
+    "telecom": "Telekommunikáció",
+    "technology": "Technológia"
+  },
+  "hero": {
+    "slides": [
+      {
+        "title": "Szabadítsa fel kreativitását",
+        "description": "Fedezze fel azokat a hatékony eszközöket, amelyekkel ötleteit életre keltheti. Fedezze fel intuitív platformunkat, és szabadítsa fel kreatív potenciálját.",
+        "getStarted": "Kezdje el",
+        "learnMore": "Tudj meg többet"
+      },
+      {
+        "title": "Emelje munkafolyamatát új szintre",
+        "description": "Egyszerűsítse folyamatait, és növelje termelékenységét élvonalbeli eszközeinkkel. Érje el az új szintű hatékonyságot és sikert.",
+        "getStarted": "Kezdje el",
+        "learnMore": "Tudj meg többet"
+      }
+    ]
+  },
+  "partners": {
+    "heading": "Lehetőségek felfedezése együtt"
+  },
+  "description": {
+    "title": "Törekvés a",
+    "subtitle": "Építsd a Következőt",
+    "innovateTitle": "Innováció",
+    "innovateDescription": "Fedezze fel a Blazeclan egyedülálló diszruptív építőelemeit, hogy madártávlatból kezelje az infrastruktúrát és optimalizálja a kiadásokat. Szállítson nagy teljesítményű alkalmazásokat, valósítson meg proaktív infrastruktúra-biztonságot és maximalizálja az üzleti értéket.",
+    "accelerateTitle": "Felgyorsít",
+    "accelerateDescription": "Gyorsítsa fel üzleti folyamatait és munkafolyamatait korszerű megoldásokkal, amelyek növelik a hatékonyságot és a sebességet.",
+    "multiplyTitle": "Sokszorozás",
+    "multiplyDescription": "Növelje üzleti értékét skálázható és fenntartható gyakorlatokkal, amelyek biztosítják a hosszú távú növekedést és sikert.",
+    "accelerateButton": "Felgyorsít",
+    "innovateButton": "Innováció",
+    "multiplyButton": "Sokszorozás"
+  },
+  "title": "Webrass Blogs",
+  "buttonText": "Olvass tovább",
+  "slides": [
+    {
+      "title": "Az ideális felhőmigráció elérése",
+      "excerpt": "A felhőmigráció kihívást jelenthet, és egyes esetekben kockázatos vállalkozás lehet. Ez azonban csak akkor igaz, ha egy szervezetnek nincs megfelelő felhőpartnere vagy üzleti céljaihoz igazított megoldása. A járvány fokozta annak fontosságát, hogy a vállalkozások, amelyek a digitális világ élvonalában szeretnének versenyezni, jövőre készek, adatvezéreltek és virtuális környezetekben találhatók legyenek...",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqSW-e72sMuIJ-PyRdLXE-l94SYNOJ4htlVukek78wAgjeC7K7Vm3K8u04BOX-Mq-HGw&usqp=CAU"
+    },
+    {
+      "title": "Hogyan forradalmasítja a felhő bevezetése a kiskereskedelmi iparágat",
+      "excerpt": "A kiskereskedelmi ágazat mindig is jelentős kihívásokkal nézett szembe a múltban. Az adatbiztonság, a készletgazdálkodás, a globális terjeszkedés és a növekvő vásárlói elvárások teljesítésének képtelensége volt a legtöbb kiskereskedő számára a legjelentősebb akadály. Az összes ilyen probléma egyidejű megoldása érdekében a felhőtechnológia megoldásként jelent meg a kiskereskedők számára. Központosított hozzáférést biztosított az adatokhoz, lehetővé téve a kiskereskedők számára a jobb vásárlói élmények nyújtását és a piaci változásokhoz, a versenyhez és a méretezési igényekhez való gyors alkalmazkodást. Ebben a bejegyzésben megnézzük, hogyan forradalmasítja a felhő a kiskereskedelmi ágazatot napjainkban, és mit tehetnek a kiskereskedelmi vállalkozások, hogy a legtöbbet hozhassák ki ebből a hatékony technológiából...",
+      "image": "https://joshsoftware.com/wp-content/uploads/2023/01/Powering-Retail-with-Cloud-Computing-conclusion-2.jpg"
+    },
+    {
+      "title": "A virtuális adatok legfontosabb előnyei az Ön vállalkozása számára",
+      "excerpt": "Az adatok virtualizációja lehetővé teszi a vállalkozások számára, hogy az adattárolás és az alkalmazási rétegek között leválasszák az adatbázisréteget. Hasonlóan működik, mint egy hypervisor, de az adatbázis számára. Ez a réteg az adatbázis és az operációs rendszer között helyezkedik el. Míg sok szervezet használ adatmegjelenítéseket rendszereihez, mások szkeptikusak...",
+      "image": "https://miro.medium.com/v2/resize:fit:894/1*-ci3Jq-5fDyACkPl87JGWQ.jpeg"
+    }
+  ]
+}

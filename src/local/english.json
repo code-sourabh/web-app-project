@@ -1,0 +1,79 @@
+{
+  "banner": {
+    "title": "LET'S GET YOUR PROJECT STARTED.",
+    "button": "CONTACT WITH US"
+  },
+
+  "missionVision": {
+    "missionTab": "Our Mission",
+    "visionTab": "Our Vision",
+    "missionContent": "At our core, we are architects of change, dedicated to redefining possibilities through a fusion of cutting-edge technology and human ingenuity. With a relentless pursuit of excellence, we collaborate with our clients and partners to co-create value and transformative solutions that propel them towards success in the digital age.",
+    "visionContent": "Empowering businesses through the art of digital innovation, we envision a future where technology seamlessly integrates with human potential to unlock unprecedented opportunities and drive collective progress."
+  },
+
+  "industries": {
+    "title": "Industries We Serve",
+    "banking": "Banking & Insurance",
+    "finance": "Financial Services",
+    "media": "Media & Entertainment",
+    "telecom": "Telecom",
+    "technology": "Technology"
+  },
+
+  "hero": {
+    "slides": [
+      {
+        "title": "Unleash Your Creativity",
+        "description": "Discover powerful tools to bring your ideas to life. Explore our intuitive platform and unlock your creative potential.",
+        "getStarted": "Get Started",
+        "learnMore": "Learn More"
+      },
+      {
+        "title": "Elevate Your Workflow",
+        "description": "Streamline your processes and boost productivity with our cutting-edge tools. Unlock new levels of efficiency and success.",
+        "getStarted": "Get Started",
+        "learnMore": "Learn More"
+      }
+    ]
+  },
+  
+    "partners": {
+      "heading": "Discovering Opportunities Together"
+    },
+    "description": {
+    "title": "Striving to",
+    "subtitle": "Build Your Next",
+    "innovateTitle": "Innovate",
+    "innovateDescription": "Explore disruptive building blocks unique to Blazeclan to manage the infrastructure with a birds-eye view and optimize expenditure. Deliver high-performance applications, implement proactive infrastructure security, and maximize the value of the business.",
+    "accelerateTitle": "Accelerate",
+    "accelerateDescription": "Accelerate your business processes and workflows with cutting-edge solutions designed to boost efficiency and speed.",
+    "multiplyTitle": "Multiply",
+    "multiplyDescription": "Multiply your business value through scalable and sustainable practices that ensure long-term growth and success.",
+    "accelerateButton": "Accelerate",
+    "innovateButton": "Innovate",
+    "multiplyButton": "Multiply"
+  },
+  "title": "Webrass Blogs",
+  "buttonText": "Read More",
+  "slides": [
+    {
+      "title": "Achieving An Ideal Cloud Migration",
+      "excerpt": "Cloud migration can seem challenging, and in some cases, it might pose a high-risk venture. But this is only true when an organization doesn’t have the right cloud partner or a fitting solution bespoke to their business objectives. The pandemic has intensified the gravity of being future-ready, data-driven, and hosted in virtual environments for businesses that look to compete at the forefront of the digital world...",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNqSW-e72sMuIJ-PyRdLXE-l94SYNOJ4htlVukek78wAgjeC7K7Vm3K8u04BOX-Mq-HGw&usqp=CAU"
+      
+    
+    },
+    {
+      "title": "How Cloud Adoption is Revolutionizing the Retail Industry",
+      "excerpt": "The retail sector has always faced significant challenges in the past. Data security, inventory management, global expansion, and the inability to meet growing customer expectations have been the prominent obstacles for most retailers. To address all these issues in one go, cloud technology emerged as a silver bullet for retailers. It provided centralized access to data, enabling retailers to offer improved customer experiences and adapt swiftly to market changes, competition, and scalability demands. In this post, we will take a look at how the cloud is revolutionizing the retail sector in the present day and what retail businesses can do to extract the best out of this powerful technology. ...",
+      "image": "https://joshsoftware.com/wp-content/uploads/2023/01/Powering-Retail-with-Cloud-Computing-conclusion-2.jpg"
+    },
+    {
+      "title": "Top Benefits of Data Virtualization for Your Business",
+      "excerpt": "Data virtualization enables businesses to decouple the database layer between the storage and application layers. It works similar to a hypervisor but for the database. This layer lies between the database and the operating system. While many organizations use data visualizations for their systems, others are skeptical...",
+      "image": "https://miro.medium.com/v2/resize:fit:894/1*-ci3Jq-5fDyACkPl87JGWQ.jpeg"
+    }
+  ]
+  }
+  
+
