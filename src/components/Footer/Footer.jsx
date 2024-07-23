@@ -133,7 +133,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-[1.5rem] font-bold text-justify sm:text-left mb-3 text-[#f97316]">
+                  <h1 className="text-[1.25rem] font-bold text-justify sm:text-left mb-3 text-[#ff6600] ">
                     Industries
                   </h1>
                   <ul className="flex flex-col gap-3">
@@ -153,7 +153,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="py-8 px-4">
-                  <h1 className="text-[1.5rem] font-bold text-justify sm:text-left mb-3 text-[#f97316]">
+                  <h1 className="text-[1.25rem] font-bold text-justify sm:text-left mb-3 text-[#ff6600] ">
                     Who we are
                   </h1>
                   <ul className="flex flex-col gap-3">
