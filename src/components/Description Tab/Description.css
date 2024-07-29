@@ -6,6 +6,7 @@
     background-size: cover;
     color: #fff;
     text-align: center;
+    
   }
   
   .homepage .header {
@@ -34,7 +35,7 @@
     flex-direction: column; /* Stack sections vertically */
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 0rem 2rem;
     background: linear-gradient(to bottom, #000000 0%, #222222 70%); /* More black, less orange */
     color: #fff;
     opacity: 0;
@@ -62,7 +63,7 @@
   }
   
   .homepage .section-title {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: start;
     font-weight: bold;
     color: #f97316;
@@ -218,3 +219,42 @@
     }
   }
   
+  /* Add these media queries for mobile adjustments */
+@media (max-width: 768px) {
+  .homepage .footer-button {
+    font-size: 1rem; /* Smaller text size for mobile */
+    padding: 0.4rem 0.8rem; /* Adjust padding for smaller buttons */
+    margin: 0.4rem; /* Reduce margin for buttons */
+  }
+  
+  .homepage .footer-links {
+    flex-direction: row; /* Arrange buttons in a row */
+    justify-content: center; /* Center align buttons in the row */
+  }
+  
+  .homepage .header-title {
+    font-size: 1.8rem; /* Adjust font size for mobile */
+  }
+  
+  .homepage .section-title {
+    font-size: 1.6rem; /* Adjust font size for mobile */
+  }
+  
+  .homepage .section-description {
+    font-size: 0.85rem; /* Adjust font size for mobile */
+  }
+  
+  .homepage .content-wrapper {
+    padding: 0.5rem; /* Adjust padding for mobile view */
+  }
+  
+  .homepage .text-content,
+  .homepage .image-content {
+    max-width: 100%; /* Ensure full width for content */
+    padding: 0.5rem; /* Adjust padding for content */
+  }
+  
+  .homepage .section-image {
+    max-width: 100%; /* Ensure images fit within mobile view */
+  }
+}

@@ -93,7 +93,7 @@ import img3 from '../../image/multiply-removebg-preview.png';
 import img4 from '../../image/back5.png';
 
 const Description = () => {
-  const [activeSection, setActiveSection] = useState('innovate');
+  const [activeSection, setActiveSection] = useState('accelerate');
   const { t } = useTranslation();
 
   const handleFooterButtonClick = (sectionId) => {
@@ -101,7 +101,7 @@ const Description = () => {
   };
 
   return (
-    <div className="homepage">
+    <div className="homepage  mb-[3rem]">
       <header className="header">
         <h1 className="header-title">
           {t('description.title')}<span className="header-subtitle"> {t('description.subtitle')}</span>

@@ -76,7 +76,7 @@ const DropdownMenu = ({
                 <img
                   src={item.icon}
                   alt={item.title}
-                  className="w-12 h-12 mb-2"
+                  className="w-8 h-8 mb-2"
                 />
                 <h3 className="m-0 text-base">{item.title}</h3>
               </div>

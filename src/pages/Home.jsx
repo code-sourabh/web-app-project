@@ -13,6 +13,7 @@ const Home = () => {
     <div className="mt-[5rem]">
       <Hero />
       <Description />
+
       <Partners />
       <Excellence />
       <IndustryType />

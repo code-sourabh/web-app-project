@@ -158,7 +158,7 @@ function Hero() {
   };
 
   return (
-    <section className="carousel-section">
+    <section className="carousel-section ">
       <div className="carousel-container">
         <div aria-roledescription="carousel" className="carousel" role="region">
           <div className="carousel-track" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
@@ -167,10 +167,10 @@ function Hero() {
                 <div className="carousel-content-wrapper" style={{ backgroundImage: `url(${back2})` }}>
                   <div className="carousel-content">
                     <div className="carousel-text">
-                      <h2 className="carousel-title">{slide.title}</h2>
-                      <p className="carousel-description">{slide.description}</p>
+                      <h2 className=" text-[3.75rem] sm:text-5xl lg:text-6xl font-bold leading-tight mb-4">{slide.title}</h2>
+                      <p className="text-xl text-gray-300 mb-6">{slide.description}</p>
                       <div className="carousel-buttons">
-                        <Link to="/contact" className="btn btn-primary">
+                        <Link to="/contact" className="bg-transparent hover:bg-gray-800 text-white font-semibold py-3 px-6 border border-white rounded-lg transition duration-300 flex items-center">
                           {t('hero.slides.0.getStarted')}
                         </Link>
                         

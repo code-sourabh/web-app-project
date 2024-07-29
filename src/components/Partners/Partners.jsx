@@ -108,7 +108,7 @@ const Partners = () => {
   };
 
   return (
-    <div className="container mx-auto py-20">
+    <div className="container  mb-[3rem]">
       <h2 className="text-[2.5rem] font-bold mb-8 text-primary-foreground text-center">
         {t('partners.heading')}
         <span className="block w-28 mx-auto mt-2 h-2 bg-red-500"></span>

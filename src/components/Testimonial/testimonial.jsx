@@ -55,7 +55,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="testimonial-container">
+    <div className="testimonial-container  mb-[3rem]">
       <h2 className="testimonial-title">Case Studies</h2>
       <span className="block w-28 mx-auto h-2 skew-x-[10deg] bg-red-500"></span>
       <Slider {...settings}>

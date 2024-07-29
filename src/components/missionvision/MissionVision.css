@@ -126,4 +126,9 @@
   .connecting-line {
     display: none;
   }
+  .content-box {
+   
+    transform: skew(0deg);
+    
+  }
 }

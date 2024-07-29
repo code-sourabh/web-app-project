@@ -13,16 +13,13 @@ import IndustryPage from './components/industry page/IndustryPage';
 import About from './pages/About';
 import Home from './pages/Home';
 // import Services from './components/solution/solution';
-import Banner from './components/Contact/Banner';
-import Services from './pages/Services';
-import Team from './pages/Leaders';
-import Undefined from './pages/Undefined';
-import Careers from './pages/Careers';
-import Partner from './pages/Partner';
-import Leaders from './pages/Leaders';
-import Blogs from './pages/Blogs';
-import Methedology from './components/solution/Methodology/Methedology';
 import Methodology from './components/solution/Methodology/Methedology';
+import Blogs from './pages/Blogs';
+import Careers from './pages/Careers';
+import Leaders from './pages/Leaders';
+import Partner from './pages/Partner';
+import Services from './pages/Services';
+import Undefined from './pages/Undefined';
 function App() {
   return (
     <div className="App">
@@ -38,6 +35,7 @@ function App() {
       <Route path="/careers" element={<Careers/>} />
       <Route path="/leaders" element={<Leaders/>} />
       <Route path="/blogs" element={<Blogs/>} />
+     
      
       <Route path="*" element={<Undefined/>} />
       </Routes>

@@ -58,6 +58,7 @@ const Navbar = () => {
         !dropdownRef.current.contains(event.target)
       ) {
         setActiveDropdown(null);
+        setActiveNavItem(null)
       }
     };
 
@@ -289,7 +290,7 @@ const Navbar = () => {
     <>
       <nav className="navbar" ref={navbarRef}>
         <div className="logo">
-          <Link to="/">
+          <Link to="/" onClick={()=>setActiveNavItem(null)}>
             {" "}
             <img src={logo} className="logo h-12 font ml-[10px] lg:ml-[50px]"  alt="Logo" />
           </Link>
@@ -318,7 +319,7 @@ const Navbar = () => {
             <div className="flex justify-center items-center gap-2 bg-transparent text-white">
               
 
-              <Link to="/contact">
+              <Link to="/contact" onClick={()=>setActiveNavItem(null)}>
                 <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
                   Contact Us
                 </button>
@@ -339,7 +340,7 @@ const Navbar = () => {
             {/* Dropdown for language selection */}
             <LanguageDropdown/>
             <Link to="/contact">
-              <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer">
+              <button className="bg-[#ff6600] text-white border-none py-2 px-4 rounded cursor-pointer" onClick={()=>setActiveNavItem(null)}>
                 Contact Us
               </button>
             </Link>
