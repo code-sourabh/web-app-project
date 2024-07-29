@@ -170,12 +170,10 @@ function Hero() {
                       <h2 className="carousel-title">{slide.title}</h2>
                       <p className="carousel-description">{slide.description}</p>
                       <div className="carousel-buttons">
-                        <Link to="/" className="btn btn-primary">
+                        <Link to="/contact" className="btn btn-primary">
                           {t('hero.slides.0.getStarted')}
                         </Link>
-                        <Link to="/about" className="btn btn-secondary">
-                          {t('hero.slides.0.learnMore')}
-                        </Link>
+                        
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">

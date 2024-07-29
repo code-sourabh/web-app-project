@@ -11,7 +11,7 @@ const About = () => {
       <Description/>
       <MissionVision/>
       <MeetOurTeam/>
-      <Banner/>
+      
     </div>
   )
 }

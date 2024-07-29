@@ -38,9 +38,7 @@ const CareerPage = () => {
                     <span className="bg-gray-100 text-gray-800 text-sm px-3 py-1 rounded-full">Full-time</span>
                   </div>
                 </div>
-                <button className="text-blue-600 hover:text-blue-800 transition-colors duration-300 flex items-center">
-                  Apply <ChevronRight size={20} />
-                </button>
+                
               </div>
             </motion.div>
           ))}
