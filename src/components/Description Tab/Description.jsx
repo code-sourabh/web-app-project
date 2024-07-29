@@ -101,7 +101,7 @@ const Description = () => {
   };
 
   return (
-    <div className="homepage  mb-[3rem]">
+    <div className="homepage ">
       <header className="header">
         <h1 className="header-title">
           {t('description.title')}<span className="header-subtitle"> {t('description.subtitle')}</span>

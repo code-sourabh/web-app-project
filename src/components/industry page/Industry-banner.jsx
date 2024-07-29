@@ -56,7 +56,7 @@ const Industries = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="bg-pink-50 py-12 ">
+    <div className="bg-white mt-[5rem] ">
       <h2 className="text-[2.5rem] font-bold text-center mb-8 relative">
         {t('industries.title')}
         <span className="block w-28 mx-auto mt-2 h-2 skew-x-[10deg] bg-red-500"></span>

@@ -83,7 +83,7 @@ const KnowUsLinks = [
 const Footer = () => {
   return (
     
-        <div className=" dark:bg-gray-100 relative overflow-hidden w-full">
+        <div className=" dark:bg-gray-100 relative overflow-hidden w-full mt-[4rem]">
        
           <div className="grid md:grid-cols-3 py-5 bg-black bg-opacity-80 ">
             <div className="py-8 px-4">

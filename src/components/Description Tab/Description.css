@@ -1,11 +1,12 @@
 .homepage {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     /* background: url('https://i.ytimg.com/vi/ZNLGmhNvTGs/maxresdefault.jpg') no-repeat center center/cover; Replace with your background image */
     background-size: cover;
     color: #fff;
     text-align: center;
+    margin-top: -2rem;
     
   }
   
