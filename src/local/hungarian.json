@@ -69,5 +69,339 @@
       "excerpt": "Az adatok virtualizációja lehetővé teszi a vállalkozások számára, hogy az adattárolás és az alkalmazási rétegek között leválasszák az adatbázisréteget. Hasonlóan működik, mint egy hypervisor, de az adatbázis számára. Ez a réteg az adatbázis és az operációs rendszer között helyezkedik el. Míg sok szervezet használ adatmegjelenítéseket rendszereihez, mások szkeptikusak...",
       "image": "https://miro.medium.com/v2/resize:fit:894/1*-ci3Jq-5fDyACkPl87JGWQ.jpeg"
     }
-  ]
-}
+  ],
+
+  "testimonialTitle": "Esettanulmányok",
+  "testimonial1": {
+    "name": "Munkavállalói Cég",
+    "text": "Az AWS-re való áttéréssel a Webrass segítségével az ügyfelek AWS vállalati szintű támogatást kaptak alacsonyabb költségek mellett."
+  },
+  "testimonial2": {
+    "name": "Egészségügyi Szolgáltató",
+    "text": "A Webrass és AWS segítsége egy egészségügyi tudományokra összpontosító adatgyűjtési és adatanalitikai megoldást valósít meg, amelyet a Webrass teljes mértékben kezel."
+  },
+  "testimonial3": {
+    "name": "Biotechnológiai Cég",
+    "text": "A Webrass fejlett szolgáltatásait felhasználva értékelte, tervezte és megvalósította az összes DevOps folyamatot, miközben a Webrass alapelveit és működését alkalmazta."
+  },
+
+  "Years of Cloud & Digital Expertise": "Évek a felhő- és digitális szakértelemben",
+  "Certified Cloud Experts": "Tanúsított felhő szakértők",
+  "Businesses Enabled with Digital Transformation": "Üzletek digitális átalakítása",
+  "CSAT score": "CSAT pontszám",
+
+  "industriesType": [
+    {
+      "icon": "finance",
+      "title": "Pénzügyi Szolgáltatások",
+      "link": "/industries/finance",
+      "content": {
+        "title": "Felhőalapú platform zökkenőmentes adatintegrációt biztosított a hub.brussels számára",
+        "description": "A pénzügyi szolgáltató cégek jelentős kihívásokkal szembesülnek a digitális fizetések biztosítása, megfizethető termékek bevezetése és a bonyolult szabályozási környezet navigálása terén. E problémák megoldása érdekében megbízható szakértőket keresnek a felhőalapú számítástechnikában, hogy ellenálló digitális infrastruktúrákat fejlesszenek ki, amelyek megkönnyítik a technológia által vezérelt innovációt és lépést tartanak a változó értékláncokkal."
+      }
+    },
+    {
+      "icon": "telecom",
+      "title": "Telekommunikáció",
+      "link": "/industries/telecom",
+      "content": {
+        "title": "Irányítópult valós idejű betekintést tett lehetővé a Telekom Malaysia számára",
+        "description": "A Telekom Malaysia Berhad (TM), az ország vezető távközlési szolgáltatója, a Webrass szakértelmét kérte egy jelentéskészítési megoldás kidolgozásához. Ez a megoldás közel valós idejű hangulatelemzést végez a Twitter és a közösségi fórumok adataival, támogatva a TM küldetését a távközlési technológia és szolgáltatások fejlesztésére minden maláj számára."
+      }
+    },
+    {
+      "icon": "media",
+      "title": "Média és Szórakoztatás",
+      "link": "/industries/media",
+      "content": {
+        "title": "Élvezetes multimédiás élmények platformokon keresztül",
+        "description": "A Webrass segített a média- és szórakoztató cégeknek javítani a minőségbiztosítást, SaaS termékeket fejleszteni, fejlett elemzéseket használni, optimalizálni a tárolási költségeket és biztosítani a fizetési átjárókat, elősegítve a felhő bevezetését. A Webrass saját fejlesztésű keretrendszereivel ezek a vállalatok több mint 50%-os költségmegtakarítást és felgyorsított minőségbiztosítási folyamatokat értek el, ami kivételes felhasználói élményeket eredményezett."
+      }
+    },
+    {
+      "icon": "banking",
+      "title": "Banki és Biztosítási Szolgáltatások",
+      "link": "/industries/banking",
+      "content": {
+        "title": "A felhő átalakítása felgyorsította az ABFL szállítási idejét",
+        "description": "A banki és biztosítási cégek szigorú szabályozásokkal és valós idejű folyamat automatizálás és digitális döntéshozatal iránti igénnyel néznek szembe. E kihívások leküzdéséhez megbízható digitalizációs partnerekre és felhőbanki megoldásokra van szükségük, amelyek biztosítják a hatékonyságot és a megfelelőséget."
+      }
+    },
+    {
+      "icon": "tech",
+      "title": "Technológia",
+      "link": "/industries/technology",
+      "content": {
+        "title": "A fokozott biztonsági intézkedések 70%-kal csökkentették a csalásokat",
+        "description": "A Webrass testreszabott digitális megoldásokat kínál a technológiai cégek számára a teljesítmény és agilitás javítása érdekében. Szolgáltatásaink közé tartozik a felhő tanácsadás, DevSecOps, AI és automatizálás, amelyek a infrastruktúra és alkalmazások modernizálására összpontosítanak."
+      }
+    }
+  ],
+  "header": {
+    "title": "Szakértelmünk ipari vertikumokban"
+  },
+  "readMore": "Tovább olvasom ➔",
+
+  "footer": {
+    "slogan": "Megtestesíti rendíthetetlen elkötelezettségünket álmai megvalósítása iránt",
+    "ourServices": "Szolgáltatásaink",
+    "industries": "Iparágak",
+    "whoWeAre": "Kik vagyunk",
+    "copyright": "@2024 Minden jog fenntartva"
+  },
+  "services": {
+    "cloudServices": "Felhőszolgáltatások",
+    "applicationServices": "Alkalmazási szolgáltatások",
+    "cyberSecurity": "Kiberbiztonság",
+    "dataAnalytics": "Adat-elemzés",
+    "automation": "Automatizálás",
+    "infrastructure": "Infrastruktúra"
+  },
+  "industry": {
+    "finance": "Pénzügy",
+    "technology": "Technológia",
+    "banking": "Banki és biztosítási",
+    "telecom": "Telekommunikáció",
+    "media": "Médiaipar"
+  },
+  "knowUs": {
+    "about": "Rólunk",
+    "leaders": "Vezetők",
+    "customerService": "Ügyfélszolgálat",
+    "partners": "Partnerek",
+    "blogs": "Blogok"
+  },
+
+  "industryPage": {
+    "finance": {
+      "title": "Pénzügyi Szolgáltatások",
+      "para1": "A pénzügyi szolgáltatásokat nyújtó vállalatok jelentős kihívásokkal szembesülnek a digitális fizetések biztonságossá tételében, megfizethető termékek kiadásában és a komplex szabályozási környezetben való navigálásban. Ezeknek a problémáknak a kezelésére megbízható szakértőket keresnek a pénzügyi szolgáltatások felhőalapú számítástechnikájában, hogy olyan ellenálló digitális infrastruktúrákat fejlesszenek ki, amelyek elősegítik a technológia vezérelte innovációt és lépést tartanak a fejlődő értékláncokkal.",
+      "para2": "A Webrass pénzügyi iparági szakértői olyan nagy cégeket támogattak, mint az ABFL, adataik és alkalmazási ökoszisztémáik felhőalapú átalakításában. Olyan innovatív megoldásokkal, mint az intelligens információkinyerés, a SecOps és a mesterséges intelligencia/gépi tanulás által vezérelt műveletek, a pénzügyi szolgáltatásokat nyújtó vállalatok megbíznak a Webrass felhőalapú működésében, hogy nagy léptékben építsenek célnak megfelelő infrastruktúrákat.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Skálázható Pénzügyi Megoldások",
+          "description": "Skálázható megoldások szállítása a pénzügyi tranzakciók és műveletek kezelésére."
+        },
+        "feature2": {
+          "title": "Biztonságos Pénzügyi Infrastruktúra",
+          "description": "A pénzügyi adatok és tranzakciók biztonságának és integritásának biztosítása."
+        },
+        "feature3": {
+          "title": "Innovatív Pénzügyi Megoldások",
+          "description": "Innovatív megoldások bevezetése a pénzügyi szolgáltatások és az ügyféltapasztalat javítására."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "Felhőalapú Platform Lehetővé Tette a hub.brussels Zökkenőmentes Adatintegrációját",
+          "description": "A hub.brussels, egy vezető brüsszeli főváros régió ügynökség, támogatja a helyi gazdasági növekedést és városrendezést. Jobb adatkezelést és elemzést keresve, a hub.brussels célja volt az adatgyűjtés és -vizualizáció javítása Brüsszel vállalkozásai és vállalkozói számára. Partnerségre léptek a Webrass-szal egy felhőalapú big data eszköz, az 'analytics.brussels' fejlesztésére és bevezetésére."
+        },
+        "case2": {
+          "title": "Felgyorsított Elemzési Munkaterhelés Migráció 75%-os Erőfeszítés Csökkenést Eredményezett",
+          "description": "Az ügyfél, India egyik legnagyobb áruházlánca, egy márkás üzletből átfogó divat- és életmód-áruházzá fejlődött a családok számára. Hagyományos adatközpontból költséghatékony, skálázható és modern adatarchitektúrára kívántak áttérni. A Webrass felhőalapú számítástechnikát és adatmodernizációt magában foglaló megoldást implementált. A Webrass segítette az ügyfelet az elemzési munkaterhelés felhőbe való migrálásában mindössze 8 hét alatt."
+        },
+        "case3": {
+          "title": "A Webrass 55%-os Költségmegtakarítást Ért El a hub.brussels Számára",
+          "description": "A hub.brussels, a Brüsszel-Főváros Régió kiemelkedő ügynöksége, támogatja a gazdasági növekedést és a városrendezést. Partnerségre lépett a Webrass-szal egy fejlett elemzőeszköz kifejlesztésére, amely a következő generációs bevásárló szektor fejlesztésére és új üzletek létesítésének megkönnyítésére szolgál. Ez az együttműködés mind az üzleti, mind a kerületi tervezés optimalizálására törekszik."
+        }
+      }
+    },
+    "telecom": {
+      "title": "Telekommunikáció",
+      "para1": "A Webrass átfogó digitális átalakítási megoldásokat kínál telekommunikációs vállalatok számára. Szolgáltatásaink magukban foglalják a hibrid és többfelhős modelleket, biztosítva a minőséget és az alacsony késleltetésű szolgáltatásokat. Specializálódtunk olyan virtualizált infrastruktúrák létrehozására, amelyek ötvözik a natív felhőszolgáltatásokat és a szoftverdefinált hálózatokat, hogy skálázhatóságot, agilitást és teljesítményt biztosítsanak.",
+      "para2": "Alakítsa át telekommunikációs műveleteit a Webrass élvonalbeli digitális megoldásaival. Hibrid és többfelhős környezetek tervezésére és megvalósítására specializálódtunk, robusztus teljesítményt és zökkenőmentes kapcsolatot biztosítva. Szakértelmünk kiterjed olyan virtualizált infrastruktúrák kiépítésére, amelyek fejlett felhőszolgáltatásokat és szoftverdefinált hálózatokat használnak, páratlan skálázhatósággal, agilitással és hatékonysággal erősítve vállalkozását.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Hálózatoptimalizálás",
+          "description": "Javítja a teljesítményt és csökkenti a késleltetést..."
+        },
+        "feature2": {
+          "title": "Skálázhatóság",
+          "description": "Rugalmas infrastruktúrával támogatja a növekedést..."
+        },
+        "feature3": {
+          "title": "Valós Idejű Elemzés",
+          "description": "Gyakorlati betekintést nyújt a jobb döntéshozatalhoz."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "Irányítópult Valós Idejű Betekintést Tett Lehetővé a Telekom Malaysia Számára",
+          "description": "A Telekom Malaysia Berhad (TM), az ország vezető telekommunikációs szolgáltatója, a Webrass szakértelmét kérte egy jelentéskészítő megoldás kifejlesztéséhez. Ez a megoldás közel valós idejű érzelem-elemzést végez a Twitter és a közösségi fórumok adatain, támogatva a TM küldetését, hogy minden maláj számára fejlessze a telekommunikációs technológiát és szolgáltatásokat."
+        },
+        "case2": {
+          "title": "Az Ügyfél Automatizált Számlázást Valósított Meg ML/AI Segítségével, ~99%-os Kategorizálási Pontosságot Elérve",
+          "description": "Az ügyfél, a vezető telekommunikációs szolgáltatók szövetsége, innovatív megoldásokat hoz létre és folyamatos bevételi forrásokat biztosít tagjai számára. Hatalmas ügyfélbázissal rendelkezik, és több mint 30 országban működik az APAC és MEA régiókban, kiterjedt támogatást és lehetőségeket nyújtva a telekommunikáció növekedéséhez és fejlődéséhez."
+        },
+        "case3": {
+          "title": "Érzelem-elemzési Modell Javította a Betekintések Szolgáltatását a Telekom Malaysia Számára",
+          "description": "A Telekom Malaysia Berhad (TM), az ország vezető telekommunikációs szolgáltatója, folyamatosan fejleszti technológiáját és szolgáltatásait az országos kapcsolat érdekében. A Webrass-hoz fordultak egy olyan jelentéskészítő megoldás kifejlesztéséért, amely közel valós idejű érzelem-elemzést végez a Twitter és a közösségi fórumok adatain, javítva betekintési és döntéshozatali képességeiket."
+        }
+      }
+    },
+    "technology": {
+      "title": "Technológia",
+      "para1": "A Webrass testreszabott digitális megoldásokat kínál technológiai vállalatok számára a teljesítmény és az agilitás fokozására. Szolgáltatásaink közé tartozik a felhő tanácsadás, DevSecOps, AI és automatizálás, az infrastruktúra és alkalmazások modernizálására összpontosítva.",
+      "para2": "Ahogy a kiberbiztonság és az AI hajtja a digitális átalakulást, a vállalatok felhőalapú felügyelt szolgáltatásokat nyújtó partnerekkel működnek együtt az automatizálás fokozása és az üzletmenet folytonosságának biztosítása érdekében. A technológiai vezetők a Webrass digitális megoldásait használják az agilitás növelésére, a stratégiák modernizálására és új üzleti modellek felfedezésére ML/AI, IoT és automatizálás révén.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Személyre Szabott Technológiai Megoldások",
+          "description": "Az Ön speciális igényeinek megfelelő testreszabott megoldások..."
+        },
+        "feature2": {
+          "title": "Zökkenőmentes Integráció",
+          "description": "Kényelmes hozzáférés platformokon és eszközökön keresztül..."
+        },
+        "feature3": {
+          "title": "Gyors Műszaki Támogatás",
+          "description": "Megbízható segítség, amikor csak szüksége van rá..."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "AWS Migráció 5 Hónap Alatt Bezárta az Adatközpontot, 30%-os Megtakarítást Eredményezve.",
+          "description": "Az ügyfél partneri kapcsolatot alakított ki a Webrass-szal adatközpontjuk leállításához és az AWS felhőbe való migráláshoz, szigorú határidőt betartva. A Webrass felmérte az infrastruktúrát, megtervezte a lift-and-shift migrációt, és újratelepítette a korlátozott alkalmazásokat, mint például az Oracle E-Business Suite. A migráció, beleértve 4 TB adatot, 4,5 hónap alatt fejeződött be."
+        },
+        "case2": {
+          "title": "Az AWS IoT Bevezetése 50%-kal Csökkentette az Ügyfél Erőfeszítéseit",
+          "description": "Az ügyfél célja az volt, hogy adatvezéreltté váljon az AWS IoT videóelemzésének alkalmazásával. Arra törekedtek, hogy csökkentsék a járművön belüli szabálysértések észlelését IoT eszközök segítségével, és optimalizálják az algoritmusokat az AWS IoT Greengrass-on. A Webrass segített a megoldás beállításában a gyakorlati betekintések és a jobb észlelési képességek érdekében."
+        },
+        "case3": {
+          "title": "Az Azure Migráció ~30%-os Költségmegtakarítást Ért El",
+          "description": "Az ügyfél, egy vezető festékgyártó, kihívásokkal szembesült az Azure infrastruktúrájukban lévő kezeletlen lemezekkel kapcsolatban, beleértve a korlátozott IOPS-t, a méretezési problémákat és az elavult erőforrásokkal kapcsolatos költségeket. Megoldásra volt szükségük ezeknek a hatékonytalanságoknak a kezelésére és Azure környezetük optimalizálására."
+        }
+      }
+    },
+
+    "media": {
+      "title": "Média és Szórakoztatás",
+      "para1": "A média- és szórakoztatóipari vállalatok a hiperperszonalizációra, az immerzív élményekre és a platformok közötti következetes elérhetőségre összpontosítanak, hogy megfeleljenek a modern ügyfelek elvárásainak. Digitális átalakulásuk felgyorsítása érdekében szakképzett felhőtechnológiai partnert keresnek. A mai környezetben kulcsfontosságú a kiváló minőségű digitális élmények nyújtása.",
+      "para2": "A Webrass segített a média- és szórakoztatóipari cégeknek javítani a minőségbiztosítást, SaaS termékeket fejleszteni, fejlett analitikát használni, optimalizálni a tárolási költségeket és biztonságos fizetési átjárókat létrehozni, elősegítve a felhőadaptációt. A Webrass saját keretrendszereivel ezek a vállalatok több mint 50%-os költségmegtakarítást értek el és felgyorsították a minőségbiztosítási folyamatokat, kivételes felhasználói élményt eredményezve.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Hiperperszonalizáció",
+          "description": "Személyre szabott tartalom és élmények az egyes felhasználók számára."
+        },
+        "feature2": {
+          "title": "Immerzív Szórakoztatás",
+          "description": "Lebilincselő multimédiás élmények platformokon keresztül."
+        },
+        "feature3": {
+          "title": "Magas Rendelkezésre Állás",
+          "description": "Megbízható hozzáférés a tartalomhoz bármikor, bárhol."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "Az Azure Analytics Javította a Sportmédia Óriás Közösségi Média Teljesítményét",
+          "description": "A Webrass két fázisban implementált egy Azure-alapú adattó megoldást az ügyfél számára. Az első fázis egyesítette az összes közösségi média platform – Facebook, Instagram, Twitter és YouTube – adatait egy egységes platformra és jelentéseket készített. A második fázis további metrikákat tartalmazott és integrálta a Google Analytics adatait a YouTube-hoz."
+        },
+        "case2": {
+          "title": "Az Asia School of Business 70%-kal Növelte az AWS Teljesítményét",
+          "description": "Az Asia School of Business (ASB), amelyet 2015-ben alapítottak az MIT Sloan és a Bank Negara Malaysia közreműködésével, optimalizálni kívánta AWS infrastruktúráját a bővülő programok miatt. Ennek érdekében az ASB partneri kapcsolatot alakított ki a Webrass-szal felügyelt szolgáltatásokért, hogy javítsa az automatizálást, a költséghatékonyságot és a felhőkörnyezet általános teljesítményét, megfelelve a növekvő infrastrukturális igényeiknek."
+        },
+        "case3": {
+          "title": "Az AWS Hatékonyan Biztosította az Astro Fizetési Átjáróját",
+          "description": "Az 1996-ban alapított Astro egy vezető malajziai tartalom- és fogyasztói vállalat, amely több mint 23 millió embert szolgál ki különböző platformokon. A helyszíni fizetési átjárójukban tapasztalt skálázhatósági és biztonsági problémák miatt az Astro egy biztonságosabb, skálázható megoldást keresett a PCI-DSS megfelelőségi költségek csökkentésére és a felhasználói élmény javítására."
+        }
+      }
+    },
+    "banking": {
+      "title": "Bankszolgáltatások",
+      "para1": "A bank- és biztosítási vállalatok szigorú szabályozásokkal és valós idejű folyamatautomatizálás, valamint digitális döntéshozatal iránti igénnyel szembesülnek. E kihívások leküzdéséhez megbízható digitalizációs partnerekre és felhőalapú banki megoldásokra van szükségük, amelyek biztosítják a hatékonyságot és a megfelelőséget.",
+      "para2": "A Webrass forradalmasította a felhőalapú számítástechnikát a bank- és biztosítási szektorok számára. A Webrass speciális felhőmegoldásainak felhasználásával olyan nagy szereplők, mint az AAGI gyorsan átálltak a felhőre, javították a big data képességeiket, több mint 50%-kal csökkentették költségeiket és teljes biztonsági megfelelőséget értek el.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Személyre Szabott Pénzügyi Tervezés",
+          "description": "Testreszabott pénzügyi tervek céljai eléréséhez."
+        },
+        "feature2": {
+          "title": "Zökkenőmentes Digitális Bankolás",
+          "description": "Kényelmes hozzáférés bármikor, bárhol."
+        },
+        "feature3": {
+          "title": "Gyors Ügyfélszolgálat",
+          "description": "Megbízható segítség, amikor csak szüksége van rá."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "A Felhőalapú Átalakítás Javította az ABFL Szolgáltatási Idejét",
+          "description": "Az Aditya Birla Finance Ltd. (ABFL), India egyik vezető hitel- és vagyonkezelési megoldásokat nyújtó szolgáltatója, partnert keresett digitális hitelezési platformjuk felügyeletére az AWS-en. Átfogó kezelést igényeltek Hitelkihelyezési Rendszerükre (LOS) és más platformmodulokra szolgáltatásnyújtásuk javítása érdekében."
+        },
+        "case2": {
+          "title": "A Felhőalapú Hangulatlelemzés 50%-kal Csökkentette az Erőfeszítéseket",
+          "description": "Az ügyfél, egy nagy bankvállalat, célja volt a döntéshozatal javítása gyakorlati betekintésekkel egy hangulatlelemzési modellen keresztül. Az ügyfelek különböző csatornákról – közösségi média, e-mail, felmérések és vélemények – érkező megkereséseit kezelve a cégnek egy felhőalapú ML pipeline-ra volt szüksége az adatmérnöki munkához és hangulatlelemzéshez az ügyfélélmény és döntéshozatal javítása érdekében."
+        },
+        "case3": {
+          "title": "Az AXA Affin Javítja az Adatkezelést Felhőalapú MDM-mel",
+          "description": "Az AAGI adatintegritási problémákkal és magas költségekkel szembesült meglévő törzsadatkezelési platformjával. Skálázható, költséghatékony megoldásra volt szükségük, ami az AWS felhő választásához vezetett. Átfogó értékelést végeztünk és javasoltuk MDM platformjuk lecserélését AWS szolgáltatásokra, valamint adattavuk integrálását SFDC alkalmazásokkal."
+        }
+      }
+    },
+    "common": {
+      "keyFeatures": "Főbb Jellemzők",
+      "useCases": "Esettanulmányok"
+    }
+  },
+
+  
+    "infrastructure": {
+      "headerTitle": "Infrastruktúra",
+      "cards": [
+        { "title": "Esetkezelés", "name": "incident-management" },
+        { "title": "Szolgáltatáskérelmek kezelése", "name": "service-request-management" },
+        { "title": "Problémakezelés", "name": "problem-management" },
+        { "title": "Változáskezelés", "name": "change-management" }
+      ]
+    },
+    "cloud-services": {
+      "headerTitle": "Felhőszolgáltatások",
+      "cards": [
+        { "title": "Kezelt Szolgáltatások", "name": "managed-services" },
+        { "title": "Felhőtanácsadás, Stratégia és Migráció", "name": "cloud-consulting-strategy-and-migration" },
+        { "title": "Felhőnatív Alkalmazásfejlesztés és Tesztelés", "name": "cloud-native-application-development-and-testing" },
+        { "title": "Felhő Kormányzás és Jelentés", "name": "cloud-governance-and-reporting" },
+        { "title": "Felhő Felfedezés és Optimalizálás", "name": "cloud-discovery-and-optimization" },
+        { "title": "Felhő és Platform Modernizálás", "name": "cloud-and-platform-modernization" }
+      ]
+    },
+    "application-services": {
+      "headerTitle": "Alkalmazás Szolgáltatások",
+      "cards": [
+        { "title": "Alkalmazás Értékelés", "name": "application-assessment" },
+        { "title": "SaaS Termék és Platform Fejlesztés", "name": "saas-product-and-platform-development" },
+        { "title": "Alkalmazás Karbantartás és Fejlesztés", "name": "application-maintenance-and-enhancement" },
+        { "title": "Alkalmazás Modernizálás", "name": "application-modernization" }
+      ]
+    },
+    "cyber-security": {
+      "headerTitle": "Kibervédelem",
+      "cards": [
+        { "title": "Adatstratégia", "name": "data-strategy" },
+        { "title": "Adatkormányzás és Mérnöki Munka", "name": "data-governance-and-engineering" },
+        { "title": "Felhőbiztonsági Mérnökség", "name": "cloud-security-engineering" },
+        { "title": "Felhőbiztonsági Műveletek", "name": "cloud-security-operations" }
+      ]
+    },
+    "data-analytics": {
+      "headerTitle": "Adatanalitika",
+      "cards": [
+        { "title": "Kezelt Analitika", "name": "managed-analytics" },
+        { "title": "BI Modernizálás", "name": "bi-modernization" }
+      ]
+    },
+    "automation": {
+      "headerTitle": "Automatizálás",
+      "cards": [
+        { "title": "DevSecOps", "name": "devsecops" },
+        { "title": "DevOps Átalakítás", "name": "devops-transformation" }
+      ]
+    },
+    "unknown-service": {
+      "headerTitle": "Ismeretlen Szolgáltatás",
+      "cards": []
+    }
+  }
+  
+

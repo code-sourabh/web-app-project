@@ -61,16 +61,7 @@ function CardBody({ cards }) {
           </div>
         ))}
       </div>
-      {/* {showPopup && (
-        <div className="popup">
-          <div className="popup-content">
-            <span className="close" onClick={closePopup}>&times;</span>
-            <img src={cards[selectedCard]?.popupImage} alt={cards[selectedCard]?.title} className="popup-image" />
-            <p>{popupContent}</p>
-            <Link to="/contact" onClick={()=>window.scrollTo(0,0)}><button className="contact-us">Contact Us</button></Link>
-          </div>
-        </div>
-      )} */}
+     
     </div>
   );
 }

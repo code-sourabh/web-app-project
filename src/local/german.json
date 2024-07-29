@@ -70,6 +70,353 @@
       "excerpt": "Die Datenvirtualisierung ermöglicht es Unternehmen, die Datenbankebene zwischen der Speicher- und Anwendungsebene zu entkoppeln. Sie funktioniert ähnlich wie ein Hypervisor, jedoch für die Datenbank. Diese Ebene liegt zwischen der Datenbank und dem Betriebssystem. Während viele Organisationen Datenvisualisierungen für ihre Systeme verwenden, sind andere skeptisch...",
       "image": "https://miro.medium.com/v2/resize:fit:894/1*-ci3Jq-5fDyACkPl87JGWQ.jpeg"
     }
-  ]
+  ],
 
-}
+  
+    "testimonialTitle": "Fallstudien",
+    "testimonial1": {
+      "name": "Personalvermittlungsunternehmen",
+      "text": "Durch den Umstieg auf AWS mit Unterstützung von Webrass erhielten die Kunden AWS Enterprise-Level-Support zu geringeren Kosten."
+    },
+    "testimonial2": {
+      "name": "Ein Gesundheitsdienstleister",
+      "text": "Webrass und AWS Unterstützung implementieren eine auf Gesundheitswissenschaften ausgerichtete Datenerfassungs- und Datenanalyselösung, die vollständig von Webrass verwaltet wird."
+    },
+    "testimonial3": {
+      "name": "Ein Biotechnologieunternehmen",
+      "text": "Nutzen Sie Webrass’ fortschrittliche Dienstleistungen, um einen umfassenden DevOps-Prozess zu bewerten, zu entwerfen und umzusetzen, während Sie Webrass’ Grundlagen und Webrass-Betrieb verwenden."
+    },
+
+    
+      "Years of Cloud & Digital Expertise": "Jahre Cloud- und digitale Expertise",
+      "Certified Cloud Experts": "Zertifizierte Cloud-Experten",
+      "Businesses Enabled with Digital Transformation": "Unternehmen ermöglicht durch digitale Transformation",
+      "CSAT score": "CSAT-Punktzahl",
+
+      
+        "industriesType": [
+          {
+            "icon": "finance",
+            "title": "Finanzdienstleistungen",
+            "link": "/industries/finance",
+            "content": {
+              "title": "Cloud-basierte Plattform ermöglichte nahtlose Datenintegration bei hub.brussels",
+              "description": "Finanzdienstleistungsunternehmen stehen vor erheblichen Herausforderungen bei der Sicherung digitaler Zahlungen, der Einführung erschwinglicher Produkte und der Navigation in einer komplexen regulatorischen Landschaft. Um diese Probleme zu lösen, suchen sie vertrauenswürdige Experten für Cloud-Computing im Finanzbereich, um widerstandsfähige digitale Infrastrukturen zu entwickeln, die technologiegetriebene Innovationen erleichtern und mit den sich entwickelnden Wertschöpfungsketten Schritt halten."
+            }
+          },
+          {
+            "icon": "telecom",
+            "title": "Telekommunikation",
+            "link": "/industries/telecom",
+            "content": {
+              "title": "Dashboard ermöglichte Echtzeit-Einblicke für Telekom Malaysia",
+              "description": "Telekom Malaysia Berhad (TM), der führende Telekommunikationsanbieter des Landes, suchte die Expertise von Webrass, um eine Berichtslösung zu entwickeln. Diese Lösung führt nahezu in Echtzeit Sentiment-Analysen von Twitter- und Community-Forum-Daten durch und unterstützt die Mission von TM, Telekommunikationstechnologie und -dienstleistungen für alle Malaysier zu verbessern."
+            }
+          },
+          {
+            "icon": "media",
+            "title": "Medien & Unterhaltung",
+            "link": "/industries/media",
+            "content": {
+              "title": "Fesselnde Multimedia-Erlebnisse über Plattformen hinweg",
+              "description": "Webrass hat Medien- und Unterhaltungsunternehmen geholfen, die Qualität der Technik zu verbessern, SaaS-Produkte zu entwickeln, fortschrittliche Analysen zu nutzen, Speicherkosten zu optimieren und Zahlungsgateways zu sichern, was die Cloud-Einführung vorantreibt. Mit den proprietären Frameworks von Webrass haben diese Unternehmen über 50% Kosteneinsparungen und beschleunigte Qualitätssicherungsprozesse erreicht, was zu außergewöhnlichen Benutzererlebnissen führte."
+            }
+          },
+          {
+            "icon": "banking",
+            "title": "Banken & Versicherungen",
+            "link": "/industries/banking",
+            "content": {
+              "title": "Cloud-Transformation beschleunigte die Lieferzeit von ABFL",
+              "description": "Banken und Versicherungsunternehmen stehen vor strengen Vorschriften und der Nachfrage nach Echtzeit-Prozessautomatisierung und digitalen Entscheidungsprozessen. Um diese Herausforderungen zu bewältigen, benötigen sie zuverlässige Digitalisierungspartner und Cloud-Banking-Lösungen, die Effizienz und Compliance gewährleisten."
+            }
+          },
+          {
+            "icon": "tech",
+            "title": "Technologie",
+            "link": "/industries/technology",
+            "content": {
+              "title": "Erhöhte Sicherheitsmaßnahmen reduzierten Betrug um 70%",
+              "description": "Webrass bietet maßgeschneiderte digitale Lösungen für Technologieunternehmen zur Verbesserung von Leistung und Agilität. Unsere Dienstleistungen umfassen Cloud-Beratung, DevSecOps, KI und Automatisierung und konzentrieren sich auf die Modernisierung von Infrastruktur und Anwendungen."
+            }
+          }
+        ],
+        "header": {
+          "title": "Unsere Expertise in verschiedenen Branchen"
+        },
+        "readMore": "Weiterlesen ➔",
+
+          "footer": {
+            "slogan": "Verkörpert unser unerschütterliches Engagement, Ihre Träume zu verwirklichen",
+            "ourServices": "Unsere Dienstleistungen",
+            "industries": "Branchen",
+            "whoWeAre": "Wer wir sind",
+            "copyright": "@2024 Alle Rechte vorbehalten"
+          },
+          "services": {
+            "cloudServices": "Cloud-Dienste",
+            "applicationServices": "Anwendungsdienste",
+            "cyberSecurity": "Cyber-Sicherheit",
+            "dataAnalytics": "Datenanalyse",
+            "automation": "Automatisierung",
+            "infrastructure": "Infrastruktur"
+          },
+          "industry": {
+            "finance": "Finanzen",
+            "technology": "Technologie",
+            "banking": "Banken & Versicherungen",
+            "telecom": "Telekommunikation",
+            "media": "Medienbranche"
+          },
+          "knowUs": {
+            "about": "Über uns",
+            "leaders": "Führungskräfte",
+            "customerService": "Kundendienst",
+            "partners": "Partner",
+            "blogs": "Blogs"
+          },
+
+          
+            "industryPage": {
+              "finance": {
+                "title": "Finanzdienstleistungen",
+                "para1": "Unternehmen im Finanzdienstleistungsbereich stehen vor erheblichen Herausforderungen bei der Sicherung digitaler Zahlungen, der Bereitstellung erschwinglicher Produkte und der Navigation durch das komplexe regulatorische Umfeld. Um diese Probleme zu bewältigen, suchen sie vertrauenswürdige Experten für Cloud-Computing im Finanzbereich, um belastbare digitale Infrastrukturen zu entwickeln, die technologiegetriebene Innovationen ermöglichen und mit sich entwickelnden Wertschöpfungsketten Schritt halten.",
+                "para2": "Die Finanzexperten von Webrass haben großen Unternehmen wie ABFL unterstützt, ihre Daten- und Anwendungsökosysteme in der Cloud zu transformieren. Mit innovativen Lösungen wie intelligenter Informationsextraktion, SecOps und KI/ML-gesteuerten Operationen vertrauen Unternehmen im Finanzdienstleistungsbereich auf die Cloud-Operationen von Webrass, um maßgeschneiderte Infrastrukturen in großem Maßstab zu schaffen.",
+                "keyFeatures": {
+                  "feature1": {
+                    "title": "Skalierbare Finanzlösungen",
+                    "description": "Bereitstellung skalierbarer Lösungen zur Verwaltung von Finanztransaktionen und -operationen."
+                  },
+                  "feature2": {
+                    "title": "Sichere Finanzinfrastruktur",
+                    "description": "Gewährleistung der Sicherheit und Integrität von Finanzdaten und -transaktionen."
+                  },
+                  "feature3": {
+                    "title": "Innovative Finanzlösungen",
+                    "description": "Implementierung innovativer Lösungen zur Verbesserung von Finanzdienstleistungen und Kundenerfahrungen."
+                  }
+                },
+                "useCases": {
+                  "case1": {
+                    "title": "Cloud-basierte Plattform ermöglichte hub.brussels nahtlose Datenintegration",
+                    "description": "hub.brussels, eine führende Agentur in der Region Brüssel-Hauptstadt, unterstützt das lokale Wirtschaftswachstum und die Stadtplanung. Um die Datenverwaltung und -analyse zu verbessern, wollte hub.brussels die Datensammlung und -visualisierung für Brüssels Unternehmen und Unternehmer optimieren. Sie gingen eine Partnerschaft mit Webrass ein, um ein cloudbasiertes Big-Data-Tool namens 'analytics.brussels' zu entwickeln und bereitzustellen."
+                  },
+                  "case2": {
+                    "title": "Beschleunigte Analyse-Workload-Migration führte zu 75% Aufwandseinsparung",
+                    "description": "Der Kunde, eine der größten Einzelhandelsketten Indiens, hat sich von einem Einzelmarkenladen zu einem umfassenden Mode- und Lifestyle-Geschäft für Familien entwickelt. Sie wollten von einem traditionellen Rechenzentrum auf eine kostengünstige, skalierbare und moderne Datenarchitektur umsteigen. Webrass implementierte eine Lösung, die Cloud-Computing und Datenmodernisierung umfasst. Webrass unterstützte den Kunden dabei, seine Analyse-Workloads in nur 8 Wochen in die Cloud zu migrieren."
+                  },
+                  "case3": {
+                    "title": "Webrass erzielte 55% Kostenersparnis für hub.brussels",
+                    "description": "hub.brussels, eine bedeutende Agentur in der Region Brüssel-Hauptstadt, unterstützt das Wirtschaftswachstum und die Stadtplanung. Sie gingen eine Partnerschaft mit Webrass ein, um ein fortschrittliches Analysewerkzeug zu entwickeln, das den nächsten Generationen des Einzelhandels und der Eröffnung neuer Geschäfte dient. Diese Zusammenarbeit zielt darauf ab, sowohl Geschäfts- als auch Bezirksplanung zu optimieren."
+                  }
+                }
+              },
+              "telecom": {
+                "title": "Telekommunikation",
+                "para1": "Webrass bietet umfassende digitale Transformationslösungen für Telekommunikationsunternehmen an. Unsere Dienstleistungen umfassen hybride und Multi-Cloud-Modelle, die Qualität und niedrige Latenzzeiten gewährleisten. Wir spezialisieren uns auf den Aufbau virtualisierter Infrastrukturen, die native Cloud-Dienste und softwaredefinierte Netzwerke kombinieren, um Skalierbarkeit, Agilität und Leistung zu bieten.",
+                "para2": "Transformieren Sie Ihre Telekommunikationsoperationen mit den fortschrittlichen digitalen Lösungen von Webrass. Wir spezialisieren uns auf die Gestaltung und Implementierung von hybriden und Multi-Cloud-Umgebungen, die eine robuste Leistung und nahtlose Konnektivität gewährleisten. Unsere Expertise erstreckt sich auf den Aufbau virtualisierter Infrastrukturen, die fortschrittliche Cloud-Dienste und softwaredefinierte Netzwerke nutzen, um Ihrem Unternehmen unvergleichliche Skalierbarkeit, Agilität und Effizienz zu bieten.",
+                "keyFeatures": {
+                  "feature1": {
+                    "title": "Netzwerkoptimierung",
+                    "description": "Verbesserung der Leistung und Reduzierung der Latenzzeiten..."
+                  },
+                  "feature2": {
+                    "title": "Skalierbarkeit",
+                    "description": "Unterstützt Wachstum mit flexibler Infrastruktur..."
+                  },
+                  "feature3": {
+                    "title": "Echtzeit-Analytik",
+                    "description": "Bietet umsetzbare Erkenntnisse für bessere Entscheidungen."
+                  }
+                },
+                "useCases": {
+                  "case1": {
+                    "title": "Dashboard ermöglichte Echtzeit-Einblicke für Telekom Malaysia",
+                    "description": "Telekom Malaysia Berhad (TM), der führende Telekommunikationsanbieter des Landes, suchte Webrass' Expertise zur Entwicklung einer Berichtslösung. Diese Lösung führt eine nahezu Echtzeitanalyse von Twitter- und Community-Forum-Daten durch, um TMs Mission zu unterstützen, die Telekommunikationstechnologie und -dienstleistungen für alle Malaysier zu verbessern."
+                  },
+                  "case2": {
+                    "title": "Automatisierte Kundenabrechnung mit ML/AI erreichte ~99% Kategorisierungsgenauigkeit",
+                    "description": "Der Kunde, ein Bündnis führender Telekommunikationsanbieter, entwickelt innovative Lösungen und sichert kontinuierliche Einnahmequellen für seine Mitglieder. Mit einer umfangreichen Kundenbasis ist er in mehr als 30 Ländern in APAC und MEA tätig und bietet umfassende Unterstützung und Möglichkeiten für das Wachstum und die Entwicklung der Telekommunikation."
+                  },
+                  "case3": {
+                    "title": "Sentiment-Analyse-Modell verbesserte Einblicksergebnisse für Telekom Malaysia",
+                    "description": "Telekom Malaysia Berhad (TM), der führende Telekommunikationsanbieter des Landes, verbessert kontinuierlich seine Technologie und Dienstleistungen für landesweite Konnektivität. Sie wandten sich an Webrass, um eine Berichtslösung zu entwickeln, die eine nahezu Echtzeitanalyse von Twitter- und Community-Forum-Daten durchführt, um ihre Einblicke und Entscheidungsfähigkeiten zu verbessern."
+                  }
+                }
+              },
+              "technology": {
+                "title": "Technologie",
+                "para1": "Webrass bietet maßgeschneiderte digitale Lösungen für Technologieunternehmen zur Verbesserung der Leistung und Agilität. Unsere Dienstleistungen umfassen Cloud-Beratung, DevSecOps, KI und Automatisierung, mit einem Fokus auf die Modernisierung von Infrastruktur und Anwendungen.",
+                "para2": "Da Cybersicherheit und KI die digitale Transformation vorantreiben, gehen Unternehmen Partnerschaften mit Cloud-Managed-Service-Anbietern ein, um Automatisierung zu verbessern und die Geschäftskontinuität sicherzustellen. Technologieführer nutzen die digitalen Lösungen von Webrass, um Agilität zu steigern, Strategien zu modernisieren und neue Geschäftsmodelle durch ML/AI, IoT und Automatisierung zu erkunden.",
+                "keyFeatures": {
+                  "feature1": {
+                    "title": "Personalisierte Technologielösungen",
+                    "description": "Maßgeschneiderte Lösungen für Ihre spezifischen Bedürfnisse..."
+                  },
+                  "feature2": {
+                    "title": "Nahtlose Integration",
+                    "description": "Bequemer Zugang über Plattformen und Geräte hinweg..."
+                  },
+                  "feature3": {
+                    "title": "Reaktionsschneller technischer Support",
+                    "description": "Zuverlässige Unterstützung, wann immer Sie sie benötigen..."
+                  }
+                },
+                "useCases": {
+                  "case1": {
+                    "title": "AWS-Migration schloss Rechenzentrum in 5 Monaten ab und sparte 30%",
+                    "description": "Der Kunde ging eine Partnerschaft mit Webrass ein, um sein Rechenzentrum stillzulegen und auf AWS-Cloud zu migrieren, wobei ein strenger Zeitrahmen eingehalten wurde. Webrass bewertete die Infrastruktur, plante eine Lift-and-Shift-Migration und setzte eingeschränkte Anwendungen wie Oracle E-Business Suite neu ein. Die Migration, einschließlich 4 TB Daten, wurde in 4,5 Monaten abgeschlossen."
+                  },
+                  "case2": {
+                    "title": "AWS IoT-Implementierung reduzierte Kundenaufwand um 50%",
+                    "description": "Der Kunde strebte an, datengetrieben zu werden, indem er AWS IoT für Videoanalysen einsetzte. Er wollte die Erkennung von Verstößen im Fahrzeug mithilfe von IoT-Geräten reduzieren und Algorithmen auf AWS IoT Greengrass optimieren. Webrass unterstützte die Einrichtung der Lösung für umsetzbare Einblicke und verbesserte Erkennungsfähigkeiten."
+                  },
+                  "case3": {
+                    "title": "Azure-Migration erzielte ~30% Kostenersparnis",
+                    "description": "Der Kunde, ein führender Lackhersteller, hatte Probleme mit nicht verwalteten Festplatten in seiner Azure-Infrastruktur, einschließlich begrenzter IOPS, Skalierungsproblemen und Kosten im Zusammenhang mit veralteten Ressourcen. Er benötigte eine Lösung, um diese Ineffizienzen zu beheben und seine Azure-Umgebung zu optimieren."
+                  }
+                }
+              },
+              "media": {
+                "title": "Medien und Unterhaltung",
+                "para1": "Medien- und Unterhaltungsunternehmen konzentrieren sich auf Hyper-Personalisierung, immersive Erlebnisse und konstante Verfügbarkeit über Plattformen hinweg, um den modernen Kundenerwartungen gerecht zu werden. Um ihre digitale Transformation zu beschleunigen, suchen sie nach einem erfahrenen Cloud-Technologiepartner. In der heutigen Landschaft ist die Bereitstellung hochwertiger digitaler Erlebnisse entscheidend.",
+                "para2": "Webrass hat Medien- und Unterhaltungsunternehmen dabei geholfen, die Qualitätssicherung zu verbessern, SaaS-Produkte zu entwickeln, fortschrittliche Analytik zu nutzen, Speicherkosten zu optimieren und Zahlungsgateways zu sichern, was die Cloud-Akzeptanz vorantreibt. Mit den proprietären Frameworks von Webrass haben diese Unternehmen über 50% Kostenersparnis erzielt und die Qualitätssicherungsprozesse beschleunigt, was zu außergewöhnlichen Benutzererfahrungen führte.",
+                "keyFeatures": {
+                  "feature1": {
+                    "title": "Hyper-Personalisierung",
+                    "description": "Maßgeschneiderte Inhalte und Erlebnisse für individuelle Nutzer."
+                  },
+                  "feature2": {
+                    "title": "Immersive Unterhaltung",
+                    "description": "Fesselnde Multimedia-Erlebnisse über Plattformen hinweg."
+                  },
+                  "feature3": {
+                    "title": "Hohe Verfügbarkeit",
+                    "description": "Zuverlässiger Zugang zu Inhalten jederzeit und überall."
+                  }
+                },
+                "useCases": {
+                  "case1": {
+                    "title": "Azure-Analyse steigerte die Social-Media-Leistung des Sportmedienriesen",
+                    "description": "Webrass implementierte eine Azure-basierte Data-Lake-Lösung in zwei Phasen für den Kunden. Die erste Phase konsolidierte Daten von allen Social-Media-Plattformen—Facebook, Instagram, Twitter und YouTube—in eine einzige Plattform und erstellte Berichte. Die zweite Phase umfasste zusätzliche Metriken und integrierte Google Analytics-Daten für YouTube."
+                  },
+                  "case2": {
+                    "title": "Asia School of Business steigerte AWS-Leistung um 70%",
+                    "description": "Die Asia School of Business (ASB), gegründet 2015 in Zusammenarbeit mit MIT Sloan und Bank Negara Malaysia, musste ihre AWS-Infrastruktur aufgrund wachsender Programme optimieren. Zu diesem Zweck ging ASB eine Partnerschaft mit Webrass ein, um Managed Services zu nutzen, die Automatisierung, Kosteneffizienz und die Gesamtleistung ihrer Cloud-Umgebung zu verbessern und den wachsenden Infrastrukturanforderungen gerecht zu werden."
+                  },
+                  "case3": {
+                    "title": "AWS sicherte Astros Zahlungsgateway effizient",
+                    "description": "Astro, gegründet 1996, ist ein führendes malaysisches Content- und Verbraucherunternehmen, das über 23 Millionen Menschen auf verschiedenen Plattformen bedient. Angesichts von Skalierbarkeits- und Sicherheitsproblemen in ihrem lokalen Zahlungsgateway suchte Astro nach einer sichereren, skalierbaren Lösung, um die PCI-DSS-Konformitätskosten zu senken und das Benutzererlebnis zu verbessern."
+                  }
+                }
+              },
+              "banking": {
+                "title": "Bankwesen",
+                "para1": "Banken und Versicherungen sehen sich strengen Vorschriften und der Nachfrage nach Echtzeit-Prozessautomatisierung und digitaler Entscheidungsfindung gegenüber. Um diese Herausforderungen zu bewältigen, benötigen sie zuverlässige Digitalisierungspartner und Cloud-Banking-Lösungen, die Effizienz und Compliance gewährleisten.",
+                "para2": "Webrass hat das Cloud-Computing für den Bank- und Versicherungssektor revolutioniert. Durch die Nutzung der spezialisierten Cloud-Lösungen von Webrass haben große Akteure wie AAGI schnell in die Cloud migriert, die Big-Data-Fähigkeiten verbessert, die Kosten um über 50% gesenkt und vollständige Sicherheitskonformität erreicht.",
+                "keyFeatures": {
+                  "feature1": {
+                    "title": "Personalisierte Finanzplanung",
+                    "description": "Maßgeschneiderte Finanzpläne zur Erreichung Ihrer Ziele."
+                  },
+                  "feature2": {
+                    "title": "Nahtloses digitales Banking",
+                    "description": "Bequemer Zugang jederzeit und überall."
+                  },
+                  "feature3": {
+                    "title": "Reaktionsschneller Kundenservice",
+                    "description": "Zuverlässige Unterstützung, wann immer Sie sie benötigen."
+                  }
+                },
+                "useCases": {
+                  "case1": {
+                    "title": "Cloud-Transformation steigerte ABFL-Lieferzeit",
+                    "description": "Aditya Birla Finance Ltd. (ABFL), ein großer Anbieter von Kredit- und Vermögensverwaltungsdiensten in Indien, suchte einen Partner zur Überwachung ihrer digitalen Kreditplattform auf AWS. Sie benötigten umfassendes Management ihres Loan Origination Systems (LOS) und anderer Plattformmodule zur Verbesserung ihrer Servicebereitstellung."
+                  },
+                  "case2": {
+                    "title": "Cloud-basierte Sentiment-Analyse reduzierte Aufwand um 50%",
+                    "description": "Der Kunde, eine große Bank, strebte an, die Entscheidungsfindung durch umsetzbare Erkenntnisse mittels eines Sentiment-Analyse-Modells zu verbessern. Um Kundenanfragen aus verschiedenen Kanälen—Social Media, E-Mails, Umfragen und Bewertungen—zu bewältigen, benötigte das Unternehmen eine cloudbasierte ML-Pipeline für Datenengineering und Sentiment-Analyse, um die Kundenerfahrung und Entscheidungsfindung zu verbessern."
+                  },
+                  "case3": {
+                    "title": "AXA Affin verbessert Datenkontrolle mit cloudbasiertem MDM",
+                    "description": "AAGI hatte Probleme mit der Datenintegrität und hohen Kosten bei ihrer bestehenden Master-Data-Management-Plattform. Sie benötigten eine skalierbare, kosteneffektive Lösung und entschieden sich für die AWS-Cloud. Wir führten eine gründliche Bewertung durch und schlugen vor, ihre MDM-Plattform durch AWS-Dienste zu ersetzen und ihren Data Lake mit SFDC-Anwendungen zu integrieren."
+                  }
+                }
+              },
+              "common": {
+                "keyFeatures": "Hauptmerkmale",
+                "useCases": "Anwendungsbeispiele"
+              }
+            },
+
+            
+              "infrastructure": {
+                "headerTitle": "Infrastruktur",
+                "cards": [
+                  { "title": "Vorfallmanagement", "name": "incident-management" },
+                  { "title": "Serviceanfragenmanagement", "name": "service-request-management" },
+                  { "title": "Problemmanagement", "name": "problem-management" },
+                  { "title": "Änderungsmanagement", "name": "change-management" }
+                ]
+              },
+              "cloud-services": {
+                "headerTitle": "Cloud-Dienste",
+                "cards": [
+                  { "title": "Verwaltete Dienste", "name": "managed-services" },
+                  { "title": "Cloud-Beratung, Strategie und Migration", "name": "cloud-consulting-strategy-and-migration" },
+                  { "title": "Cloud Native-Anwendungsentwicklung & -Tests", "name": "cloud-native-application-development-and-testing" },
+                  { "title": "Cloud-Governance & Reporting", "name": "cloud-governance-and-reporting" },
+                  { "title": "Cloud-Entdeckung und -Optimierung", "name": "cloud-discovery-and-optimization" },
+                  { "title": "Cloud- und Plattformmodernisierung", "name": "cloud-and-platform-modernization" }
+                ]
+              },
+              "application-services": {
+                "headerTitle": "Anwendungsdienste",
+                "cards": [
+                  { "title": "Anwendungsbewertung", "name": "application-assessment" },
+                  { "title": "SaaS-Produkt- und Plattformentwicklung", "name": "saas-product-and-platform-development" },
+                  { "title": "Anwendungswartung und -erweiterung", "name": "application-maintenance-and-enhancement" },
+                  { "title": "Anwendungsmodernisierung", "name": "application-modernization" }
+                ]
+              },
+              "cyber-security": {
+                "headerTitle": "Cybersicherheit",
+                "cards": [
+                  { "title": "Datenstrategie", "name": "data-strategy" },
+                  { "title": "Daten-Governance und -Engineering", "name": "data-governance-and-engineering" },
+                  { "title": "Cloud-Sicherheitsengineering", "name": "cloud-security-engineering" },
+                  { "title": "Cloud-Sicherheitsoperationen", "name": "cloud-security-operations" }
+                ]
+              },
+              "data-analytics": {
+                "headerTitle": "Datenanalyse",
+                "cards": [
+                  { "title": "Verwaltete Analysen", "name": "managed-analytics" },
+                  { "title": "BI-Modernisierung", "name": "bi-modernization" }
+                ]
+              },
+              "automation": {
+                "headerTitle": "Automatisierung",
+                "cards": [
+                  { "title": "DevSecOps", "name": "devsecops" },
+                  { "title": "DevOps-Transformation", "name": "devops-transformation" }
+                ]
+              },
+              "unknown-service": {
+                "headerTitle": "Unbekannter Dienst",
+                "cards": []
+              }
+            }
+            
+          
+          
+        
+        
+      
+      
+    
+    
+  
+  
+
+
