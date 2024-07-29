@@ -346,62 +346,37 @@
   },
 
   
-    "infrastructure": {
-      "headerTitle": "Infrastruktúra",
-      "cards": [
-        { "title": "Esetkezelés", "name": "incident-management" },
-        { "title": "Szolgáltatáskérelmek kezelése", "name": "service-request-management" },
-        { "title": "Problémakezelés", "name": "problem-management" },
-        { "title": "Változáskezelés", "name": "change-management" }
-      ]
-    },
-    "cloud-services": {
-      "headerTitle": "Felhőszolgáltatások",
-      "cards": [
-        { "title": "Kezelt Szolgáltatások", "name": "managed-services" },
-        { "title": "Felhőtanácsadás, Stratégia és Migráció", "name": "cloud-consulting-strategy-and-migration" },
-        { "title": "Felhőnatív Alkalmazásfejlesztés és Tesztelés", "name": "cloud-native-application-development-and-testing" },
-        { "title": "Felhő Kormányzás és Jelentés", "name": "cloud-governance-and-reporting" },
-        { "title": "Felhő Felfedezés és Optimalizálás", "name": "cloud-discovery-and-optimization" },
-        { "title": "Felhő és Platform Modernizálás", "name": "cloud-and-platform-modernization" }
-      ]
-    },
-    "application-services": {
-      "headerTitle": "Alkalmazás Szolgáltatások",
-      "cards": [
-        { "title": "Alkalmazás Értékelés", "name": "application-assessment" },
-        { "title": "SaaS Termék és Platform Fejlesztés", "name": "saas-product-and-platform-development" },
-        { "title": "Alkalmazás Karbantartás és Fejlesztés", "name": "application-maintenance-and-enhancement" },
-        { "title": "Alkalmazás Modernizálás", "name": "application-modernization" }
-      ]
-    },
-    "cyber-security": {
-      "headerTitle": "Kibervédelem",
-      "cards": [
-        { "title": "Adatstratégia", "name": "data-strategy" },
-        { "title": "Adatkormányzás és Mérnöki Munka", "name": "data-governance-and-engineering" },
-        { "title": "Felhőbiztonsági Mérnökség", "name": "cloud-security-engineering" },
-        { "title": "Felhőbiztonsági Műveletek", "name": "cloud-security-operations" }
-      ]
-    },
-    "data-analytics": {
-      "headerTitle": "Adatanalitika",
-      "cards": [
-        { "title": "Kezelt Analitika", "name": "managed-analytics" },
-        { "title": "BI Modernizálás", "name": "bi-modernization" }
-      ]
-    },
-    "automation": {
-      "headerTitle": "Automatizálás",
-      "cards": [
-        { "title": "DevSecOps", "name": "devsecops" },
-        { "title": "DevOps Átalakítás", "name": "devops-transformation" }
-      ]
-    },
-    "unknown-service": {
-      "headerTitle": "Ismeretlen Szolgáltatás",
-      "cards": []
+    "contact": {
+      "title": "MINDIG ITT VAGYUNK, HOGY SEGÍTSÜNK.",
+      "description": "Ismerje meg, hogyan segíthetünk a következő lépés megtételében az átalakulási útján.",
+      "visitUs": "LÁTOGASSON MEG MINKET",
+      "addresses": [
+        "179 Leisie Road, Renfrew Pennsylvania (PA), 16053 [Amerikai Egyesült Államok]",
+        "36 Sunder Nagar, Industrial Estate, Indore Madhya Pradesh - 452015, [India]",
+        "11 Bestwood Park Dr W, Nottingham NG5 5EJ, [Egyesült Királyság]"
+      ],
+      "emailAddress": "EMAIL CÍM",
+      "email": "erdeklodes@webrass.com",
+      "callNow": "HÍVJON MOST",
+      "phoneNumbers": [
+        "+1-7247771339",
+        "+91-9560903337",
+        "+44-7379959424"
+      ],
+      "form": {
+        "name": "Az Ön neve",
+        "email": "Email cím",
+        "phone": "Telefonszám",
+        "subject": "Tárgy",
+        "message": "Üzenet írása",
+        "sendMessage": "ÜZENET KÜLDÉSE",
+        "sendViaWhatsApp": "Küldés WhatsApp-on keresztül"
+      },
+      "toast": {
+        "success": "Sikeresen kitöltötte az űrlapot. Köszönjük!",
+        "error": "Hiba történt. Kérjük, próbálja újra."
+      }
     }
-  }
   
-
+  
+}

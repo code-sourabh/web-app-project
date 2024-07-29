@@ -354,65 +354,40 @@
             },
 
             
-              "infrastructure": {
-                "headerTitle": "Infrastructure",
-                "cards": [
-                  { "title": "Incident Management", "name": "incident-management" },
-                  { "title": "Service Request Management", "name": "service-request-management" },
-                  { "title": "Problem Management", "name": "problem-management" },
-                  { "title": "Change Management", "name": "change-management" }
-                ]
-              },
-              "cloud-services": {
-                "headerTitle": "Cloud Services",
-                "cards": [
-                  { "title": "Managed Services", "name": "managed-services" },
-                  { "title": "Cloud Consulting, Strategy and Migration", "name": "cloud-consulting-strategy-and-migration" },
-                  { "title": "Cloud Native Application Development & Testing", "name": "cloud-native-application-development-and-testing" },
-                  { "title": "Cloud Governance & Reporting", "name": "cloud-governance-and-reporting" },
-                  { "title": "Cloud Discovery and Optimization", "name": "cloud-discovery-and-optimization" },
-                  { "title": "Cloud and Platform Modernization", "name": "cloud-and-platform-modernization" }
-                ]
-              },
-              "application-services": {
-                "headerTitle": "Application Services",
-                "cards": [
-                  { "title": "Application Assessment", "name": "application-assessment" },
-                  { "title": "SaaS Product and Platform Development", "name": "saas-product-and-platform-development" },
-                  { "title": "Application Maintenance and Enhancement", "name": "application-maintenance-and-enhancement" },
-                  { "title": "Application Modernization", "name": "application-modernization" }
-                ]
-              },
-              "cyber-security": {
-                "headerTitle": "Cyber-security",
-                "cards": [
-                  { "title": "Data Strategy", "name": "data-strategy" },
-                  { "title": "Data Governance and Engineering", "name": "data-governance-and-engineering" },
-                  { "title": "Cloud Security Engineering", "name": "cloud-security-engineering" },
-                  { "title": "Cloud Security Operations", "name": "cloud-security-operations" }
-                ]
-              },
-              "data-analytics": {
-                "headerTitle": "Data Analytics",
-                "cards": [
-                  { "title": "Managed Analytics", "name": "managed-analytics" },
-                  { "title": "BI Modernization", "name": "bi-modernization" }
-                ]
-              },
-              "automation": {
-                "headerTitle": "Automation",
-                "cards": [
-                  { "title": "DevSecOps", "name": "devsecops" },
-                  { "title": "DevOps Transformation", "name": "devops-transformation" }
-                ]
-              },
-              "unknown-service": {
-                "headerTitle": "Unknown Service",
-                "cards": []
+              "contact": {
+                "title": "WE ARE ALWAYS HERE TO HELP YOU.",
+                "description": "Learn how we can help you take the next step in your transformation journey.",
+                "visitUs": "VISIT US",
+                "addresses": [
+                  "179 Leisie Road, Renfrew Pennsylvania (PA), 16053 [United States of America]",
+                  "36 Sunder Nagar, Industrial Estate, Indore Madhya Pradesh - 452015, [India]",
+                  "11 Bestwood Park Dr W, Nottingham NG5 5EJ, [United Kingdom]"
+                ],
+                "emailAddress": "EMAIL ADDRESS",
+                "email": "enquiry@webrass.com",
+                "callNow": "CALL NOW",
+                "phoneNumbers": [
+                  "+1-7247771339",
+                  "+91-9560903337",
+                  "+44-7379959424"
+                ],
+                "form": {
+                  "name": "Your Name",
+                  "email": "Email Address",
+                  "phone": "Phone Number",
+                  "subject": "Subject",
+                  "message": "Write Message",
+                  "sendMessage": "SEND MESSAGE",
+                  "sendViaWhatsApp": "Send via WhatsApp"
+                },
+                "toast": {
+                  "success": "You have successfully filled the form. Thanks!",
+                  "error": "An error occurred. Please try again."
+                }
               }
-            }
             
-          
+            
+          }
         
         
       

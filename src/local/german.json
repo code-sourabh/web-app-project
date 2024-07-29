@@ -350,65 +350,40 @@
             },
 
             
-              "infrastructure": {
-                "headerTitle": "Infrastruktur",
-                "cards": [
-                  { "title": "Vorfallmanagement", "name": "incident-management" },
-                  { "title": "Serviceanfragenmanagement", "name": "service-request-management" },
-                  { "title": "Problemmanagement", "name": "problem-management" },
-                  { "title": "Änderungsmanagement", "name": "change-management" }
-                ]
-              },
-              "cloud-services": {
-                "headerTitle": "Cloud-Dienste",
-                "cards": [
-                  { "title": "Verwaltete Dienste", "name": "managed-services" },
-                  { "title": "Cloud-Beratung, Strategie und Migration", "name": "cloud-consulting-strategy-and-migration" },
-                  { "title": "Cloud Native-Anwendungsentwicklung & -Tests", "name": "cloud-native-application-development-and-testing" },
-                  { "title": "Cloud-Governance & Reporting", "name": "cloud-governance-and-reporting" },
-                  { "title": "Cloud-Entdeckung und -Optimierung", "name": "cloud-discovery-and-optimization" },
-                  { "title": "Cloud- und Plattformmodernisierung", "name": "cloud-and-platform-modernization" }
-                ]
-              },
-              "application-services": {
-                "headerTitle": "Anwendungsdienste",
-                "cards": [
-                  { "title": "Anwendungsbewertung", "name": "application-assessment" },
-                  { "title": "SaaS-Produkt- und Plattformentwicklung", "name": "saas-product-and-platform-development" },
-                  { "title": "Anwendungswartung und -erweiterung", "name": "application-maintenance-and-enhancement" },
-                  { "title": "Anwendungsmodernisierung", "name": "application-modernization" }
-                ]
-              },
-              "cyber-security": {
-                "headerTitle": "Cybersicherheit",
-                "cards": [
-                  { "title": "Datenstrategie", "name": "data-strategy" },
-                  { "title": "Daten-Governance und -Engineering", "name": "data-governance-and-engineering" },
-                  { "title": "Cloud-Sicherheitsengineering", "name": "cloud-security-engineering" },
-                  { "title": "Cloud-Sicherheitsoperationen", "name": "cloud-security-operations" }
-                ]
-              },
-              "data-analytics": {
-                "headerTitle": "Datenanalyse",
-                "cards": [
-                  { "title": "Verwaltete Analysen", "name": "managed-analytics" },
-                  { "title": "BI-Modernisierung", "name": "bi-modernization" }
-                ]
-              },
-              "automation": {
-                "headerTitle": "Automatisierung",
-                "cards": [
-                  { "title": "DevSecOps", "name": "devsecops" },
-                  { "title": "DevOps-Transformation", "name": "devops-transformation" }
-                ]
-              },
-              "unknown-service": {
-                "headerTitle": "Unbekannter Dienst",
-                "cards": []
+              "contact": {
+                "title": "WIR SIND IMMER FÜR SIE DA.",
+                "description": "Erfahren Sie, wie wir Ihnen helfen können, den nächsten Schritt in Ihrer Transformationsreise zu machen.",
+                "visitUs": "BESUCHEN SIE UNS",
+                "addresses": [
+                  "179 Leisie Road, Renfrew Pennsylvania (PA), 16053 [Vereinigte Staaten von Amerika]",
+                  "36 Sunder Nagar, Industrial Estate, Indore Madhya Pradesh - 452015, [Indien]",
+                  "11 Bestwood Park Dr W, Nottingham NG5 5EJ, [Vereinigtes Königreich]"
+                ],
+                "emailAddress": "E-MAIL-ADRESSE",
+                "email": "anfrage@webrass.com",
+                "callNow": "JETZT ANRUFEN",
+                "phoneNumbers": [
+                  "+1-7247771339",
+                  "+91-9560903337",
+                  "+44-7379959424"
+                ],
+                "form": {
+                  "name": "Ihr Name",
+                  "email": "E-Mail-Adresse",
+                  "phone": "Telefonnummer",
+                  "subject": "Betreff",
+                  "message": "Nachricht schreiben",
+                  "sendMessage": "NACHRICHT SENDEN",
+                  "sendViaWhatsApp": "Über WhatsApp senden"
+                },
+                "toast": {
+                  "success": "Sie haben das Formular erfolgreich ausgefüllt. Vielen Dank!",
+                  "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+                }
               }
-            }
             
-          
+            
+          }
           
         
         
