@@ -6,13 +6,11 @@
     background-size: cover;
     color: #fff;
     text-align: center;
-    margin-top: -2rem;
+    margin-top: 0rem;
     
   }
   
   .homepage .header {
-    padding: 2rem;
-   
     background-color: #000000 ; /* Dark overlay */
     opacity: 0;
     animation: fadeInUp 1s ease forwards; /* Fade in animation */
@@ -20,7 +18,7 @@
   
   .homepage .header-title {
     font-size: 3rem; 
-    margin-top: 0.5rem;
+    /* margin-top: 0.5rem; */
     font-weight: bold;
     color: #fff;
   }
@@ -36,7 +34,7 @@
     flex-direction: column; /* Stack sections vertically */
     align-items: center;
     justify-content: center;
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
     background: linear-gradient(to bottom, #000000 0%, #222222 70%); /* More black, less orange */
     color: #fff;
     opacity: 0;
