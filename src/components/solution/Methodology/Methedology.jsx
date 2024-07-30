@@ -583,3 +583,146 @@ case "bi-modernization":
 };
 
 export default Methodology;
+
+
+// import React from "react";
+// import { useParams } from "react-router-dom";
+// import { useTranslation } from "react-i18next";
+// import Framework from "./Framework";
+// import image1 from "../../../image/workflow1.jpg";
+
+// const Banner = ({ headerTitle }) => {
+//   const { t } = useTranslation();
+//   return (
+//     <div className="relative h-64 bg-[#ff6600] overflow-hidden">
+//       <div className="relative h-full flex flex-col justify-center items-center text-white p-4">
+//         <h1 className="text-3xl md:text-5xl font-bold mb-2 text-center">
+//           {t(headerTitle)}
+//         </h1>
+//       </div>
+//     </div>
+//   );
+// };
+
+// const MethodologyCard = ({ title, description }) => {
+//   const { t } = useTranslation();
+//   return (
+//     <div className="bg-white p-6 rounded-lg shadow-md w-full md:w-[calc(33.333%-1rem)] transition-transform duration-300 ease-in-out hover:scale-105">
+//       <div className="text-orange-500 text-3xl mb-4">{t("methodologyCard.icon")}</div>
+//       <h3 className="text-xl font-semibold mb-2">{t(title)}</h3>
+//       <p className="text-gray-600">{t(description)}</p>
+//     </div>
+//   );
+// };
+
+
+//   const Methodology = () => {
+//     const { t } = useTranslation();
+//     const { methodType } = useParams();
+  
+//     const getContent = (type) => {
+//       switch (type) {
+//         case "managed-services":
+//           return {
+//             headerTitle: "methodology.managed_services.header",
+//             Frameworkimage: image1,
+//             cards: [
+//               {
+//                 title: "methodology.managed_services.incident_management.title",
+//                 description: "methodology.managed_services.incident_management.description",
+//               },
+//               {
+//                 title: "methodology.managed_services.service_request_management.title",
+//                 description: "methodology.managed_services.service_request_management.description",
+//               },
+//               {
+//                 title: "methodology.managed_services.problem_management.title",
+//                 description: "methodology.managed_services.problem_management.description",
+//               },
+//               {
+//                 title: "methodology.managed_services.change_management.title",
+//                 description: "methodology.managed_services.change_management.description",
+//               },
+//             ],
+//           };
+//         case "cloud-consulting-strategy-and-migration":
+//           return {
+//             headerTitle: "methodology.cloud_consulting.header",
+//             cards: [
+//               {
+//                 title: "methodology.cloud_consulting.consulting.title",
+//                 description: "methodology.cloud_consulting.consulting.description",
+//               },
+//               {
+//                 title: "methodology.cloud_consulting.strategy.title",
+//                 description: "methodology.cloud_consulting.strategy.description",
+//               },
+//               {
+//                 title: "methodology.cloud_consulting.migration.title",
+//                 description: "methodology.cloud_consulting.migration.description",
+//               },
+//             ],
+//           };
+//         case "cloud-native-application-development-and-testing":
+//           return {
+//             headerTitle: "methodology.cloud_native.header",
+//             cards: [
+//               {
+//                 title: "methodology.cloud_native.microservices.title",
+//                 description: "methodology.cloud_native.microservices.description",
+//               },
+//               {
+//                 title: "methodology.cloud_native.agile_development.title",
+//                 description: "methodology.cloud_native.agile_development.description",
+//               },
+//               {
+//                 title: "methodology.cloud_native.system_integration.title",
+//                 description: "methodology.cloud_native.system_integration.description",
+//               },
+//               {
+//                 title: "methodology.cloud_native.testing_qa.title",
+//                 description: "methodology.cloud_native.testing_qa.description",
+//               },
+//             ],
+//           };
+//         // Add more cases for other method types as needed
+//         default:
+//           return {
+//             headerTitle: "Unknown Service",
+//             cards: [],
+//           };
+//       }
+//     };
+
+
+//   const content = getContent(methodType);
+
+//   return (
+//     <div className="bg-gray-100 mt-[5rem]">
+//       <Banner headerTitle={`methodologies.${methodType}.headerTitle`} />
+
+//       <div className="container mx-auto px-4 py-16">
+//         <div className="text-center mb-12">
+//           <h2 className="text-4xl font-bold mb-4">{t("bannerMethod.title")}</h2>
+//           <div className="w-24 h-1 bg-orange-500 mx-auto"></div>
+//         </div>
+//         <div className="flex flex-wrap justify-center gap-8">
+//           {content.cards && content.cards.length > 0 ? (
+//             content.cards.map((item, index) => (
+//               <MethodologyCard
+//                 key={index}
+//                 title={`methodologies.${methodType}.cards.${index}.title`}
+//                 description={`methodologies.${methodType}.cards.${index}.description`}
+//               />
+//             ))
+//           ) : (
+//             <p>{t("noCards")}</p>
+//           )}
+//         </div>
+//         {content.Frameworkimage && <Framework img={content.Frameworkimage} />}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default Methodology;

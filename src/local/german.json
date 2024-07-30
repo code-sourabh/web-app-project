@@ -380,10 +380,133 @@
                   "success": "Sie haben das Formular erfolgreich ausgefüllt. Vielen Dank!",
                   "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
                 }
+              },
+
+
+
+              
+                "methodologies": {
+                  "managed-services": {
+                    "headerTitle": "Managed Services",
+                    "cards": [
+                      {
+                        "title": "Incident Management",
+                        "description": "Proaktive Überwachung von Ressourcen (Servern/Anwendungen) und Gewährleistung umfassender L1-, L2- und L3-Unterstützung umfasst einen strukturierten Ansatz für das IT-Service-Management."
+                      },
+                      {
+                        "title": "Service Request Management",
+                        "description": "Der Betrieb eines ITSM-fähigen (IT Service Management) Service Desk umfasst die Nutzung von ITSM-Best-Practices und -Tools, um Kundenanfragen effizient zu verwalten und zu erfüllen und gleichzeitig die umfassende Teamproduktivität zu steigern."
+                      },
+                      {
+                        "title": "Problem Management",
+                        "description": "Die Einhaltung der Leistungsziele gemäß Experience Level Agreements (XLAs) umfasst nicht nur die Erfüllung traditioneller SLAs, sondern auch die Fokussierung auf die Qualität der Benutzererfahrung. Dies erfordert die Integration kundenorientierter Metriken, die Erstellung umsetzbarer Warnungen und die Ableitung von Erkenntnissen zur kontinuierlichen Verbesserung der Kundenzufriedenheit."
+                      },
+                      {
+                        "title": "Change Management",
+                        "description": "Erfolgsfaktoren für die Implementierung von DevSecOps umfassen Daten mit Verbesserungen bei Releases, über 30% weniger Build-Fehler in fortgeschrittenen Umgebungen, über 20% Verbesserung bei der Behebung von Fehlern und Fehlalarmen sowie vollständige Beseitigung von Sicherheitsvorfällen."
+                      }
+                    ]
+                  },
+                  "cloud-consulting-strategy-and-migration": {
+                    "headerTitle": "Cloud-Beratung, Strategie und Migration",
+                    "cards": [
+                      {
+                        "title": "Cloud-Beratung",
+                        "description": "Entwickeln Sie eine präzise und leicht verständliche Strategie und einen Weg zur Migration in die Cloud. Nutzen Sie renommierte Scanning-Tools und führen Sie Gespräche mit Stakeholdern, um die aktuelle Infrastruktur und Anwendungslandschaft zu verstehen. Entwickeln Sie auf Basis dieser Informationen eine maßgeschneiderte Migrationsstrategie, indem Sie Anwendungen in Kategorien wie Rehosting, Re-Platforming, Re-Architektur und Refactoring einteilen."
+                      },
+                      {
+                        "title": "Cloud-Strategie",
+                        "description": "Webrass Cloud-Berater und -Architekten verfügen über ein umfassendes Verständnis der Geschäftsziele, der aktuellen IT-Infrastruktur, der technologischen Landschaft und des gesamten IT-Budgets. Nach Workshops mit CXOs, oft begleitet von einem Cloud Center of Excellence-Team, erstellen sie eine umfassende Cloud-Roadmap. Diese Roadmap dient als Leitdokument für die gesamte Transformationsreise und gewährleistet die Ausrichtung an strategischen Zielen und eine effiziente Ressourcennutzung."
+                      },
+                      {
+                        "title": "Cloud-Migration & Deployment",
+                        "description": "Basierend auf den Erkenntnissen aus der Beratungsphase fahren Sie entweder mit der Migration oder dem Deployment von Anwendungen fort. Beginnen Sie mit der Einrichtung einer sicheren Cloud-Landingzone, gefolgt von der Migrations- oder Deployment-Prozedur. Nutzen Sie Blazeclans proprietäre Frameworks mit robusten Automatisierungsfähigkeiten, um eine agile Migration zu ermöglichen. Diese Frameworks sind mit vordefinierten technischen Artefakten ausgestattet, um einen reibungslosen und effizienten Übergang zur Cloud sicherzustellen."
+                      }
+                    ]
+                  },
+                  "cloud-native-application-development-and-testing": {
+                    "headerTitle": "Cloud Native Anwendungsentwicklung & Testing",
+                    "cards": [
+                      {
+                        "title": "Mikroservices",
+                        "description": "Organisieren Sie Anwendungen in einer Sammlung von Mikroservices, um kontinuierliche Liefer- und Bereitstellungsmöglichkeiten zu verbessern. Setzen Sie Cloud-native Anwendungen nahtlos und schnell um und gewährleisten Sie Effizienz und Skalierbarkeit in jeder Phase der Entwicklung und Bereitstellung."
+                      },
+                      {
+                        "title": "Agile Entwicklung",
+                        "description": "Optimieren und beschleunigen Sie den Anwendungsentwicklungsprozess durch die Annahme eines agilen Ansatzes, der Innovation fördert. Implementieren Sie die Integration von DevOps, um Anwendungen nahtlos von der Entwurfs- in die Produktionsphase zu überführen, die Lieferzeit zu verkürzen und die Betriebseffizienz zu verbessern."
+                      },
+                      {
+                        "title": "Systemintegration",
+                        "description": "Integrieren Sie verschiedene Anwendungen effizient, um die IT-Infrastruktur zu vereinfachen und den ROI zu verbessern. Nutzen Sie API-Integration, um Wettbewerbsvorteile zu schaffen, die Agilität zu steigern und die Prozessoptimierung zu verbessern."
+                      },
+                      {
+                        "title": "Testing und Qualitätssicherung",
+                        "description": "Optimieren und beschleunigen Sie den Testing- und Qualitätssicherungsprozess für Cloud-native Anwendungen durch die Implementierung eines fehlertoleranten Rahmens mit einem Zero-Trust-Ansatz. Stellen Sie reibungslose Anwendungsfreigaben sicher und mindern Sie proaktiv Probleme, bevor Updates in Produktionsumgebungen bereitgestellt werden."
+                      }
+                    ]
+                  },
+                  "cloudGovernanceAndReporting": {
+                    "headerTitle": "Cloud-Governance & Reporting",
+                    "cards": [
+                      {
+                        "title": "Cloud-Governance",
+                        "description": "Nutzen Sie WeBrass' intelligente Cloud-Management-Plattform, um automatische Warnungen und Trigger für Sicherheitsvorfälle und Budgetgrenzen zu ermöglichen. Implementieren Sie robuste Sicherheitsmaßnahmen und etablieren Sie eine dynamische Kontrolle über die Cloud-Umgebung durch einen zentralen Governance-Ansatz."
+                      },
+                      {
+                        "title": "Automatisiertes Reporting",
+                        "description": "Automatisieren Sie die Erstellung von monatlichen und vierteljährlichen Berichten für Cloud-Betrieb, Sicherheit und Kosten. Verbessern Sie die Entscheidungsfindung mit Echtzeit-Gesundheitsberichten von Cloud-Ressourcen, Metrikdiagrammberichten für kritische Server und Berichten über Vorfälle oder Serviceanfragen, die über Slack-Kanäle verteilt werden. Dies gewährleistet tiefe Einblicke und ermöglicht eine proaktive Verwaltung der Cloud-Infrastruktur."
+                      }
+                    ]
+                  },
+                  "cloudDiscoveryAndOptimization": {
+                    "headerTitle": "Cloud-Entdeckung und -Optimierung",
+                    "cards": [
+                      {
+                        "title": "Single-Pane View",
+                        "description": "Ersetzen Sie manuelle Verfolgung durch WeBrass' agile Überwachung, die durch automatisierte Entdeckung gesteuert wird, wodurch die Notwendigkeit für manuelle Anstrengungen zur Nachverfolgung von Anwendungs- und Arbeitslaststandorten und deren Interaktionsparadigmen entfällt. Dieser automatisierte Ansatz gewährleistet eine effiziente und präzise Überwachung und verbessert die Sichtbarkeit und Kontrolle über die Infrastruktur."
+                      },
+                      {
+                        "title": "Automatisierte Cloud-Optimierung",
+                        "description": "Automatisieren Sie die Überwachung, Korrelation und Visualisierung von Cloud-Ressourcen und deren Gesundheitsmetriken, um Echtzeit-Reaktionen zu ermöglichen. Verbessern Sie die Betriebseffizienz und optimieren Sie die Nutzung von Cloud-Diensten durch die Implementierung gut definierter und verwaltbarer IT-Prozesse. Dieser Ansatz gewährleistet eine proaktive Verwaltung und maximiert die Vorteile der Cloud-Infrastruktur."
+                      }
+                    ]
+                  },
+                  "cloudAndPlatformModernization": {
+                    "headerTitle": "Cloud- und Plattformmodernisierung",
+                    "cards": [
+                      {
+                        "title": "Ansatz",
+                        "description": "Identifizieren Sie Anwendungen mit dem Potenzial für mindestens 30% Kosten-Nutzen im kurz- bis mittelfristigen Zeitraum und streben Sie eine fast 99,5%ige Verbesserung der Betriebszeit an. Pflegen Sie Plattformen und Anwendungen strategisch, um als Katalysatoren für zukünftige Geschäftserweiterungen zu dienen. Dieser Ansatz gewährleistet eine optimale Ressourcennutzung und maximiert die Auswirkungen von Technologieinvestitionen auf das Geschäftswachstum und die Agilität."
+                      },
+                      {
+                        "title": "Identifizieren und Entwerfen",
+                        "description": "Analysieren Sie Anwendungen und Komponenten unter Berücksichtigung von Faktoren wie Geschäftswachstum, Nachfrage, Kritikalität, Erweiterungsplänen, Leistung, OPEX und CAPEX. Priorisieren Sie diejenigen mit dem größten Verbesserungspotenzial. Führen Sie minimale Refaktorisierungen durch, um hohe Verfügbarkeit, Skalierbarkeit und vollständige DevOps-Integration zu verbessern. In Bereichen mit signifikanten Gewinnen bei Verbrauchskosten und Verfügbarkeit, unternehmen Sie Containerisierungs- und Refaktorisierungsbemühungen. Dieser Ansatz optimiert die Ressourcenzuweisung und verbessert die Effizienz der IT-Infrastruktur."
+                      }
+                    ]
+                  },
+                  "applicationAssessment": {
+                    "headerTitle": "Anwendungsbewertung",
+                    "cards": [
+                      {
+                        "title": "Design",
+                        "description": "Der Beginn mit Stakeholder-Meetings bildet eine solide Grundlage für einen standardisierten Ansatz zur Anwendungsbewertung. Durch die frühzeitige Einbindung der Stakeholder kann der Bewertungsprozess eng an den Bedürfnissen und Zielen der Organisation ausgerichtet werden. Die Erfassung wichtiger Anforderungen wie der zukünftige Fahrplan und Skalierbarkeit stellt sicher, dass die Bewertung sowohl kurzfristige Bedürfnisse als auch langfristiges Wachstumspotenzial berücksichtigt."
+                      },
+                      {
+                        "title": "Definieren",
+                        "description": "Nutzen Sie eine tool-zentrierte Bewertungsmethodik, die auf die spezifischen Bedürfnisse der Stakeholder abgestimmt ist. Die Durchführung einer gründlichen Evaluierung der aktuellen Anwendungslandschaft stellt sicher, dass potenzielle Risiken identifiziert und die Vorteile des Modernisierungsprozesses maximiert werden. Dies ermöglicht eine zielgerichtete Optimierung der Anwendungen, um die gewünschten Ergebnisse effizient zu erreichen."
+                      },
+                      {
+                        "title": "Bewerten",
+                        "description": "Setzen Sie skalierbare und flexible Bewertungsmethoden ein, die auf den Zielen der Stakeholder basieren. Die Priorisierung der Anwendungen nach Nutzen und Aufwand gewährleistet, dass die wichtigsten Bereiche zuerst angegangen werden. Durch die transparente Bewertung und die Berücksichtigung der aktuellen IT-Ressourcen können fundierte Entscheidungen getroffen werden, die sowohl die Effizienz verbessern als auch die Zukunftssicherheit erhöhen."
+                      }
+                    ]
+                  }
+                }
               }
+              
             
             
-          }
+          
           
         
         

@@ -26,7 +26,6 @@
         "title": "Unleash Your Creativity",
         "description": "Discover powerful tools to bring your ideas to life. Explore our intuitive platform and unlock your creative potential.",
         "getStarted": "Get In Touch"
-        
       },
       {
         "title": "Elevate Your Workflow",
@@ -36,11 +35,11 @@
       }
     ]
   },
-  
-    "partners": {
-      "heading": "Discovering Opportunities Together"
-    },
-    "description": {
+
+  "partners": {
+    "heading": "Discovering Opportunities Together"
+  },
+  "description": {
     "title": "Striving to",
     "subtitle": "Build Your Next",
     "innovateTitle": "Innovate",
@@ -60,8 +59,6 @@
       "title": "Achieving An Ideal Cloud Migration",
       "excerpt": "Cloud migration can seem challenging, and in some cases, it might pose a high-risk venture. But this is only true when an organization doesn’t have the right cloud partner or a fitting solution bespoke to their business objectives. The pandemic has intensified the gravity of being future-ready, data-driven, and hosted in virtual environments for businesses that look to compete at the forefront of the digital world...",
       "image": "https://allianzcloud.com/wp-content/uploads/2021/07/Services_Cloud-Transformation_Cloud-Migration-1-1.png"
-      
-    
     },
     {
       "title": "How Cloud Adoption is Revolutionizing the Retail Industry",
@@ -75,325 +72,658 @@
     }
   ],
 
-  
-    "testimonialTitle": "Case Studies",
-    "testimonial1": {
-      "name": "Staffing Company",
-      "text": "By moving to AWS with assistance from Webrass, the clients received AWS Enterprise level support for a lower cost."
-    },
-    "testimonial2": {
-      "name": "A Healthcare Provider",
-      "text": "Webrass and AWS assistance implements a healthcare sciences-focused data capture and data analytics solution fully managed by Webrass."
-    },
-    "testimonial3": {
-      "name": "A Biotech Company",
-      "text": "Leveraged Webrass advanced services to assess, design, and implement an overall DevOps process while using Webrass Foundational and Webrass operations."
-    },
+  "testimonialTitle": "Case Studies",
+  "testimonial1": {
+    "name": "Staffing Company",
+    "text": "By moving to AWS with assistance from Webrass, the clients received AWS Enterprise level support for a lower cost."
+  },
+  "testimonial2": {
+    "name": "A Healthcare Provider",
+    "text": "Webrass and AWS assistance implements a healthcare sciences-focused data capture and data analytics solution fully managed by Webrass."
+  },
+  "testimonial3": {
+    "name": "A Biotech Company",
+    "text": "Leveraged Webrass advanced services to assess, design, and implement an overall DevOps process while using Webrass Foundational and Webrass operations."
+  },
 
-    
-      "Years of Cloud & Digital Expertise": "Years of Cloud & Digital Expertise",
-      "Certified Cloud Experts": "Certified Cloud Experts",
-      "Businesses Enabled with Digital Transformation": "Businesses Enabled with Digital Transformation",
-      "CSAT score": "CSAT score",
-      
-        "industriesType": [
-          {
-            "icon": "finance",
-            "title": "Finance Service",
-            "link": "/industries/finance",
-            "content": {
-              "title": "Cloud-Based Platform Enabled hub.brussels Seamless Data Integration",
-              "description": "Financial services companies encounter significant challenges in securing digital payments, releasing affordable products, and navigating the complex regulatory landscape. To address these issues, they seek trusted experts in cloud computing for financial services to develop resilient digital infrastructures that facilitate technology-led innovation and keep pace with evolving value chains"
-            }
-          },
-          {
-            "icon": "telecom",
-            "title": "Telecom",
-            "link": "/industries/telecom",
-            "content": {
-              "title": "Dashboard Enabled Real-Time Insights for Telekom Malaysia",
-              "description": "Telekom Malaysia Berhad (TM), the nation's leading telecommunications provider, sought Webrass's expertise to develop a reporting solution. This solution performs near real-time sentiment analysis on Twitter and community forum data, supporting TM's mission to enhance telecommunications technology and services for all Malaysians."
-            }
-          },
-          {
-            "icon": "media",
-            "title": "Media & Entertainment",
-            "link": "/industries/media",
-            "content": {
-              "title": "Engaging multimedia experiences across platforms.",
-              "description": "Webrass has helped media and entertainment firms enhance quality engineering, develop SaaS products, utilize advanced analytics, optimize storage costs, and secure payment gateways, driving cloud adoption. With Webrass’s proprietary frameworks, these companies have achieved over 50% cost savings and accelerated quality assurance processes, resulting in exceptional user experiences."
-            }
-          },
-          {
-            "icon": "banking",
-            "title": "Banking & Insurance",
-            "link": "/industries/banking",
-            "content": {
-              "title": "Cloud Transformation Boosted ABFL Delivery Time",
-              "description": "Banking and insurance companies face stringent regulations and demand for real-time process automation and digital decision-making. To overcome these challenges, they need dependable digitization partners and cloud banking solutions that ensure efficiency and compliance."
-            }
-          },
-          {
-            "icon": "tech",
-            "title": "Technology",
-            "link": "/industries/technology",
-            "content": {
-              "title": "Enhanced Security Measures Reduced Fraud by 70%",
-              "description": "Webrass offers tailored digital solutions for technology companies to enhance performance and agility. Our services include cloud consulting, DevSecOps, AI, and automation, focusing on modernizing infrastructure and applications."
-            }
-          }
-        ],
-        "header": {
-          "title": "Our Expertise Across Industry Verticals"
+  "Years of Cloud & Digital Expertise": "Years of Cloud & Digital Expertise",
+  "Certified Cloud Experts": "Certified Cloud Experts",
+  "Businesses Enabled with Digital Transformation": "Businesses Enabled with Digital Transformation",
+  "CSAT score": "CSAT score",
+
+  "industriesType": [
+    {
+      "icon": "finance",
+      "title": "Finance Service",
+      "link": "/industries/finance",
+      "content": {
+        "title": "Cloud-Based Platform Enabled hub.brussels Seamless Data Integration",
+        "description": "Financial services companies encounter significant challenges in securing digital payments, releasing affordable products, and navigating the complex regulatory landscape. To address these issues, they seek trusted experts in cloud computing for financial services to develop resilient digital infrastructures that facilitate technology-led innovation and keep pace with evolving value chains"
+      }
+    },
+    {
+      "icon": "telecom",
+      "title": "Telecom",
+      "link": "/industries/telecom",
+      "content": {
+        "title": "Dashboard Enabled Real-Time Insights for Telekom Malaysia",
+        "description": "Telekom Malaysia Berhad (TM), the nation's leading telecommunications provider, sought Webrass's expertise to develop a reporting solution. This solution performs near real-time sentiment analysis on Twitter and community forum data, supporting TM's mission to enhance telecommunications technology and services for all Malaysians."
+      }
+    },
+    {
+      "icon": "media",
+      "title": "Media & Entertainment",
+      "link": "/industries/media",
+      "content": {
+        "title": "Engaging multimedia experiences across platforms.",
+        "description": "Webrass has helped media and entertainment firms enhance quality engineering, develop SaaS products, utilize advanced analytics, optimize storage costs, and secure payment gateways, driving cloud adoption. With Webrass’s proprietary frameworks, these companies have achieved over 50% cost savings and accelerated quality assurance processes, resulting in exceptional user experiences."
+      }
+    },
+    {
+      "icon": "banking",
+      "title": "Banking & Insurance",
+      "link": "/industries/banking",
+      "content": {
+        "title": "Cloud Transformation Boosted ABFL Delivery Time",
+        "description": "Banking and insurance companies face stringent regulations and demand for real-time process automation and digital decision-making. To overcome these challenges, they need dependable digitization partners and cloud banking solutions that ensure efficiency and compliance."
+      }
+    },
+    {
+      "icon": "tech",
+      "title": "Technology",
+      "link": "/industries/technology",
+      "content": {
+        "title": "Enhanced Security Measures Reduced Fraud by 70%",
+        "description": "Webrass offers tailored digital solutions for technology companies to enhance performance and agility. Our services include cloud consulting, DevSecOps, AI, and automation, focusing on modernizing infrastructure and applications."
+      }
+    }
+  ],
+  "header": {
+    "title": "Our Expertise Across Industry Verticals"
+  },
+  "readMore": "Read More ➔",
+
+  "footer": {
+    "slogan": "Encapsulates our unwavering commitment to realizing your dreams",
+    "ourServices": "Our Services",
+    "industries": "Industries",
+    "whoWeAre": "Who we are",
+    "copyright": "@2024 All rights reserved"
+  },
+  "services": {
+    "cloudServices": "Cloud-Services",
+    "applicationServices": "Application-Services",
+    "cyberSecurity": "Cyber-Security",
+    "dataAnalytics": "Data-Analytics",
+    "automation": "Automation",
+    "infrastructure": "Infrastructure"
+  },
+  "industry": {
+    "finance": "Finance",
+    "technology": "Technology",
+    "banking": "Banking & Insurance",
+    "telecom": "Telecom",
+    "media": "Media Industry"
+  },
+  "knowUs": {
+    "about": "About",
+    "leaders": "Leaders",
+    "customerService": "Customer Service",
+    "partners": "Partners",
+    "blogs": "Blogs"
+  },
+
+  "industryPage": {
+    "finance": {
+      "title": "Financial Services",
+      "para1": "Financial services companies encounter significant challenges in securing digital payments, releasing affordable products, and navigating the complex regulatory landscape. To address these issues, they seek trusted experts in cloud computing for financial services to develop resilient digital infrastructures that facilitate technology-led innovation and keep pace with evolving value chains",
+      "para2": "Webrass's financial industry experts have supported major firms such as ABFL in transforming their data and application ecosystems on the cloud. With innovative solutions like intelligent information extraction, SecOps, and AI/ML-driven operations, financial services companies trust Webrass's cloud operations to build fit-for-purpose infrastructures at scale.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Scalable Financial Solutions",
+          "description": "Delivering scalable solutions to manage financial transactions and operations."
         },
-        "readMore": "Read More ➔",
+        "feature2": {
+          "title": "Secure Financial Infrastructure",
+          "description": "Ensuring the security and integrity of financial data and transactions."
+        },
+        "feature3": {
+          "title": "Innovative Financial Solutions",
+          "description": "Implementing innovative solutions to enhance financial services and customer experience."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "Cloud-Based Platform Enabled hub.brussels Seamless Data Integration",
+          "description": "hub.brussels, a leading Brussels-Capital agency, supports local economic growth and town planning. Seeking better data management and analytics, hub.brussels aimed to enhance data collection and visualization for Brussels' businesses and entrepreneurs. They partnered with Webrass to develop and deploy a cloud-based big data tool, 'analytics.brussels'."
+        },
+        "case2": {
+          "title": "Accelerated Analytics Workload Migration Resulted 75% Effort Reduction",
+          "description": "The customer, one of India's largest department store chains, has evolved from a single-brand shop into a comprehensive Fashion and Lifestyle store for families. They were seeking to transition from a traditional data center to a cost-effective, scalable, and modern data architecture. Webrass implemented a solution incorporating cloud computing and data modernization. Webrass assisted the customer in migrating their analytics workload to the cloud in just 8 weeks."
+        },
+        "case3": {
+          "title": "Webrass Achieved 55% Cost Savings for hub.brussels",
+          "description": "hub.brussels, a prominent agency in the Brussels-Capital Region, supports economic growth and town planning. It partnered with Webrass to develop an advanced analytics tool designed to enhance the next-generation shopping sector and facilitate the establishment of new stores. This collaboration aims to optimize both business and district planning."
+        }
+      }
+    },
+    "telecom": {
+      "title": "Telecom",
+      "para1": "Webrass offers comprehensive digital transformation solutions for telecom companies. Our services include hybrid and multi-cloud models, ensuring quality and low latency services. We specialize in establishing virtualized infrastructures combining native cloud services and software-defined networks to provide scalability, agility, and performance.",
+      "para2": "Transform your telecom operations with Webrass's cutting-edge digital solutions. We specialize in designing and implementing hybrid and multi-cloud environments, ensuring robust performance and seamless connectivity. Our expertise extends to building virtualized infrastructures that leverage advanced cloud services and software-defined networks, empowering your business with unparalleled scalability, agility, and efficiency.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Network Optimization",
+          "description": "Enhances performance and reduces latency..."
+        },
+        "feature2": {
+          "title": "Scalability",
+          "description": "Supports growth with flexible infrastructure..."
+        },
+        "feature3": {
+          "title": "Real-Time Analytics",
+          "description": "Provides actionable insights for better decision-making."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "Dashboard Enabled Real-Time Insights for Telekom Malaysia",
+          "description": "Telekom Malaysia Berhad (TM), the nation's leading telecommunications provider, sought Webrass's expertise to develop a reporting solution. This solution performs near real-time sentiment analysis on Twitter and community forum data, supporting TM's mission to enhance telecommunications technology and services for all Malaysians."
+        },
+        "case2": {
+          "title": "Customer Automated Invoicing with ML/AI, Achieving ~99% Categorization Accuracy",
+          "description": "The customer, an alliance of premier telecom operators, creates innovative solutions and secures continuous revenue streams for its members. With a vast customer base, it operates across more than 30 countries in APAC and MEA, providing extensive support and opportunities for telecom growth and development."
+        },
+        "case3": {
+          "title": "Sentiment Analysis Model Enhanced Insight Delivery for Telekom Malaysia",
+          "description": "Telekom Malaysia Berhad (TM), the leading telecommunications provider in the nation, continuously enhances its tech and services for nationwide connectivity. They turned to Webrass to develop a reporting solution that performs near real-time sentiment analysis on Twitter and community forum data, improving their insights and decision-making capabilities."
+        }
+      }
+    },
+    "technology": {
+      "title": "Technology",
+      "para1": "Webrass offers tailored digital solutions for technology companies to enhance performance and agility. Our services include cloud consulting, DevSecOps, AI, and automation, focusing on modernizing infrastructure and applications.",
+      "para2": "As cybersecurity and AI drive digital transformation, companies are partnering with cloud managed service providers to enhance automation and ensure business continuity. Technology leaders are leveraging Webrass's digital solutions to boost agility, modernize strategies, and explore new business models through ML/AI, IoT, and automation.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Personalized Technology Solutions",
+          "description": "Tailored solutions to meet your specific needs..."
+        },
+        "feature2": {
+          "title": "Seamless Integration",
+          "description": "Convenient access across platforms and devices..."
+        },
+        "feature3": {
+          "title": "Responsive Technical Support",
+          "description": "Reliable assistance available whenever you need it..."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "AWS Migration Closed Data Center in 5 Months, Saving 30%.",
+          "description": "The customer partnered with Webrass to decommission their data center and migrate to AWS cloud, adhering to a strict timeline. Webrass assessed the infrastructure, planned a lift-and-shift migration, and redeployed restricted applications like Oracle E-Business Suite. The migration, including 4 TB of data, was completed in 4.5 months."
+        },
+        "case2": {
+          "title": "AWS IoT Deployment Cut Customer Effort by 50%",
+          "description": "The customer aimed to become data-driven by adopting AWS IoT for video analytics. They sought to reduce in-vehicle violation detection using IoT devices and optimize algorithms on AWS IoT Greengrass. Webrass assisted in setting up the solution for actionable insights and improved detection capabilities"
+        },
+        "case3": {
+          "title": "Azure Migration Achieved ~30% Cost Savings",
+          "description": "The customer, a leading paints manufacturer, faced challenges with unmanaged disks in their Azure infrastructure, including limited IOPS, scaling issues, and costs associated with obsolete resources. They needed a solution to address these inefficiencies and optimize their Azure environment."
+        }
+      }
+    },
+    "media": {
+      "title": "Media and Entertainment",
+      "para1": "Media and entertainment companies are focused on hyper-personalization, immersive experiences, and consistent availability across platforms to meet modern customer expectations. To accelerate their digital transformation, they seek a skilled cloud technology partner. In today's landscape, delivering high-quality digital experiences is crucial.",
+      "para2": "Webrass has helped media and entertainment firms enhance quality engineering, develop SaaS products, utilize advanced analytics, optimize storage costs, and secure payment gateways, driving cloud adoption. With Webrass's proprietary frameworks, these companies have achieved over 50% cost savings and accelerated quality assurance processes, resulting in exceptional user experiences.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Hyper-Personalization",
+          "description": "Tailored content and experiences for individual users."
+        },
+        "feature2": {
+          "title": "Immersive Entertainment",
+          "description": "Engaging multimedia experiences across platforms."
+        },
+        "feature3": {
+          "title": "High Availability",
+          "description": "Reliable access to content anytime, anywhere."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "Azure Analytics Boosted Sports Media Giant's Social Media Performance",
+          "description": "Webrass implemented an Azure-based data lake solution in two phases for the customer. The first phase consolidated data from all social media platforms—Facebook, Instagram, Twitter, and YouTube—into a single platform and created reports. The second phase included additional metrics and integrated Google Analytics data for YouTube."
+        },
+        "case2": {
+          "title": "Asia School of Business Boosts AWS Performance by 70%",
+          "description": "Asia School of Business (ASB), established in 2015 with MIT Sloan and Bank Negara Malaysia, needed to optimize its AWS infrastructure due to expanding programs. To address this, ASB partnered with Webrass for managed services to enhance automation, cost efficiency, and overall performance of their cloud environment, meeting their growing infrastructure demands."
+        },
+        "case3": {
+          "title": "AWS Secured Astro's Payment Gateway Efficiently",
+          "description": "Established in 1996, Astro is a leading Malaysian content and consumer company serving over 23 million people across various platforms. Faced with scalability and security issues in their on-premise payment gateway, Astro sought a more secure, scalable solution to reduce PCI-DSS compliance costs and improve user experience."
+        }
+      }
+    },
+    "banking": {
+      "title": "Banking",
+      "para1": "Banking and insurance companies face stringent regulations and demand for real-time process automation and digital decision-making. To overcome these challenges, they need dependable digitization partners and cloud banking solutions that ensure efficiency and compliance.",
+      "para2": "Webrass has revolutionized cloud computing for the banking and insurance sectors. By utilizing Webrass's specialized cloud solutions, major players like AAGI swiftly migrated to the cloud, improved big data capabilities, reduced costs by over 50%, and achieved complete security compliance.",
+      "keyFeatures": {
+        "feature1": {
+          "title": "Personalized Financial Planning",
+          "description": "Tailored financial plans to achieve your goals."
+        },
+        "feature2": {
+          "title": "Seamless Digital Banking",
+          "description": "Convenient access anytime, anywhere."
+        },
+        "feature3": {
+          "title": "Responsive Customer Support",
+          "description": "Reliable assistance whenever you need it."
+        }
+      },
+      "useCases": {
+        "case1": {
+          "title": "Cloud Transformation Boosted ABFL Delivery Time",
+          "description": "Aditya Birla Finance Ltd. (ABFL), a major provider of lending and wealth management solutions in India, sought a partner to oversee their digital lending platform on AWS. They required comprehensive management of their Loan Origination System (LOS) and other platform modules to enhance their service delivery"
+        },
+        "case2": {
+          "title": "Cloud-Based Sentiment Analysis Reduced Effort by 50%",
+          "description": "The customer, a major banking firm, aimed to enhance decision-making with actionable insights through a sentiment analysis model. Seeking to address client queries from various channels—social media, email, surveys, and reviews—the firm needed a cloud-based ML pipeline for data engineering and sentiment analysis to improve customer experience and decision-making."
+        },
+        "case3": {
+          "title": "AXA Affin Enhances Data Control with Cloud-Based MDM",
+          "description": "AAGI faced data integrity issues and high costs with their existing master data management platform. They needed a scalable, cost-effective solution, leading them to choose AWS cloud. We conducted a thorough assessment and proposed replacing their MDM platform with AWS services and integrating their data lake with SFDC applications."
+        }
+      }
+    },
+    "common": {
+      "keyFeatures": "Key Features",
+      "useCases": "Use Cases"
+    }
+  },
 
-        
-          "footer": {
-            "slogan": "Encapsulates our unwavering commitment to realizing your dreams",
-            "ourServices": "Our Services",
-            "industries": "Industries",
-            "whoWeAre": "Who we are",
-            "copyright": "@2024 All rights reserved"
-          },
-          "services": {
-            "cloudServices": "Cloud-Services",
-            "applicationServices": "Application-Services",
-            "cyberSecurity": "Cyber-Security",
-            "dataAnalytics": "Data-Analytics",
-            "automation": "Automation",
-            "infrastructure": "Infrastructure"
-          },
-          "industry": {
-            "finance": "Finance",
-            "technology": "Technology",
-            "banking": "Banking & Insurance",
-            "telecom": "Telecom",
-            "media": "Media Industry"
-          },
-          "knowUs": {
-            "about": "About",
-            "leaders": "Leaders",
-            "customerService": "Customer Service",
-            "partners": "Partners",
-            "blogs": "Blogs"
-          },
+  "contact": {
+    "title": "WE ARE ALWAYS HERE TO HELP YOU.",
+    "description": "Learn how we can help you take the next step in your transformation journey.",
+    "visitUs": "VISIT US",
+    "addresses": [
+      "179 Leisie Road, Renfrew Pennsylvania (PA), 16053 [United States of America]",
+      "36 Sunder Nagar, Industrial Estate, Indore Madhya Pradesh - 452015, [India]",
+      "11 Bestwood Park Dr W, Nottingham NG5 5EJ, [United Kingdom]"
+    ],
+    "emailAddress": "EMAIL ADDRESS",
+    "email": "enquiry@webrass.com",
+    "callNow": "CALL NOW",
+    "phoneNumbers": ["+1-7247771339", "+91-9560903337", "+44-7379959424"],
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Write Message",
+      "sendMessage": "SEND MESSAGE",
+      "sendViaWhatsApp": "Send via WhatsApp"
+    },
+    "toast": {
+      "success": "You have successfully filled the form. Thanks!",
+      "error": "An error occurred. Please try again."
+    }
+  },
 
+  "methodologies": {
+    "managed-services": {
+      "headerTitle": "Managed Services",
+      "cards": [
+        {
+          "title": "Incident Management",
+          "description": "Proactively monitoring Resource (Servers/applications) and ensuring comprehensive L1, L2, and L3 support involves a structured approach to IT service management."
+        },
+        {
+          "title": "Service Request Management",
+          "description": "Operating an ITSM-enabled (IT Service Management) Service Desk involves leveraging ITSM best practices and tools to efficiently manage and fulfill customer requests while increasing comprehensive team productivity."
+        },
+        {
+          "title": "Problem Management",
+          "description": "Maintaining performance against Experience Level Agreements (XLAs) involves not only meeting traditional SLAs but also focusing on the quality of the user experience. This requires integrating customer-centric metrics, generating actionable alerts, and deriving insights to continuously enhance customer satisfaction."
+        },
+        {
+          "title": "Change Management",
+          "description": "DevSecOps implementation success factors include output data with improvements in releases, over 30% lower build failure in advanced environments, over 20% improvement in remediation and false positives, and complete elimination of security breaches."
+        }
+      ]
+    },
+    "cloud-consulting-strategy-and-migration": {
+      "headerTitle": "Cloud Consulting, Strategy and Migration",
+      "cards": [
+        {
+          "title": "Cloud Consulting",
+          "description": "Craft a precise and easily understandable strategy and pathway for migrating to the cloud. Utilize reputable scanning tools and engage in discussions with stakeholders to grasp the current infrastructure and application landscape. Using this information, develop a customized migration strategy, sorting applications into categories like rehosting, re-platforming, re-architecting, and refactoring."
+        },
+        {
+          "title": "Cloud Strategy",
+          "description": "Webrass cloud consultants and architects possess a thorough understanding of business objectives, current IT infrastructure, technological landscape, and overall IT budget. Following workshops with CXOs, often accompanied by a cloud center of excellence team, they craft a comprehensive cloud roadmap. This roadmap serves as a guiding document for the entire transformation journey, ensuring alignment with strategic goals and efficient resource utilization."
+        },
+        {
+          "title": "Cloud Migration & Deployment",
+          "description": "Based on insights gained from the consulting phase, proceed with either migrating or redeploying applications. Begin by establishing a secure cloud landing zone, followed by the migration or deployment process. Employ Blazeclan's proprietary frameworks, featuring robust automation capabilities, to facilitate an agile migration. These frameworks come equipped with pre-defined technical artifacts, ensuring a smooth and efficient transition to the cloud."
+        }
+      ]
+    },
+    "cloudNativeApplicationDevelopmentAndTesting": {
+      "headerTitle": "Cloud Native Application Development & Testing",
+      "cards": [
+        {
+          "title": "Microservices",
+          "description": "Organize applications into a collection of microservices to enhance continuous delivery and deployment capabilities. Deploy cloud-native applications incorporating best practices seamlessly and rapidly, ensuring efficiency and scalability at every stage of development and deployment."
+        },
+        {
+          "title": "Agile Development",
+          "description": "Streamline and expedite the application development process by adopting an agile approach that fosters innovation. Implement DevOps integration to seamlessly transition applications from design to production, accelerating the delivery timeline and enhancing operational efficiency."
+        },
+        {
+          "title": "System Integration",
+          "description": "Efficiently merge diverse applications to simplify IT infrastructure and enhance ROI. Utilize API integration to create competitive advantages, boosting agility and optimizing process efficiency."
+        },
+        {
+          "title": "Testing and Quality Assurance",
+          "description": "Streamline and expedite the testing and quality assurance process for cloud-native applications by implementing a fault-tolerant framework with a zero-trust approach. Ensure smooth application releases and proactively mitigate issues before deploying updates to production environments."
+        }
+      ]
+    },
+    "cloudGovernanceAndReporting": {
+      "headerTitle": "Cloud Governance & Reporting",
+      "cards": [
+        {
+          "title": "Cloud Governance",
+          "description": "Utilize WeBrass's intelligent cloud management platform to enable automatic alerts and triggers for security incidents and budget thresholds. Implement resilient guardrails to ensure robust security measures and establish dynamic control over the cloud environment through a centralized governance approache."
+        },
+        {
+          "title": "Automation Reporting",
+          "description": "Automate the generation of monthly and quarterly reports for cloud operations, security, and costs. Enhance decision-making with real-time health reports of cloud resources, metric graph reports of critical servers, and incident or service request reports distributed via Slack channels. This ensures deep insights and facilitates proactive management of cloud infrastructure."
+        }
+      ]
+    },
+    "cloudDiscoveryAndOptimization": {
+      "headerTitle": "Cloud Discovery and Optimization",
+      "cards": [
+        {
+          "title": "Single-Pane View",
+          "description": "Replace manual tracking with WeBrass's agile monitoring driven by automated discovery, eliminating the need for manual effort in keeping track of application and workload locations and their interaction paradigms. This automated approach ensures efficient and accurate monitoring, enhancing visibility and control over the infrastructure."
+        },
+        {
+          "title": "Automated Cloud Optimization",
+          "description": "Automate the monitoring, correlation, and visualization of cloud resources and their health metrics to enable real-time corrective responses. Enhance operational efficiency and optimize cloud service utilization by implementing well-defined and manageable IT processes. This approach ensures proactive management and maximizes the benefits of cloud infrastructure."
+        }
+      ]
+    },
+    "cloudAndPlatformModernization": {
+      "headerTitle": "Cloud and Platform Modernization",
+      "cards": [
+        {
+          "title": "Approach",
+          "description": "Identify applications with the potential to yield a minimum of 30% cost-benefit in the short-to-medium term while aiming for close to a 99.5% uptime improvement. Maintain platforms and applications strategically to serve as catalysts for future business augmentation. This approach ensures optimal resource allocation and maximizes the impact of technology investments on business growth and agility."
+        },
+        {
+          "title": "Identify and Design",
+          "description": "Analyze applications and components considering factors such as business agility, demand, criticality, expansion plans, performance, OPEX, and CAPEX. Prioritize those with the greatest potential for improvement. Conduct minimal refactoring to enhance high availability, scalability, and end-to-end DevOps integration. For areas showing significant gains in consumption costs and availability, undertake containerization and refactoring efforts. This approach optimizes resource allocation and enhances the efficiency of IT infrastructure."
+        }
+      ]
+    },
+    "applicationAssessment": {
+      "headerTitle": "Application Assessment",
+      "cards": [
+        {
+          "title": "Design",
+          "description": "Starting with stakeholder meetings is a solid foundation for a standardized application assessment approach. By engaging with stakeholders early on, the assessment process can align closely with the needs and goals of the organization. Capturing key requirements such as the future roadmap and scalability ensures that the assessment accounts for both short-term needs and long-term growth potential."
+        },
+        {
+          "title": "Define",
+          "description": "Utilizing a tool-centric assessment methodology, examine the insights gathered during the discovery phase and derive conclusions from the conducted meetings. Select between automated or manual assessment techniques to evaluate the current application suite and determine subsequent steps."
+        },
+        {
+          "title": "Deliver",
+          "description": "Maintaining performance against Experience Level Agreements (XLAs) involves not only meeting traditional SLAs but also focusing on the quality of the user experience. This requires integrating customer-centric metrics, generating actionable alerts, and deriving insights to continuously enhance customer satisfaction."
+        }
+      ]
+    },
+    "saasProductAndPlatformDevelopment": {
+      "headerTitle": "SaaS Product and Platform Development",
+      "cards": [
+        {
+          "title": "Consulting",
+          "description": "Evaluate the current software to gauge its level of SaaS maturity and devise a plan for SaaS adoption. Obtain guidance on best practices for processes and technologies, utilizing specialized expertise in databases, networks, and systems."
+        },
+        {
+          "title": "Implementation",
+          "description": "Deploy the SaaS framework employing cutting-edge technologies and tools within a microservices infrastructure. Our approach to SaaS implementation prioritizes streamlined processes and user-friendly interfaces, facilitating an agile Software Development Life Cycle (SDLC) and guaranteeing full compliance with regulations."
+        },
+        {
+          "title": "Management",
+          "description": "Oversee the SaaS offerings through streamlined automation, backed by round-the-clock support for the underlying infrastructure. Employ intelligent monitoring and ticketing systems powered by AI to swiftly address issues and uphold resilience in application workloads."
+        }
+      ]
+    },
+    "saasFactoryModel": {
+      "headerTitle": "SaaS Factory Model",
+      "cards": [
+        {
+          "title": "UI/UX Design",
+          "description": "Determine business objectives in alignment with the current strategy and planning to outline underlying challenges and formulate a problem statement. Develop design concepts, principles, and essential components for crafting both the prototype and final design framework."
+        },
+        {
+          "title": "Microservices Acceleration",
+          "description": "We offer pre-built microservices accelerators organized into core, technical, and peripheral categories tailored to meet diverse business needs. These accelerators directly enhance business value, facilitate API management, and offer blueprints along with reusable building blocks."
+        },
+        {
+          "title": "SQUAD Resource Model",
+          "description": "Our scaled Center of Excellence is characterized by its rapid, distinctive, and dynamic approach to addressing real business challenges. Each member of the SQUAD is supported by dedicated technology resource pools, ensuring ongoing assistance and following a scalable model for product-focused delivery."
+        },
+        {
+          "title": "Quality Engineering & Assurance",
+          "description": "SaaS Console's quality engineering covers functional suitability, performance efficiency, security, and maintainability. Automate testing scripts and implement robust encryption measures to address privacy concerns. Organize the application's core areas into groups and establish performance benchmarks to achieve testing objectives."
+        }
+      ]
+    },
+    "applicationMaintenanceAndEnhancement": {
+      "headerTitle": "Application Maintenance and Enhancement",
+      "cards": [
+        {
+          "title": "Corrective",
+          "description": "Obtain ITIL support for application management, establish standard operating procedures (SOPs) for applications, and ensure compliance with application security standards."
+        },
+        {
+          "title": "Adaptive",
+          "description": "Enhance the application, ensure compatibility updates for mobile applications across devices and operating systems, and maintain application knowledge through a known error database."
+        },
+        {
+          "title": "Preventive",
+          "description": "Attain SaaS-based multi-tenancy, configure settings, manage patches, ensure application availability, and monitor errors."
+        },
+        {
+          "title": "Quality Engineering & Assurance",
+          "description": "SaaS Console's quality engineering covers functional suitability, performance efficiency, security, and maintainability. Automate testing scripts and implement robust encryption measures to address privacy concerns. Organize the application's core areas into groups and establish performance benchmarks to achieve testing objectives."
+        }
+      ]
+    },
+    "applicationModernization": {
+      "headerTitle": "Application Modernization",
+      "cards": [
+        {
+          "title": "Assess",
+          "description": "Perform a tool-based evaluation of the current architecture and infrastructure, then proceed with system integration. Utilize insights from the discovery process alongside recommendations derived from the 6Rs of migration. Implement the best practices outlined in the Well-Architected Framework while identifying any assessment deductions."
+        },
+        {
+          "title": "Modernize",
+          "description": "Deploy and orchestrate containerization of application components in the cloud through a microservices architecture. Facilitate a smooth transition of applications from legacy systems to the cloud, relieving infrastructure management burdens. Ensure high- performance application workloads are maintained at scale."
+        },
+        {
+          "title": "Optimize",
+          "description": "Utilize robust monitoring tools such as Cloudlytics and New Relic for ongoing monitoring and optimization of application performance. Integrate security, disaster recovery, and resilience capabilities to streamline the development team's efforts. Improve application productivity while reducing the total cost of ownership (TCO)."
+        }
+      ]
+    },
+    "dataStrategy": {
+      "headerTitle": "Data Strategy",
+      "cards": [
+        {
+          "title": "Consulting & Strategy",
+          "description": "Establish best practices for setting up a Data Center of Excellence (COE) aligned with industry standards. Develop a data strategy and guidance tailored to the organizational infrastructure and business objectives."
+        },
+        {
+          "title": "Assessment",
+          "description": "Evaluate the current data pipeline and devise an architecture that meets requirements and aligns with the data maturity stage. Receive recommendations for enhancing the data pipeline to address present and future challenges. Prioritize the next steps for data transformation."
+        },
+        {
+          "title": "Knowledge Management",
+          "description": "Enhance data processing and delivery by establishing comprehensive knowledge management across the entire organization. Evaluate technology needs and oversee all knowledge management initiatives with an integrated framework and holistic roadmap."
+        }
+      ]
+    },
+    "dataGovernanceAndEngineering": {
+      "headerTitle": "Data Governance and Engineering",
+      "cards": [
+        {
+          "title": "Data Security",
+          "description": "Secure data both in transit and at rest through encryption managed keys, and folder-level access control lists (ACLs). Establish access control with object-level security, multi-factor authentication, and network security measures. Implement a set of control and audit procedures to ensure consistent compliance, thereby reducing operational complexity and meeting privacy regulations."
+        },
+        {
+          "title": "Data Lineage",
+          "description": "Comprehend, document, and visualize data as it progresses from inception to consumption stages. Identify data origins and visualize the flow from the source to the end-user. Enhance data value by mapping assets and their interrelationships within the data ecosystem. Improve decision-making by effectively managing data input from the cloud."
+        },
+        {
+          "title": "Metadata Management",
+          "description": "Comprehend, document, and visualize data as it progresses from inception to consumption stages. Identify data origins and visualize the flow from the source to the end-user. Enhance data value by mapping assets and their interrelationships within the data ecosystem. Improve decision-making by effectively managing data input from the cloud."
+        }
+      ]
+    },
+    "cloudSecurityEngineering": {
+      "headerTitle": "Cloud Security Engineering",
+      "cards": [
+        {
+          "title": "Requirement Gathering",
+          "description": "Our cloud security engineering methodology commences with a comprehensive grasp of existing security guidelines, policies, tools, and licenses. Data forms the foundation for security assessment and implementation."
+        },
+        {
+          "title": "Security Assessment and Gap Analysis",
+          "description": "Evaluate the current security implementation against established guidelines and policies. Utilize comprehensive workshops and tool findings to generate a scorecard of the current security posture, accompanied by a detailed gap analysis report."
+        },
+        {
+          "title": "Remediation, Testing, and Validation",
+          "description": "Develop a roadmap outlining short-term and long-term security goals, incorporating a remediation plan, testing plan, and validation plan. Ensure a highly secure environment with defined timelines to achieve desired outcomes."
+        },
+        {
+          "title": "Planning Security Design Implementation",
+          "description": "Leverage our cloud-managed services and CISO teams to execute security controls and remediation actions effectively. Optimize automation to streamline security operations and fully realize the tangible benefits of the cloud environment."
+        }
+      ]
+    },
 
-          
-            "industryPage": {
-              "finance": {
-                "title": "Financial Services",
-                "para1": "Financial services companies encounter significant challenges in securing digital payments, releasing affordable products, and navigating the complex regulatory landscape. To address these issues, they seek trusted experts in cloud computing for financial services to develop resilient digital infrastructures that facilitate technology-led innovation and keep pace with evolving value chains",
-                "para2": "Webrass's financial industry experts have supported major firms such as ABFL in transforming their data and application ecosystems on the cloud. With innovative solutions like intelligent information extraction, SecOps, and AI/ML-driven operations, financial services companies trust Webrass's cloud operations to build fit-for-purpose infrastructures at scale.",
-                "keyFeatures": {
-                  "feature1": {
-                    "title": "Scalable Financial Solutions",
-                    "description": "Delivering scalable solutions to manage financial transactions and operations."
-                  },
-                  "feature2": {
-                    "title": "Secure Financial Infrastructure",
-                    "description": "Ensuring the security and integrity of financial data and transactions."
-                  },
-                  "feature3": {
-                    "title": "Innovative Financial Solutions",
-                    "description": "Implementing innovative solutions to enhance financial services and customer experience."
-                  }
-                },
-                "useCases": {
-                  "case1": {
-                    "title": "Cloud-Based Platform Enabled hub.brussels Seamless Data Integration",
-                    "description": "hub.brussels, a leading Brussels-Capital agency, supports local economic growth and town planning. Seeking better data management and analytics, hub.brussels aimed to enhance data collection and visualization for Brussels' businesses and entrepreneurs. They partnered with Webrass to develop and deploy a cloud-based big data tool, 'analytics.brussels'."
-                  },
-                  "case2": {
-                    "title": "Accelerated Analytics Workload Migration Resulted 75% Effort Reduction",
-                    "description": "The customer, one of India's largest department store chains, has evolved from a single-brand shop into a comprehensive Fashion and Lifestyle store for families. They were seeking to transition from a traditional data center to a cost-effective, scalable, and modern data architecture. Webrass implemented a solution incorporating cloud computing and data modernization. Webrass assisted the customer in migrating their analytics workload to the cloud in just 8 weeks."
-                  },
-                  "case3": {
-                    "title": "Webrass Achieved 55% Cost Savings for hub.brussels",
-                    "description": "hub.brussels, a prominent agency in the Brussels-Capital Region, supports economic growth and town planning. It partnered with Webrass to develop an advanced analytics tool designed to enhance the next-generation shopping sector and facilitate the establishment of new stores. This collaboration aims to optimize both business and district planning."
-                  }
-                }
-              },
-              "telecom": {
-                "title": "Telecom",
-                "para1": "Webrass offers comprehensive digital transformation solutions for telecom companies. Our services include hybrid and multi-cloud models, ensuring quality and low latency services. We specialize in establishing virtualized infrastructures combining native cloud services and software-defined networks to provide scalability, agility, and performance.",
-                "para2": "Transform your telecom operations with Webrass's cutting-edge digital solutions. We specialize in designing and implementing hybrid and multi-cloud environments, ensuring robust performance and seamless connectivity. Our expertise extends to building virtualized infrastructures that leverage advanced cloud services and software-defined networks, empowering your business with unparalleled scalability, agility, and efficiency.",
-                "keyFeatures": {
-                  "feature1": {
-                    "title": "Network Optimization",
-                    "description": "Enhances performance and reduces latency..."
-                  },
-                  "feature2": {
-                    "title": "Scalability",
-                    "description": "Supports growth with flexible infrastructure..."
-                  },
-                  "feature3": {
-                    "title": "Real-Time Analytics",
-                    "description": "Provides actionable insights for better decision-making."
-                  }
-                },
-                "useCases": {
-                  "case1": {
-                    "title": "Dashboard Enabled Real-Time Insights for Telekom Malaysia",
-                    "description": "Telekom Malaysia Berhad (TM), the nation's leading telecommunications provider, sought Webrass's expertise to develop a reporting solution. This solution performs near real-time sentiment analysis on Twitter and community forum data, supporting TM's mission to enhance telecommunications technology and services for all Malaysians."
-                  },
-                  "case2": {
-                    "title": "Customer Automated Invoicing with ML/AI, Achieving ~99% Categorization Accuracy",
-                    "description": "The customer, an alliance of premier telecom operators, creates innovative solutions and secures continuous revenue streams for its members. With a vast customer base, it operates across more than 30 countries in APAC and MEA, providing extensive support and opportunities for telecom growth and development."
-                  },
-                  "case3": {
-                    "title": "Sentiment Analysis Model Enhanced Insight Delivery for Telekom Malaysia",
-                    "description": "Telekom Malaysia Berhad (TM), the leading telecommunications provider in the nation, continuously enhances its tech and services for nationwide connectivity. They turned to Webrass to develop a reporting solution that performs near real-time sentiment analysis on Twitter and community forum data, improving their insights and decision-making capabilities."
-                  }
-                }
-              },
-              "technology": {
-                "title": "Technology",
-                "para1": "Webrass offers tailored digital solutions for technology companies to enhance performance and agility. Our services include cloud consulting, DevSecOps, AI, and automation, focusing on modernizing infrastructure and applications.",
-                "para2": "As cybersecurity and AI drive digital transformation, companies are partnering with cloud managed service providers to enhance automation and ensure business continuity. Technology leaders are leveraging Webrass's digital solutions to boost agility, modernize strategies, and explore new business models through ML/AI, IoT, and automation.",
-                "keyFeatures": {
-                  "feature1": {
-                    "title": "Personalized Technology Solutions",
-                    "description": "Tailored solutions to meet your specific needs..."
-                  },
-                  "feature2": {
-                    "title": "Seamless Integration",
-                    "description": "Convenient access across platforms and devices..."
-                  },
-                  "feature3": {
-                    "title": "Responsive Technical Support",
-                    "description": "Reliable assistance available whenever you need it..."
-                  }
-                },
-                "useCases": {
-                  "case1": {
-                    "title": "AWS Migration Closed Data Center in 5 Months, Saving 30%.",
-                    "description": "The customer partnered with Webrass to decommission their data center and migrate to AWS cloud, adhering to a strict timeline. Webrass assessed the infrastructure, planned a lift-and-shift migration, and redeployed restricted applications like Oracle E-Business Suite. The migration, including 4 TB of data, was completed in 4.5 months."
-                  },
-                  "case2": {
-                    "title": "AWS IoT Deployment Cut Customer Effort by 50%",
-                    "description": "The customer aimed to become data-driven by adopting AWS IoT for video analytics. They sought to reduce in-vehicle violation detection using IoT devices and optimize algorithms on AWS IoT Greengrass. Webrass assisted in setting up the solution for actionable insights and improved detection capabilities"
-                  },
-                  "case3": {
-                    "title": "Azure Migration Achieved ~30% Cost Savings",
-                    "description": "The customer, a leading paints manufacturer, faced challenges with unmanaged disks in their Azure infrastructure, including limited IOPS, scaling issues, and costs associated with obsolete resources. They needed a solution to address these inefficiencies and optimize their Azure environment."
-                  }
-                }
-              },
-              "media": {
-                "title": "Media and Entertainment",
-                "para1": "Media and entertainment companies are focused on hyper-personalization, immersive experiences, and consistent availability across platforms to meet modern customer expectations. To accelerate their digital transformation, they seek a skilled cloud technology partner. In today's landscape, delivering high-quality digital experiences is crucial.",
-                "para2": "Webrass has helped media and entertainment firms enhance quality engineering, develop SaaS products, utilize advanced analytics, optimize storage costs, and secure payment gateways, driving cloud adoption. With Webrass's proprietary frameworks, these companies have achieved over 50% cost savings and accelerated quality assurance processes, resulting in exceptional user experiences.",
-                "keyFeatures": {
-                  "feature1": {
-                    "title": "Hyper-Personalization",
-                    "description": "Tailored content and experiences for individual users."
-                  },
-                  "feature2": {
-                    "title": "Immersive Entertainment",
-                    "description": "Engaging multimedia experiences across platforms."
-                  },
-                  "feature3": {
-                    "title": "High Availability",
-                    "description": "Reliable access to content anytime, anywhere."
-                  }
-                },
-                "useCases": {
-                  "case1": {
-                    "title": "Azure Analytics Boosted Sports Media Giant's Social Media Performance",
-                    "description": "Webrass implemented an Azure-based data lake solution in two phases for the customer. The first phase consolidated data from all social media platforms—Facebook, Instagram, Twitter, and YouTube—into a single platform and created reports. The second phase included additional metrics and integrated Google Analytics data for YouTube."
-                  },
-                  "case2": {
-                    "title": "Asia School of Business Boosts AWS Performance by 70%",
-                    "description": "Asia School of Business (ASB), established in 2015 with MIT Sloan and Bank Negara Malaysia, needed to optimize its AWS infrastructure due to expanding programs. To address this, ASB partnered with Webrass for managed services to enhance automation, cost efficiency, and overall performance of their cloud environment, meeting their growing infrastructure demands."
-                  },
-                  "case3": {
-                    "title": "AWS Secured Astro's Payment Gateway Efficiently",
-                    "description": "Established in 1996, Astro is a leading Malaysian content and consumer company serving over 23 million people across various platforms. Faced with scalability and security issues in their on-premise payment gateway, Astro sought a more secure, scalable solution to reduce PCI-DSS compliance costs and improve user experience."
-                  }
-                }
-              },
-              "banking": {
-                "title": "Banking",
-                "para1": "Banking and insurance companies face stringent regulations and demand for real-time process automation and digital decision-making. To overcome these challenges, they need dependable digitization partners and cloud banking solutions that ensure efficiency and compliance.",
-                "para2": "Webrass has revolutionized cloud computing for the banking and insurance sectors. By utilizing Webrass's specialized cloud solutions, major players like AAGI swiftly migrated to the cloud, improved big data capabilities, reduced costs by over 50%, and achieved complete security compliance.",
-                "keyFeatures": {
-                  "feature1": {
-                    "title": "Personalized Financial Planning",
-                    "description": "Tailored financial plans to achieve your goals."
-                  },
-                  "feature2": {
-                    "title": "Seamless Digital Banking",
-                    "description": "Convenient access anytime, anywhere."
-                  },
-                  "feature3": {
-                    "title": "Responsive Customer Support",
-                    "description": "Reliable assistance whenever you need it."
-                  }
-                },
-                "useCases": {
-                  "case1": {
-                    "title": "Cloud Transformation Boosted ABFL Delivery Time",
-                    "description": "Aditya Birla Finance Ltd. (ABFL), a major provider of lending and wealth management solutions in India, sought a partner to oversee their digital lending platform on AWS. They required comprehensive management of their Loan Origination System (LOS) and other platform modules to enhance their service delivery"
-                  },
-                  "case2": {
-                    "title": "Cloud-Based Sentiment Analysis Reduced Effort by 50%",
-                    "description": "The customer, a major banking firm, aimed to enhance decision-making with actionable insights through a sentiment analysis model. Seeking to address client queries from various channels—social media, email, surveys, and reviews—the firm needed a cloud-based ML pipeline for data engineering and sentiment analysis to improve customer experience and decision-making."
-                  },
-                  "case3": {
-                    "title": "AXA Affin Enhances Data Control with Cloud-Based MDM",
-                    "description": "AAGI faced data integrity issues and high costs with their existing master data management platform. They needed a scalable, cost-effective solution, leading them to choose AWS cloud. We conducted a thorough assessment and proposed replacing their MDM platform with AWS services and integrating their data lake with SFDC applications."
-                  }
-                }
-              },
-              "common": {
-                "keyFeatures": "Key Features",
-                "useCases": "Use Cases"
-              }
-            },
-
-            
-              "contact": {
-                "title": "WE ARE ALWAYS HERE TO HELP YOU.",
-                "description": "Learn how we can help you take the next step in your transformation journey.",
-                "visitUs": "VISIT US",
-                "addresses": [
-                  "179 Leisie Road, Renfrew Pennsylvania (PA), 16053 [United States of America]",
-                  "36 Sunder Nagar, Industrial Estate, Indore Madhya Pradesh - 452015, [India]",
-                  "11 Bestwood Park Dr W, Nottingham NG5 5EJ, [United Kingdom]"
-                ],
-                "emailAddress": "EMAIL ADDRESS",
-                "email": "enquiry@webrass.com",
-                "callNow": "CALL NOW",
-                "phoneNumbers": [
-                  "+1-7247771339",
-                  "+91-9560903337",
-                  "+44-7379959424"
-                ],
-                "form": {
-                  "name": "Your Name",
-                  "email": "Email Address",
-                  "phone": "Phone Number",
-                  "subject": "Subject",
-                  "message": "Write Message",
-                  "sendMessage": "SEND MESSAGE",
-                  "sendViaWhatsApp": "Send via WhatsApp"
-                },
-                "toast": {
-                  "success": "You have successfully filled the form. Thanks!",
-                  "error": "An error occurred. Please try again."
-                }
-              }
-            
-            
-          }
-        
-        
-      
-      
-    
-    
-  
-  
-  
+    "cloudSecurityOperations": {
+      "headerTitle": "Cloud Security Operations",
+      "cards": [
+        {
+          "title": "Security Monitoring and Analytics",
+          "description": "Perform event log and firewall log analyses with continuous cloud monitoring implemented. Safeguard systems from DDoS attacks, enable endpoint protection, establish perimeter security, and implement proactive incident response measures."
+        },
+        {
+          "title": "Incident Management and Response",
+          "description": "Develop an agile, enterprise-focused response mechanism to effectively address security incidents. Utilize secure and scalable service models to manage and respond to security incidents promptly."
+        },
+        {
+          "title": "Audits and Assessments",
+          "description": "Design robust compliance with over 1100 controls spanning across cloud platforms and receive near real-time alerts on non-compliance configurations. Utilize more than 15 out-of-the-box audit checklists aligned with standards such as PCI-DSS, ISO27001, and HIPAA. Compile and maintain a proficient knowledge base alongside actionable reports."
+        },
+        {
+          "title": "Vulnerability Management and Threat Intelligence",
+          "description": "Perform thorough security risk assessments and implement effective mitigations. Safeguard devices from external threats through expert recommendations, remediations, robust configurations, and guidelines."
+        }
+      ]
+    },
+    "managedAnalytics": {
+      "headerTitle": "Managed Analytics",
+      "cards": [
+        {
+          "title": "Initiation and Planning",
+          "description": "We analytics experts commence with a preliminary study to identify key contacts, accompanied by a knowledge transfer template to facilitate achieving a steady state. Finalize critical data resources to strategize a robust weekly managed analytics activity."
+        },
+        {
+          "title": "Knowledge Sharing and Support",
+          "description": "We evaluate the current analytics setup to gain a comprehensive understanding of processes and workflows. Implement knowledge management, including essential process and skill training, to address priority requirements such as access and metrics monitoring."
+        },
+        {
+          "title": "Steady State",
+          "description": "Analyze the metrics collected and reports generated through weekly status meetings. Maintain a comprehensive knowledge repository to update analytics processes and workflows as needed."
+        }
+      ]
+    },
+    "devSecOps": {
+      "headerTitle": "DevSecOps",
+      "cards": [
+        {
+          "title": "Approach",
+          "description": "By integrating security with DevOps, Our DevSecOps workflow ensures the utilization of top-notch tools for static application security testing (SAST) and dynamic application security testing (DAST) at every stage, including coding, development, integration, deployment, and monitoring."
+        },
+        {
+          "title": "Course of Action",
+          "description": "DoT is seamlessly integrated with globally acclaimed, proven, and tested SAST and DAST tools, ensuring a consistent software lifecycle from coding to production release. This integration aims to eradicate all security vulnerabilities as an integral part of the software development process."
+        },
+        {
+          "title": "Success Factors",
+          "description": "Key success factors for DevSecOps implementation include output data showcasing improvements in releases, achieving over a 30% reduction in build failures in advanced environments, realizing over a 20% enhancement in remediation and reduction of false positives, and attaining the complete elimination of security breaches."
+        }
+      ]
+    },
+    "devOpsTransformation": {
+      "headerTitle": "DevOps Transformation",
+      "cards": [
+        {
+          "title": "Define Metrics",
+          "description": "Utilize a comprehensive range of metrics and select those most pertinent to business goals. Define quantitative targets for each metric in alignment with the time frame and scale of the DevSecOps Transformation (DoT)."
+        },
+        {
+          "title": "Ready-to-Deploy Pipeline",
+          "description": "Efficiently deploy and integrate a pre-configured DevOps pipeline with cutting-edge open-source tools and technologies. Customize the identified metrics to align with specific project requirements."
+        },
+        {
+          "title": "Measure",
+          "description": "Utilize the data collected from the configured metrics and compare them with the defined quantitative targets to assess areas of improvement accurately."
+        },
+        {
+          "title": "Learn and Improve",
+          "description": "With insights driven by measurement, categorize metrics into those showing improvement and those that can be improved. Take decisive actions on the latter category to efficiently achieve the set targets."
+        }
+      ]
+    },
+    "biModernization": {
+      "headerTitle": "Bi-Modernization",
+      "cards": [
+        {
+          "title": "Data Visualization",
+          "description": "Utilize data reporting powered by natural language generation (NLG) to extract valuable insights and enhance decision-making. Employ visuals for enterprise data warehouse (EDW) implementation to leverage both self-service and pre-processed data effectively."
+        },
+        {
+          "title": "Dashboarding",
+          "description": "Enhance business decision-making with advanced BI dashboards featuring best-in-breed applications. Access multiple dashboarding options on modernized data, enabling data scientists to drive value more rapidly."
+        },
+        {
+          "title": "Self-Service Reporting",
+          "description": "Empower users to construct their dashboards and reports independently, without requiring support from the IT team. Enable periodic or ad-hoc reporting on modernized data tailored to specific business use cases and requirements."
+        }
+      ]
+    },
+    "unknownService": {
+      "headerTitle": "Unknown Methodology",
+      "cards": []
+    }
+  },
+  "bannerMethod": {
+    "title": "Our Methodologies"
+  },
+  "methodologyCard": {
+    "icon": "📈" 
+  },
+  "noCards": "No methodologies available."
+}

@@ -376,7 +376,130 @@
         "success": "Sikeresen kitöltötte az űrlapot. Köszönjük!",
         "error": "Hiba történt. Kérjük, próbálja újra."
       }
+    },
+
+
+
+    
+      "methodologies": {
+        "managed-services": {
+          "headerTitle": "Menettanácsadás",
+          "cards": [
+            {
+              "title": "Incident Management",
+              "description": "Proaktív monitorozás az erőforrások (szerverek/alkalmazások) esetében, valamint teljes L1-, L2- és L3-támogatás biztosítása egy strukturált IT-szolgáltatásmenedzsment megközelítést jelent."
+            },
+            {
+              "title": "Service Request Management",
+              "description": "Egy ITSM-képes (IT Service Management) szolgáltató pult működtetése az ITSM legjobb gyakorlatai és eszközei segítségével, amelyek lehetővé teszik a vásárlói kérelmek hatékony kezelését és teljesítését, valamint a csapat teljesítményének növelését."
+            },
+            {
+              "title": "Problem Management",
+              "description": "A teljesítménymutatók betartása az Experience Level Agreements (XLAs) szerint nemcsak a hagyományos SLA-k teljesítését jelenti, hanem a felhasználói élmény minőségére is összpontosít. Ez megköveteli a vásárló-központú mutatók integrálását, használható figyelmeztetések létrehozását és a folyamatos fejlesztéshez szükséges betekintések levonását."
+            },
+            {
+              "title": "Change Management",
+              "description": "A DevSecOps megvalósításának sikerfaktorai közé tartozik a kiadásokkal kapcsolatos adatok, a fejlesztési hibák több mint 30%-os csökkentése a fejlettebb környezetekben, a hibák javításában több mint 20%-os javulás, valamint a biztonsági incidensek teljes eltüntetése."
+            }
+          ]
+        },
+        "cloud-consulting-strategy-and-migration": {
+          "headerTitle": "Felhő Tanácsadás, Stratégia és Migráció",
+          "cards": [
+            {
+              "title": "Felhő Tanácsadás",
+              "description": "Fejlesszen ki egy pontos és könnyen érthető stratégiát és utat a felhőbe történő migrációhoz. Használjon elismert szkennelő eszközöket és folytasson megbeszéléseket az érdekelt felekkel az aktuális infrastruktúra és alkalmazási tájékozódás megértése érdekében. Az információk alapján alakítson ki egy testreszabott migrációs stratégiát, amely az alkalmazásokat kategóriákba sorolja, mint például újratelepítés, újra-platformozás, újra-architektúra és átdolgozás."
+            },
+            {
+              "title": "Felhő Stratégia",
+              "description": "A Webrass felhő tanácsadói és architektek átfogó megértéssel rendelkeznek az üzleti célok, a jelenlegi IT-infrastruktúra, a technológiai táj és a teljes IT-költségvetés terén. CXO-kal tartott workshopok után, gyakran egy felhő Kiválósági Központ csapatával kiegészítve, készítenek egy átfogó felhő ütemtervet. Ez az ütemterv szolgál alapdokumentumként az egész átalakítási utazás során, biztosítva a stratégiai céloknak megfelelő irányítást és a hatékony erőforrás-használatot."
+            },
+            {
+              "title": "Felhő Migráció és Telepítés",
+              "description": "A tanácsadási szakaszból szerzett információk alapján folytassa az alkalmazások migrációját vagy telepítését. Kezdje egy biztonságos felhő-tartomány létrehozásával, majd kövesse a migrációs vagy telepítési eljárást. Használja a Blazeclans saját fejlesztésű keretrendszereit robusztus automatizálási képességekkel, hogy agilis migrációt biztosítson. Ezek a keretrendszerek előre definiált technikai artefaktumokkal rendelkeznek, hogy zökkenőmentes és hatékony átmenetet biztosítsanak a felhőbe."
+            }
+          ]
+        },
+        "cloud-native-application-development-and-testing": {
+          "headerTitle": "Felhő Alapú Alkalmazásfejlesztés és Tesztelés",
+          "cards": [
+            {
+              "title": "Mikroszolgáltatások",
+              "description": "Szervezze az alkalmazásokat mikroszolgáltatások gyűjteményébe, hogy javítsa a folyamatos szállítási és telepítési lehetőségeket. Végezzen felhő-alapú alkalmazásokat zökkenőmentesen és gyorsan, biztosítva a hatékonyságot és a skálázhatóságot a fejlesztés és telepítés minden szakaszában."
+            },
+            {
+              "title": "Agilis Fejlesztés",
+              "description": "Optimalizálja és gyorsítsa fel az alkalmazásfejlesztési folyamatot az innovációt ösztönző agilis megközelítés alkalmazásával. Valósítson meg DevOps integrációt, hogy az alkalmazások zökkenőmentesen kerüljenek át a tervezési fázisból a gyártási fázisba, csökkentve a szállítási időt és javítva a működési hatékonyságot."
+            },
+            {
+              "title": "Rendszerintegráció",
+              "description": "Integráljon különböző alkalmazásokat hatékonyan, hogy egyszerűsítse az IT-infrastruktúrát és javítsa a ROI-t. Használjon API-integrációt, hogy versenyelőnyöket teremtsen, növelje az agilitást és javítsa a folyamatoptimalizálást."
+            },
+            {
+              "title": "Tesztelés és Minőségbiztosítás",
+              "description": "Optimalizálja és gyorsítsa fel a felhő-alapú alkalmazások tesztelési és minőségbiztosítási folyamatát egy hibákat toleráló keretrendszer implementálásával és egy Zero-Trust megközelítéssel. Biztosítson zökkenőmentes alkalmazáskiadást és proaktívan csökkentse a problémákat, mielőtt a frissítések a gyártási környezetekbe kerülnének."
+            }
+          ]
+        },
+        "cloudGovernanceAndReporting": {
+          "headerTitle": "Felhő-Governance és Jelentéskészítés",
+          "cards": [
+            {
+              "title": "Felhő-Governance",
+              "description": "Használja a WeBrass intelligens felhő-menedzsment platformját automatikus figyelmeztetések és riasztók létrehozásához biztonsági események és költségkeretek esetén. Valósítson meg robusztus biztonsági intézkedéseket és alakítson ki dinamikus ellenőrzést a felhő környezet felett egy központosított governance megközelítéssel."
+            },
+            {
+              "title": "Automatizált Jelentéskészítés",
+              "description": "Automatizálja a havi és negyedéves jelentések készítését a felhő üzemeltetéséről, biztonságáról és költségeiről. Javítsa a döntéshozatali folyamatokat a felhő-eredmények valós idejű egészségjelentéseivel, kritikus szerverek mutatószám-diagramjaival és incidensekről vagy szolgáltatási kérésekről szóló jelentésekkel, amelyek Slack-csatornákon keresztül kerülnek terjesztésre. Ez mélyebb betekintést nyújt és lehetővé teszi a felhő infrastruktúra proaktív kezelést."
+            }
+          ]
+        },
+        "cloudDiscoveryAndOptimization": {
+          "headerTitle": "Felhő Felfedezés és Optimalizálás",
+          "cards": [
+            {
+              "title": "Single-Pane View",
+              "description": "Helyettesítse a manuális nyomon követést a WeBrass agilis felügyeletével, amely automatizált felfedezés révén működik, így eltűnik a manuális erőfeszítések szükségessége az alkalmazások és munkaterhelések helyszíneinek és interakciós paradigmainak nyomon követésében. Ez az automatizált megközelítés biztosítja a hatékony és pontos felügyeletet, valamint javítja az infrastruktúra láthatóságát és ellenőrzését."
+            },
+            {
+              "title": "Automatizált Felhő Optimalizálás",
+              "description": "Automatizálja a felhő-alkalmazások és azok egészségi mutatóinak nyomon követését, korrelációját és vizualizációját a valós idejű reakciók lehetővé tétele érdekében. Javítsa a működési hatékonyságot és optimalizálja a felhőszolgáltatások használatát jól meghatározott és kezelhető IT-folyamatok bevezetésével. Ez a megközelítés biztosítja a proaktív kezelést és maximalizálja a felhő infrastruktúra előnyeit."
+            }
+          ]
+        },
+        "cloudAndPlatformModernization": {
+          "headerTitle": "Felhő és Platform Modernizálás",
+          "cards": [
+            {
+              "title": "Megközelítés",
+              "description": "Azonosítsa az alkalmazásokat, amelyek rövid- és középtávon legalább 30% költség-haszon potenciállal rendelkeznek, és törekedjen közel 99,5%-os üzemidő-javulásra. Gondoskodjon a platformok és alkalmazások stratégiai fenntartásáról, hogy jövőbeli üzleti bővítések katalizátoraként szolgáljanak. Ez a megközelítés biztosítja az optimális erőforrás-használatot és maximalizálja a technológiai befektetések hatását az üzleti növekedésre és agilitásra."
+            },
+            {
+              "title": "Azonosítás és Tervezés",
+              "description": "Elemezze az alkalmazásokat és komponenseket figyelembe véve olyan tényezőket, mint az üzleti növekedés, kereslet, kritikus fontosság, bővítési tervek, teljesítmény, OPEX és CAPEX. Prioritásként kezelje azokat, amelyek a legnagyobb javulási potenciállal rendelkeznek. Végezzen minimális refaktorálásokat a magas rendelkezésre állás, skálázhatóság és teljes DevOps-integráció javítása érdekében. Jelentős fogyasztási költség- és rendelkezésre állási nyereség esetén végezzen konténerizálási és refaktorálási erőfeszítéseket. Ez a megközelítés optimalizálja az erőforrás-elosztást és javítja az IT-infrastruktúra hatékonyságát."
+            }
+          ]
+        },
+        "applicationAssessment": {
+          "headerTitle": "Alkalmazásértékelés",
+          "cards": [
+            {
+              "title": "Tervezés",
+              "description": "Az érdekeltek megbeszéléseivel kezdődően szilárd alapot biztosít egy szabványosított alkalmazásértékelési megközelítéshez. Az érdekeltek korai bevonása biztosítja, hogy az értékelési folyamat szoros összhangban legyen a szervezet igényeivel és céljaival. Fontos követelmények, például a jövőbeli ütemterv és a skálázhatóság rögzítése biztosítja, hogy az értékelés mind a rövid távú szükségleteket, mind a hosszú távú növekedési potenciált figyelembe vegye."
+            },
+            {
+              "title": "Definiálás",
+              "description": "Használjon eszközökre épülő értékelési módszertant, amely a stakeholder-ek specifikus igényeihez igazodik. Az aktuális alkalmazási táj alapos értékelése biztosítja, hogy a potenciális kockázatok azonosítva legyenek, és a modernizációs folyamat előnyei maximálisan kihasználhatóak. Ez lehetővé teszi a célzott alkalmazásoptimalizálást, hogy hatékonyan érjék el a kívánt eredményeket."
+            },
+            {
+              "title": "Értékelés",
+              "description": "Alkalmazzon skálázható és rugalmas értékelési módszereket, amelyek a stakeholder-ek céljain alapulnak. Az alkalmazások priorizálása haszon és erőfeszítés alapján biztosítja, hogy a legfontosabb területek kerüljenek előtérbe. Az átlátható értékelés és az aktuális IT-erőforrások figyelembevételével megalapozott döntések hozhatók, amelyek növelik a hatékonyságot és a jövőbeli biztonságot."
+            }
+          ]
+        }
+      }
     }
+    
   
   
-}
+
